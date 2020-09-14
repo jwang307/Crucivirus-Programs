@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SequenceInfo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SequenceInfo_jar</output-path>
+    <root id="archive" name="SequenceInfo.jar">
+      <element id="module-output" name="SequenceInfo" />
+    </root>
+  </artifact>
+</component>
