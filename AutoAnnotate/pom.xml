@@ -24,6 +24,10 @@
         </dependency>
 
         <!-- other biojava jars as needed -->
-
+        <dependency>
+            <groupId>org.biojava</groupId>
+            <artifactId>biojava-genome</artifactId>
+            <version>5.4.0</version>
+        </dependency>
     </dependencies>
 </project>
