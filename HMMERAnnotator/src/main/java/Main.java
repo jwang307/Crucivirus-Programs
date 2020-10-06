@@ -35,7 +35,7 @@ public class Main {
         BufferedReader hmmerIn = new BufferedReader(new FileReader(hmmer));
 
         List<HMMHit> hits = new ArrayList<>();
-
+        List<String> annotatedSequences = new ArrayList<>();
         for (int i = 0; i < 14; i++) {
             hmmerIn.readLine();
         }
@@ -61,10 +61,12 @@ public class Main {
             if (prevHit == null) {
                 hits.add(tempHit);
                 prevHit = tempHit;
+                annotatedSequences.add(tempHit.seqName);
             } else {
-                if (!prevHit.equals(tempHit)) {
+                if (!prevHit.equals(tempHit) && !annotatedSequences.contains(tempHit.seqName)) {
                     hits.add(tempHit);
                     prevHit = tempHit;
+                    annotatedSequences.add(tempHit.seqName);
                 }
             }
         }
