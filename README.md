@@ -5,5 +5,5 @@ A collection of programs used to help annotate cruciviruses, a family of circula
 Most of the programs are simply annotation scripts meant to help make manual work more efficient. 
 
 # Legit
-AutoAnnotate and HMMERAnnotator are two projects meant to provide support for hits detected by HMMER (Hidden Markov Model Biosequence analysis: hmmer.org) for automatic annotation in Geneious sequences.
+AutoAnnotate and HMMERAnnotator are two projects meant to provide support for hits detected by HMMER (Hidden Markov Model Biosequence analysis: [hmmer.org](hmmer.org)) for automatic annotation in Geneious sequences. <br />
 IntronFinder is an upcoming project hoping to discover potential introns and splice sites in cruciviruses.
