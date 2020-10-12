@@ -24,7 +24,8 @@ public class Methods {
                     }
                     boolean cpFound = false;
                     String feature = br.readLine().toLowerCase();
-                    while (feature.contains("cds")) {
+
+                    while (!feature.contains("origin")) {
                         String label;
                         while (!(label = br.readLine().toLowerCase()).contains("label")) {}
                         if (label.contains("cp")) {
@@ -65,7 +66,7 @@ public class Methods {
                     String feature = br.readLine().toLowerCase();
                     int CPAnnotations = 0;
                     boolean multipleCPs = false;
-                    while (feature.contains("cds")) {
+                    while (!feature.contains("origin")) {
                         String label;
                         while (!(label = br.readLine().toLowerCase()).contains("label")) {}
                         if (label.contains("cp")) {
@@ -109,7 +110,7 @@ public class Methods {
                     boolean repFound = false;
                     String feature = br.readLine().toLowerCase();
 
-                    while (feature.contains("cds")) {
+                    while (!feature.contains("origin")) {
                         String label;
                         while (!(label = br.readLine().toLowerCase()).contains("label")) {}
                         if (label.contains("rep")) {
@@ -150,7 +151,7 @@ public class Methods {
                     String feature = br.readLine().toLowerCase();
                     int repAnnotations = 0;
                     boolean multipleReps = false;
-                    while (feature.contains("cds")) {
+                    while (!feature.contains("origin")) {
                         String label;
                         while (!(label = br.readLine().toLowerCase()).contains("label")) {}
                         if (label.contains("rep")) {
