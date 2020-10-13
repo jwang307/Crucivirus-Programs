@@ -2,7 +2,7 @@
 A collection of programs used to help annotate cruciviruses, a family of circular ssDNA viruses with characteristics of RNA and DNA viruses. Part of ongoing NSF sponsered research at the Extreme Virus Lab, Portland State University. Focusing on the origin of viruses through the unique viral RNA/DNA characteristics of cruciviruses.
 
 # Programs
-Most of the programs are simply annotation scripts meant to help make manual work more efficient. Some of them are not scalable, and I'm currently in the process of cleaning up code and making sure it works on any dataset. Below you can find instructions on how to run each program (still updating, I will have a jar folder with all the executable jars eventually so it's easy to use).
+Most of the programs are simply annotation scripts meant to help make manual work more efficient. Some of them are not scalable, and I'm currently in the process of cleaning up code and making sure it works on any dataset. Below you can find instructions on how to run each program (still updating, I will have a jar folder with all the executable jars ASAP so it's usable. Some of the src code programs still don't take arguments from args so I will have to change that.).
 
 # Legit
 HMMERAnnotator is meant to provide support for hits detected by HMMER (Hidden Markov Model Biosequence analysis: [hmmer.org](http://hmmer.org)) for automatic annotation in Geneious sequences. <br />
