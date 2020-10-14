@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+
+AutoAnnotate/.idea
+CheckFiles/.idea
+CPFinding/.idea
+CruciORFs/.idea
+HMMERAnnotator/.idea
+IntronFinder/.idea
+IteronParser/.idea
+KeywordSearch/.idea
+ParseSeqNames/.idea
+SeqListToGB/.idea
+SequenceInfo/.idea
+UpdateCSV/.idea
