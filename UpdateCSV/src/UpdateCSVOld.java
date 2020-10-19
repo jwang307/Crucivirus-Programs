@@ -1,10 +1,10 @@
-import java.io.*;
+/*import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class UpdateCSV {
+public class UpdateCSVOld {
     public static void main(String[] args) throws IOException {
         if (args.length >= 3) {
             BufferedReader br = new BufferedReader(new FileReader(args[0]));
@@ -199,17 +199,7 @@ class SequenceData {
 
 }
 
-class Annotation {
-    boolean cp;
-    String sense;
-    int start;
-    int end;
-
-    public int getLength() {
-        return end - start + 1;
-    }
-
-}
+*/
 
 
 
