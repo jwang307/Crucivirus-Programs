@@ -17,10 +17,19 @@ Programs are run in the basic format "java -jar [JAR_NAME.jar] [system arguments
 - KeywordSearch
 - HMMERAnnotator
 - ParseSeqNames
-- Iteron Parser
+- Iteron Parser - Not really useful, just extracting iterons from Adam's output folder :)
 - SeqListToGB
+  ```
+  java -jar SeqListToGB.jar [main gb file] [line separated sequence list] [output gb file]
+  ```
 - SequenceInfo
-- UpdateCSV [NOT TO USE RIGHT NOW]
+  ```
+  java -jar SequenceInfo.jar [main gb file] [output file] [choice (pick one, will add more later): norep, multrep, nocp, multcp]
+  ```
+- UpdateCSV
+   ```
+   java -jar UpdateCSV.jar [csv file] [gff file] [output csv file]
+   ```
 
 ### In development ###
 - IntronFinder
