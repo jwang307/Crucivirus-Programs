@@ -69,8 +69,62 @@ public class Update {
         csvReader.close();
     }
 
-    static void readGFF(BufferedReader gffIn, List<Sequence> sequences) {
+    static void readGFF(BufferedReader gffIn, List<Sequence> sequences) throws IOException {
+        String line;
+        while (!(line=gffIn.readLine()).split("\t")[0].equals("##sequence-region")) {
+            continue;
+        }
 
+        String annotations;
+        //iterate through gff
+        while ((annotations = gffIn.readLine()) != null && annotations.charAt(0) != '>') {
+
+            String sequenceName = annotations.split("\t")[0];
+            if (sequenceName.toLowerCase().equals("##sequence-region")
+                    || annotations.split("\t")[2].equals("region")) {
+                continue;
+            }
+            int sequenceIndex = -1;
+
+            //find index of correct annotation
+            for(int i = 0; i < sequences.size(); i++) {
+                if (sequences.get(i).name.equals(sequenceName)) {
+                    sequenceIndex = i;
+                    break;
+                }
+            }
+
+            while (annotations != null && !annotations.split("\t")[0].equals("##sequence-region")) {
+                if(annotations.toLowerCase().equals("##fasta")) break;
+
+                String[] annotationInfo = annotations.split("\t");
+                String id = annotationInfo[8];
+                if (!annotationInfo[2].equals("region") && id.toLowerCase().contains("name")) {
+                    Annotation.Type type = Annotation.Type.OTHER;
+                    if (id.toLowerCase().contains("rep")) {
+                        type = Annotation.Type.REP;
+                    } else if (id.toLowerCase().contains("cp") || id.toLowerCase().contains("capsid")) {
+                        type = Annotation.Type.CAPSID;
+                    } else if (id.toLowerCase().contains("iteron")) {
+                        type = Annotation.Type.ITERON;
+                    } else if (id.toLowerCase().contains("stem")) {
+                        type = Annotation.Type.STEM_LOOP;
+                    }
+
+                    Annotation annotation = new Annotation(Integer.parseInt(annotationInfo[3]),
+                            Integer.parseInt(annotationInfo[4]),
+                            annotationInfo[8],
+                            type,
+                            annotationInfo[6]);
+
+                    sequences.get(sequenceIndex).addAnnotation(annotation, id.toLowerCase().contains("id"));
+                }
+                annotations = gffIn.readLine();
+            }
+
+        }
+
+        gffIn.close();
     }
 
     static void printCSV(PrintWriter csvOut, List<Sequence> sequences) {

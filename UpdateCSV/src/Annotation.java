@@ -31,11 +31,14 @@ public class Annotation {
     public Type type;
     public String name;
     private ArrayList<Interval> intervals;
-    private int length;
+    private String sense;
 
-    public Annotation(int start, int end, String name, Type type) {
+    public Annotation(int start, int end, String name, Type type, String sense) {
         this.type = type;
         this.name = name;
+        this.sense = sense;
+
+        intervals = new ArrayList<>();
         intervals.add(new Interval(start, end));
     }
 
@@ -44,23 +47,22 @@ public class Annotation {
         for (Interval interval : intervals) {
             sum += interval.getLength();
         }
-        return 1;
+        return sum;
     }
 
     public boolean positiveSense() {
-        return intervals.get(0).start - intervals.get(0).end < 0;
+        return sense.equals("+");
     }
 
     public String toString() {
         StringBuilder annotationString = new StringBuilder();
         annotationString.append(type.toString()).append("; ");
         annotationString.append(name).append("; ");
-        annotationString.append(length).append("; ");
+        annotationString.append("LENGTH: ").append(getLength()).append("; ");
         annotationString.append("Intervals: ").append(intervals.size()).append("; ");
         for (Interval interval : intervals) {
             annotationString.append(interval.toString()).append("; ");
         }
-        annotationString.delete(annotationString.length() - 2, annotationString.length());
 
         return annotationString.toString();
     }
@@ -68,4 +70,11 @@ public class Annotation {
     public void addInterval(int start, int end) {
         intervals.add(new Interval(start, end));
     }
+
+    public int[] getInterval(int index) {
+        if (index >= intervals.size()) throw new IndexOutOfBoundsException("index is greater than number of intervals");
+
+        return new int[]{intervals.get(index).start, intervals.get(index).end};
+    }
+
 }

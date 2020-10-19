@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Sequence {
     public final String name;
@@ -7,7 +6,7 @@ public class Sequence {
     private final int sequenceLength;
     private final String sequence;
     private final String gc;
-    private ArrayList<Annotation> annotations = null;
+    private ArrayList<Annotation> annotations;
 
     private String comments;
 
@@ -17,10 +16,29 @@ public class Sequence {
         this.sequenceLength = sequenceLength;
         this.sequence = sequence;
         this.gc = gc;
+
+        annotations = new ArrayList<>();
     }
 
-    public void addAnnotation(Annotation annt) {
-        annotations.add(annt);
+    public void addAnnotation(Annotation annt, boolean intron) {
+        if (intron) {
+            Annotation.Type annotationType = annt.type;
+            boolean annotationFound = false;
+            for (int i = 0; i < annotations.size(); i++) {
+                if (annotationType == annotations.get(i).type) {
+                    annotations.get(i).addInterval(annt.getInterval(0)[0], annt.getInterval(0)[1]);
+
+                    annotationFound = true;
+                    break;
+                }
+            }
+
+            if (!annotationFound) {
+                annotations.add(annt);
+            }
+        } else {
+            annotations.add(annt);
+        }
     }
 
     private String getOrganization() {
@@ -48,19 +66,36 @@ public class Sequence {
     }
 
     private String[] annotationInfo() {
-        return null;
+        String[] annotationInfo =  new String[]{"None", "None", "", ""};
+        for (int i = 0; i < annotations.size(); i++) {
+            Annotation annotation = annotations.get(i);
+
+            if (annotation.type == Annotation.Type.CAPSID) {
+                annotationInfo[0] = annotation.toString();
+            } else if (annotation.type == Annotation.Type.REP) {
+                annotationInfo[1] = annotation.toString();
+            } else {
+                annotationInfo[2] += annotation.toString();
+            }
+        }
+        return annotationInfo;
     }
 
     public String toCSV() {
+        String[] annotationInfo = annotationInfo();
+
         StringBuilder sequenceCSV = new StringBuilder();
         sequenceCSV.append(name).append(",");
         sequenceCSV.append(description).append(",");
         sequenceCSV.append(sequence).append(",");
         sequenceCSV.append(sequenceLength).append(",");
         sequenceCSV.append(gc).append(",");
-
+        sequenceCSV.append(annotationInfo[0]).append(",");
+        sequenceCSV.append(annotationInfo[1]).append(",");
         sequenceCSV.append(getOrganization()).append(",");
+        sequenceCSV.append(annotationInfo[2]).append(",");
+        sequenceCSV.append(annotationInfo[3]);
 
-        return "";
+        return sequenceCSV.toString();
     }
 }
