@@ -25,11 +25,23 @@ public class KeywordSearch {
             keywords.add(keywordsplit);
         }
         ArrayList<String> finalNames = new ArrayList<>();
+        //go through each input
         for (int i = 0; i < keywords.size(); i++) {
+            //get input array
             String[] query = keywords.get(i);
+            //is string a space?
+            if (query[0].equals("")) {
+                finalNames.add("");
+                continue;
+            }
+
+            //break when tag found
             boolean possible = true;
+            //go through each tag
             for (int j = 0; j < tags.size(); j++) {
                 String name = tags.get(j).toLowerCase();
+                //go through each key word and match with tag. If all of them match, then record tag as that key wor
+                //otherwise, continue
                 for (int k = 0; k < query.length; k++) {
                     if (!name.contains(query[k])) {
                         possible = false;

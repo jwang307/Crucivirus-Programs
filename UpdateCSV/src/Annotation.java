@@ -45,7 +45,7 @@ public class Annotation {
     public int getLength() {
         int sum = 0;
         for (Interval interval : intervals) {
-            sum += interval.getLength();
+            sum += interval.getLength() + 1;
         }
         return sum;
     }
