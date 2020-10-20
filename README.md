@@ -4,7 +4,7 @@ A collection of programs used to help annotate cruciviruses, a family of circula
 # Programs
 Most of the programs are simply annotation scripts meant to help make manual work more efficient. Some of them are not scalable, and I'm currently in the process of cleaning up code and making sure it works on any dataset. Below you can find instructions on how to run each program (still updating, I will have a jar folder with all the executable jars ASAP so it's usable. Some of the src code programs still don't take arguments from args so I will have to change that.).
 
-# Legit
+# Annotators and Algorithms
 HMMERAnnotator is meant to provide support for hits detected by HMMER (Hidden Markov Model Biosequence analysis: [hmmer.org](http://hmmer.org)) for automatic annotation in Geneious sequences. <br />
 IntronFinder is an upcoming project hoping to discover potential introns and splice sites in cruciviruses.
 
@@ -39,3 +39,8 @@ Programs are run in the basic format "java -jar [JAR_NAME.jar] [system arguments
 - CPFinding
 - CruciORFs
 - CheckFiles
+
+## TO-DO ##
+- Generate jars for working scripts/programs
+- Add annotation columns for stemp loop/iterons
+- Intron Finder
