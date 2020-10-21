@@ -14,19 +14,28 @@ These programs are all written in Java, some with the help of external libraries
 Programs are run in the basic format "java -jar [JAR_NAME.jar] [system arguments]". Argument options are specified based on each program and are listed below.
 
 ### Working ###
-- KeywordSearch
-- HMMERAnnotator
-- ParseSeqNames
+- KeywordSearch: Returns the full name of sequences given an input of keywords (ie. jilin_1026 -> ETS_JilinP_c1026) 
+  ```
+  java -jar KeywordSearch.jar [keyword list] [full name list] [output name file]
+  ```
+- HMMERAnnotator: Returns a gff file of annotations detected by an HMMER run when a HMMER result file and sequence gff file is passed in
+  ```
+  java -jar SeqListToGB.jar [main gff file] [HMMER result file] [output gff file]
+  ```
+- ParseSeqNames: Returns a list of sequence names from a GenBank file
+  ```
+  java -jar SeqListToGB.jar [main gb file] [sequence name output file]
+  ```
 - Iteron Parser - Not really useful, just extracting iterons from Adam's output folder :)
-- SeqListToGB
+- SeqListToGB: Converts a sequence list to it's GenBank file if the sequences are present in a larger GB file
   ```
   java -jar SeqListToGB.jar [main gb file] [line separated sequence list] [output gb file]
   ```
-- SequenceInfo
+- SequenceInfo: Return list of sequences matching the given choice
   ```
   java -jar SequenceInfo.jar [main gb file] [output file] [choice (pick one, will add more later): norep, multrep, nocp, multcp]
   ```
-- UpdateCSV
+- UpdateCSV: Input a cv and gff file of a dataset of crucis.
    ```
    java -jar UpdateCSV.jar [csv file] [gff file] [output csv file]
    ```
