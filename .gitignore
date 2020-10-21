@@ -17,3 +17,5 @@ UpdateCSV/.idea
 
 # ignore testing project
 testing
+*.out/
+*META-INF/

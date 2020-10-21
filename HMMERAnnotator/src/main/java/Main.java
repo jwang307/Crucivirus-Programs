@@ -17,7 +17,7 @@ public class Main {
 
     private static final double MAX_E_VALUE = 1E-5;
 
-    public static void main(String[] args) throws  IOException {
+    public static void main(String[] args) throws IOException {
         if (args.length < 3)
             throw new IllegalArgumentException("Specify 3 parameters: gff input file name, hmmer result, and gff output file name");
 
