@@ -1,0 +1,1668 @@
+LOCUS       CruV-83                 2612 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-83 isolate 120_2207_IR2_3297.
+ACCESSION   CruV-83
+KEYWORDS    .
+SOURCE      Crucivirus-83
+  ORGANISM  Crucivirus-83
+            Unclassified.
+REFERENCE   1  (bases 1 to 2612)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2612
+                     /organism="Crucivirus-83"
+                     /mol_type="genomic DNA"
+                     /isolate="120_2207_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     CDS             join(1..291,338..835)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MAYRQWIGTISAGTWTVPTNLEAPTTYLKGQKEIGEGGYEHYQL
+                     IAYFSSPVRLSRVQLLLNAPSAHFEKTRSKAAEAYVWKEATRVPGSQFELGRKDWDKI
+                     LVAAKEGDFDGIPSDVIIRCYNQLSRISKDYMAPVGQEKTVYVYWGRTGTGKSRRAWD
+                     EATLVAYPKDPCTKWWCGYRGQSTVVIDEFRGRIGIEHLLRWTDRYPVVVESKGGAVV
+                     LRCTSIWITSNLSPDVWYPDIDAESLAALRRRLNIIHFNYVVFL*"
+     CDS             complement(1035..2414)
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MPKGTPCTIAGSIYPRPPKPKSNKRKARGQPSGPRRPAKIGGMP
+                     MGPVMTGSGDYNLGPYSYKGDTPYARVGRKLGKAAGLFGLPSWVADAGEALGHGVGRL
+                     FGSGDYTTGPMVRSNCLTNSTDVPMFSGNGRGTIITHREYVNDITTSSVIGAFKNQSF
+                     TIQPGNAITFPWLSSIAEHYEQYRIHGMVFYFKSTSGDSVGSTNTAIGTVVLSTDYNV
+                     NSTAYTTKQQMENAEFAQSAKASANQVHGIECDVAERSVAVYFVRSDSINATDSLKWY
+                     DFANFQIATQGFQAANVNVGELWVSYTIEFFKPQVATTIGGTVQGLAIERTGITNALP
+                     LGTGTNYGRGDLPFSITNTALTLSGLQDGTLLFFNVTWIGSVAAVIVDPIITFTNATL
+                     NTVFYGVATGVPVPGTSTARYMQFLSIRVNNASLGVVTMTVGAAGTLPTGTVVCNILV
+                     TQIDSSLLG*"
+ORIGIN      
+        1 atggcctacc gacaatggat cggcacgatc tcagccggca cctggactgt ccccaccaac
+       61 cttgaagcgc caaccacgta tctcaaaggc caaaaagaaa tcggtgaagg aggctatgag
+      121 cattatcagc tcattgccta cttctcctct cccgttagac tttcacgagt tcagctgctc
+      181 ctcaacgccc ccagcgctca tttcgagaag acccgctcta aagcagccga agcgtacgtc
+      241 tggaaagaag caacccgcgt tcccggttct cagttcgagc tcggaagaaa ggttaatttt
+      301 tgtataaaat taggcttttg atcgatcgaa cgctaaggac tgggataaga tcctcgtcgc
+      361 cgcaaaagaa ggtgattttg atgggatccc atccgatgtc attatccgct gttataacca
+      421 gctctcccga atcagcaaag attatatggc accggttggt caagaaaaaa cagtctatgt
+      481 ttactgggga cgtacaggaa ccggtaagag tagacgtgcc tgggatgagg ccactctggt
+      541 tgcttatcct aaagacccat gtacaaaatg gtggtgcgga tatcgagggc aatcaacagt
+      601 tgttatcgat gaatttagag gtaggattgg tattgagcat ttgttgcgat ggacagacag
+      661 atatcctgtc gttgtggaaa gcaaaggagg agctgttgtg ctcagatgta ctagtatatg
+      721 gattacctca aatctttccc ctgatgtgtg gtatcccgat atagatgctg aaagtcttgc
+      781 ggctttgaga cgaagattaa atataatcca ttttaattac gttgttttcc tgtagcttag
+      841 taagtttgcc gcaaaatatt ataatatcca agtagaatat tttgcggcga acctaaccct
+      901 aaccctaacc ctaaccctaa ccctaaccct aaaacgtgac tttattaaaa cttcctttaa
+      961 aaaaagagga ggccttggac tccgataagg acttgctaaa atgaaaatgt aagcattttg
+     1021 taataacttt attattaccc taataacgaa gaatcaattt gtgtcaccaa aatgttgcaa
+     1081 actactgtgc ctgtgggtaa ggtgccggct gcccctactg tcatagttac aacccctaag
+     1141 gatgcattgt taactcgaat tgacaagaat tgcatataac gtgccgtaga ggttcctgga
+     1201 acaggtactc ctgtcgcaac accgtaaaag acggtgttga gagtcgcgtt agtgaatgta
+     1261 ataattgggt caacgatcac tgcagctaca ctaccaatcc acgtaacatt gaaaaagagt
+     1321 agagttccat cctgtagccc actcagggtc agggcagtgt ttgtgataga aaagggcaaa
+     1381 tcccctcgcc cgtaatttgt acctgttcct agaggtagcg cgttggttat gccagttcgc
+     1441 tcaatcgcaa ggccttgcac agttccacct atggttgttg caacttgggg tttgaaaaat
+     1501 tcgatggtgt aacttaccca taactcgcct acgtttacgt tcgccgcttg gaatccctgt
+     1561 gttgcgattt gaaaattggc aaaatcatac cacttgagac tgtcagttgc atttatggag
+     1621 tcgcttcgaa cgaaatatac agctaccgac ctttctgcta catcacattc aatgccatga
+     1681 acctgattcg cggacgcttt agcactctgc gcaaactctg cgttttccat ttgttgcttg
+     1741 gtagtgtacg ccgtcgagtt aacattgtaa tccgtactca atactacagt tccaatggcg
+     1801 gtgttagtcg agccgacgct atccccagag gtgcttttaa agtaaaagac cataccgtga
+     1861 atgcggtatt gctcatagtg ctcggcaata gacgaaagcc aggggaacgt gattgcattg
+     1921 cccggttgta tcgtgaatga ctggttcttg aaggctccaa tgacactgct tgttgtaata
+     1981 tcatttacgt attcacgatg cgtaataatt gttcctcgac cgttgccaga aaacataggc
+     2041 acatccgttg agttggtgag acaatttgaa cgaaccatcg gacccgtagt ataatcccct
+     2101 gaaccaaata accgtcctac cccgtggccg agtgcctctc cggcgtctgc gacccaggaa
+     2161 ggtaggccaa agaggcctgc cgctttgcct agctttctgc ctactctagc gtatggagta
+     2221 tcgcccttat acgaatatgg gccgaggttg tagtcgccgg atcctgtcat gacgggcccc
+     2281 atcggcatcc cgccgatctt agccggtcgt ctcgggccag agggttgtcc tctagccttg
+     2341 cgcttgttgg acttgggttt tggtggccgt ggatagatac tacctgctat ggtgcatggc
+     2401 gttcctttgg gcatataggg taaatattaa ggaggagtag atctataata acctagatgt
+     2461 attttgatac atcttagtat tacttataga tcgacgtatc ctgtgtcact cttgggttcc
+     2521 caaagaccct tacccttggt gccaaaaaag gacccttacc cgtataaaaa gggagtataa
+     2581 aacaactttc ttatgtttga ttacgacgag ca
+//
+LOCUS       CruV-84                 2612 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-84 isolate 120_820_IR1_3296.
+ACCESSION   CruV-84
+KEYWORDS    .
+SOURCE      Crucivirus-84
+  ORGANISM  Crucivirus-84
+            Unclassified.
+REFERENCE   1  (bases 1 to 2612)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2612
+                     /organism="Crucivirus-84"
+                     /mol_type="genomic DNA"
+                     /isolate="120_820_IR1_3296"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     CDS             join(1..291,338..835)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MAYRQWIGTISAGTWTVPTNLEAPTTYLKGQKEIGEGGYEHYQL
+                     IAYFSSPVRLSRVQLLLNAPSAHFEKTRSKAAEAYVWKEATRVPGSQFELGRKDWDKI
+                     LVAAKEGDFDGIPSDVIIRCYNQLSRISKDYMAPVGQEKTVYVYWGRTGTGKSRRAWD
+                     EATLVAYPKDPCTKWWCGYRGQSTVVIDEFRGRIGIEHLLRWTDRYPVVVESKGGAVV
+                     LRCTSIWITSNLSPDVWYPDIDAESLAALRRRLNIIHFNYVVFL*"
+     CDS             complement(1035..2414)
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MPKGTPCTIAGSIYPRPPKPKSNKRKARGQPSGPRRPAKIGGMP
+                     MGPVMTGSGDYNLGPYSYKGDTPYARVGRKLGKAAGLFGLPSWVADAGEALGHGVGRL
+                     FGSGDYTTGPMVRSNCLTNSTDVPMFSGNGRGTIITHREYVNDITTSSVIGAFKNQSF
+                     TIQPGNAITFPWLSSIAEHYEQYRIHGMVFYFKSTSGDSVGSTNTAIGTVVLSTDYNV
+                     NSTAYTTKQQMENAEFAQSAKASANQVHGIECDVAERSVALYFVRSDSINATDSLKWY
+                     DFANFQIATQGFQAANVNVGELWVSYTIEFFKPQVATTIGGTVQGLAIERTGITNALP
+                     LGTGTNYGRGDLPFSITNTALTLSGLQDGTLLFFNVTWIGSVAAVIVDPIITFTNATL
+                     NTVFYGVATGVPVPGTSTARYMQFLSIRVNNASLGVVTMTVGAAGTLPTGTVVCNILV
+                     TQIDSSLLG*"
+ORIGIN      
+        1 atggcctacc gacaatggat cggcacgatc tcagccggca cctggactgt ccccaccaac
+       61 cttgaagcgc caaccacgta tctcaaaggc caaaaagaaa tcggtgaagg aggctatgag
+      121 cattatcagc tcattgccta cttctcctct cccgttagac tttcacgagt tcagctgctc
+      181 ctcaacgccc ccagcgctca tttcgagaag acccgctcta aagcagccga agcgtacgtc
+      241 tggaaagaag caacccgcgt tcccggttct cagttcgagc tcggaagaaa ggttaatttt
+      301 tgtataaaat taggcttttg atcgatcgaa cgctaaggac tgggataaga tcctcgtcgc
+      361 cgcaaaagaa ggtgattttg atgggatccc atccgatgtc attatccgct gttataacca
+      421 gctctcccga atcagcaaag attatatggc accggttggt caagaaaaaa cagtctatgt
+      481 ttactgggga cgtacaggaa ccggtaagag tagacgtgcc tgggatgagg ccactctggt
+      541 tgcttatcct aaagacccat gtacaaaatg gtggtgcgga tatcgagggc aatcaacagt
+      601 tgttatcgat gaatttagag gtaggattgg tattgagcat ttgttgcgat ggacagacag
+      661 atatcctgtc gttgtggaaa gcaaaggagg agctgttgtg ctcagatgta ctagtatatg
+      721 gattacctca aatctttccc ctgatgtgtg gtatcccgat atagatgctg aaagtcttgc
+      781 ggctttgaga cgaagattaa atataatcca ttttaattac gttgttttcc tgtagcttag
+      841 taagtttgcc gcaaaatatt ataatatcca agtagaatat tttgcggcga acctaaccct
+      901 aaccctaacc ctaaccctaa ccctaaccct aaaacgtgac tttattaaaa cttcctttaa
+      961 aaaaagagga ggccttggac tccgataagg acttgctaaa atgaaaatgt aagcattttg
+     1021 taataacttt attattaccc taataacgaa gaatcaattt gtgtcaccaa aatgttgcaa
+     1081 actactgtgc ctgtgggtaa ggtgccggct gcccctactg tcatagttac aacccctaag
+     1141 gatgcattgt taactcgaat tgacaagaat tgcatataac gtgccgtaga ggttcctgga
+     1201 acaggtactc ctgtcgcaac accgtaaaag acggtgttga gagtcgcgtt agtgaatgta
+     1261 ataattgggt caacgatcac tgcagctaca ctaccaatcc acgtaacatt gaaaaagagt
+     1321 agagttccat cctgtagccc actcagggtc agggcagtgt ttgtgataga aaagggcaaa
+     1381 tcccctcgcc cgtaatttgt acctgttcct agaggtagcg cgttggttat gccagttcgc
+     1441 tcaatcgcaa ggccttgcac agttccacct atggttgttg caacttgggg tttgaagaat
+     1501 tcgatggtgt aacttaccca taactcgcct acgtttacgt tcgccgcttg gaatccctgt
+     1561 gttgcgattt gaaaattggc aaaatcatac cacttgagac tgtcagttgc atttatggag
+     1621 tcgcttcgaa cgaaatatag agctaccgat ctttctgcta catcacattc aatgccatga
+     1681 acctgattcg cggacgcttt agcactctgc gcaaactctg cgttttccat ttgttgcttg
+     1741 gtagtgtacg ccgtcgagtt aacattgtaa tccgtactca atactacagt tccaatggcg
+     1801 gtgttagtcg agccgacgct atccccagag gtgcttttaa agtaaaagac cataccgtga
+     1861 atgcggtatt gctcatagtg ctcggcaata gacgaaagcc aggggaacgt gattgcattg
+     1921 cccggttgta tcgtgaatga ctggttcttg aaggctccaa tgacactgct tgttgtaata
+     1981 tcatttacgt attcacgatg cgtaataatt gttcctcgac cgttgccaga aaacataggc
+     2041 acatccgttg agttggtgag acaatttgaa cgaaccatcg gacccgtagt ataatcccct
+     2101 gaaccaaata accgtcctac cccgtggccg agtgcctctc cggcgtctgc gacccaggaa
+     2161 ggtaggccaa agaggcctgc cgctttgcct agctttctgc ctactctagc gtatggagta
+     2221 tcgcccttat acgaatatgg gccgaggttg tagtcgccgg atcctgtcat gaccggtccc
+     2281 atcggcatcc cgccgatttt ggccggtcgt ctcgggcccg agggttgtcc tctagccttg
+     2341 cgcttgttcg acttgggttt tggtggccgt ggatagatac tacctgctat ggtgcatggc
+     2401 gttcctttgg gcatataggg taaatattaa ggaggagtag atctataata acctagatgt
+     2461 attttgatac atcttagtat tacttataga tcgacgtatc ctgtgtcact cttgggttcc
+     2521 caaagaccct tacccttggt gccaaaaaag gacccttacc cgtataaaaa gggagtataa
+     2581 aacaactttc ttatgtttga ttacgacgag ca
+//
+LOCUS       CruV-103                2881 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-103 isolate 120_1154_SvL1_3295.
+ACCESSION   CruV-103
+KEYWORDS    .
+SOURCE      Crucivirus-103
+  ORGANISM  Crucivirus-103
+            Unclassified.
+REFERENCE   1  (bases 1 to 2881)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2881
+                     /organism="Crucivirus-103"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1154_SvL1_3295"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2012
+     misc_feature    join(2870..2881,1..19)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             187..1602
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MPPYSAVRKRYGRKNGRALVYRSGPAYKRVAIVPAGRATCVPEF
+                     PQRTTGQMDRRSKRPRGPNGRFLVGNGAYHHWGPSPGADLGRSVGKWFGFEKQGAALG
+                     HFAGTLLGSGDYHSSDRMINTNSIINPSSSPPMLISGTGNGFIIRRREYIKDIVSSSV
+                     PNTFVQDTYSINPGQAKTFPWLATVAENFEQYRIRGMVFEFVSLSGDATSTTATSLGY
+                     VAMATQYDVLDPPFRNKEDLQNYDMSQSCKPSRNQIHGVECDPGRGVMSELYTRVGAQ
+                     PPLSDLRLYDFAAFTIANAAPGVSVTLGELWVSYDIELIKPKLPANPGGSIPSLWLSR
+                     VNNTVSPVMGFGQVSTKASGNTAFSCDNTTLTLRDLRIGHKYQVSAYWFCTTAINARP
+                     ALGLTSGALPFSMFGNTVGDPNFSSAFAAGAIPDITAMFSITFIAASSTVTVVCTPGT
+                     MAAAALFGCNISVVGLDATVT*"
+     CDS             join(complement(2224..2824),complement(1843..2162))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MPYQLKAKNVFLTYAQTPEGWTKESLLAALSLLPSGVPAGYCIA
+                     QESHADGGRHFHALLQFSEPVRTKDARFFDISDIHPNVQGARDPKATATYIQKDGDFI
+                     EFGLSVGAKRTWGDLVEGCTSRDEFMLEVSKSFPRDSVLSLEKLEYYAAKKFKPATPP
+                     YSPQYTDFTVPETLQAWKDENLFVDKDRPRSLFLVGASRLGKTEWARSLGSHTYFNGM
+                     FNLDDWNADADYLIIDDIDWKYVPAKKALFGAQKQFTITDKYIKKKTLLWGKPVIYLC
+                     NQDMDVYNSCDEKLWLRDNCDYVILHTKMF*"
+ORIGIN      
+        1 taatattacc ctccatttgc agtccctagt cccctatatg tagcttggtc cccaccagca
+       61 aaatggctag gctttgctgt gtcctaaccc taaccctaac atgtccgaat cttgttcgga
+      121 tggatcgagg ccctgtataa atacctgtct ttgcattggt taactcctaa ccaaaattac
+      181 aaattcatgc caccttattc tgctgtccga aaacgatacg gaaggaaaaa cggtcgcgcc
+      241 cttgtctaca gatcaggacc agcgtataaa cgagtggcga ttgtcccagc aggaagagcc
+      301 acctgtgtac cagagtttcc ccaacgaaca acgggccaga tggatcgaag atcaaaacgt
+      361 ccgcgtgggc ccaatggtcg ttttcttgtc ggtaatggtg cttatcatca ttggggccct
+      421 tctcctggtg ccgatttggg tcgaagtgtc ggaaagtggt tcggttttga gaaacaagga
+      481 gcagccttgg gtcatttcgc tgggaccctc cttggctccg gagattacca ttcgtccgat
+      541 cgtatgatta atacgaattc tatcatcaac ccctcgtctt ccccaccaat gttgatttct
+      601 ggcacgggga atggtttcat cattcgccga cgagagtaca ttaaagatat tgtgtcttca
+      661 tctgttccga atacgtttgt tcaggataca tattccatca atccagggca agccaagact
+      721 tttccttggt tggctacggt tgccgagaat tttgagcagt atcgcattcg tgggatggtg
+      781 tttgaatttg tgtcgttgtc tggtgatgct acatcaacga ctgcaacgtc acttggttat
+      841 gttgctatgg ctacgcagta tgatgttctt gatcctcctt ttcgtaataa ggaggatttg
+      901 caaaactatg acatgtctca gtcgtgtaag ccttctcgca atcaaattca cggtgttgaa
+      961 tgtgatccag ggcgtggtgt tatgtctgag ttgtacactc gtgttggagc tcagcctcct
+     1021 ttgtctgatt tgcgtttgta cgattttgca gcctttacga ttgcgaatgc ggctccggga
+     1081 gtcagtgtaa ctcttggaga actttgggtc agttatgaca tcgaattgat caagcccaag
+     1141 ttacctgcca acccaggagg atccattcca tctctttggc tgagtagagt gaacaatacc
+     1201 gtgtctccgg ttatgggctt tggtcaggtg tcgaccaagg cctctggaaa tactgcgttt
+     1261 tcgtgtgata acacgacgtt gacgctgcgt gaccttcgta ttggtcacaa gtaccaggtg
+     1321 tctgcgtact ggttttgtac aactgctatt aacgctcgtc ctgcacttgg attgacaagt
+     1381 ggtgcgttgc cgtttagtat gtttggaaac acggttggtg atcccaattt tagttctgcg
+     1441 tttgctgcag gggctattcc agacatcaca gccatgtttt cgattacatt tatcgctgcc
+     1501 agttccactg ttacggtagt ttgtacaccc ggtacaatgg cggctgctgc ccttttcgga
+     1561 tgtaacattt cagttgttgg attggacgcc actgttacct agtgtagcta gttattcttg
+     1621 taaataaaac ttgtgttaaa ggaccgtact tcgacagcgt ttacagaaca tccattggcg
+     1681 ccctaaggcg ggaacgccgt gggcaagaca gcctcggagc aggtgccgaa caggcatctg
+     1741 cgggtataac aaccaagctt tatttttaaa cttgtgttta gggttatttt ttaaaaagaa
+     1801 aaaaaacagt cttagggtta ggtaagttat tacaaaatta tattaaaaca ttttagtgtg
+     1861 tagaatgacg tagtcacagt tgtctcgtag ccacaacttt tcatcacagc tattatatac
+     1921 atccatatct tgattacaaa ggtagatgac cggtttaccc caaagcagcg tctttttttt
+     1981 aatgtacttg tcggtgattg taaattgttt ttgggcgcca aacagggctt ttttcgctgg
+     2041 tacgtatttc cagtcgatat catcaatgat taagtagtca gcgtcggcat tccaatcgtc
+     2101 gaggttgaac atcccattaa agtatgtgtg ggatcccaaa gaccttgccc attctgtttt
+     2161 gcctaatatg atttattagt gaacctcaac aatatcatca atgaccaaca ccctttttcc
+     2221 cacctagtcg agatgctccg acgagaaaga gtgatcttgg tctgtctttg tccacaaaga
+     2281 gattttcgtc tttccatgct tggagagtct caggcacggt gaagtcggtg tattgtgggg
+     2341 agtacggggg ggtggcaggc ttgaattttt tagcggcgta gtactccagc ttttccaagg
+     2401 ataggacgga gtcacgaggg aatgactttg acacttccag catgaattca tctcgtgaag
+     2461 tacacccttc cacgagatct ccccaagttc ttttggctcc aacggacagt ccgaactcaa
+     2521 taaagtcccc gtccttttgg atgtacgtgg cagtcgcttt agggtcacgt gctccttgaa
+     2581 cgttcgggtg gatatcggag atatcgaaaa atcgagcgtc tttggtccgc accggttcgg
+     2641 agaactggag tagtgcgtga aagtgccttc ctccatccgc atgcgactct tgggcgatgc
+     2701 agtatccggc aggaactcca gagggcagca gagacaaggc tgcgagcaag gattctttag
+     2761 tccatccttc aggtgtttgg gcgtaagtga gaaagacatt tttggctttg agttgatatg
+     2821 gcataaagtg ggcggacgaa tttcggacgg cggggactag agcgggaccc aaatggaggt
+     2881 a
+//
+LOCUS       CruV-104                2883 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-104 isolate 120_649_IR1_3296.
+ACCESSION   CruV-104
+KEYWORDS    .
+SOURCE      Crucivirus-104
+  ORGANISM  Crucivirus-104
+            Unclassified.
+REFERENCE   1  (bases 1 to 2883)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2883
+                     /organism="Crucivirus-104"
+                     /mol_type="genomic DNA"
+                     /isolate="120_649_IR1_3296"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     misc_feature    join(2872..2883,1..17)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             209..1609
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MSVPSTKVSGTINGSYKPWSAYKGVRKPIQGTKRQAERTIARPK
+                     KRKTYISGSGDYMIREVGSRKNDYTPFGSVGAKLGSYVGAPGIGWAGGHLLGRILGSG
+                     DYKMGPCNLSGNVLTNKTEVPQFSSSARSNIVAHREYIKDISTGSVAGAFNVETIVIQ
+                     PGDGSTFPWLSTIAQNYEQYRVHGMVFEFKTTSCDALNSTNTALGTVIMATEYNVNSP
+                     AYTNKISMENSEFAQSAKPSQSQMHGVECAPAEGLVRNLFTRSAGLSSTSLALQDKRL
+                     YDLANFQIATVGGQAANIVVGELWVTYLIEFLKPQIPITLGGDLDTLKFNKNSAVATT
+                     TLDFGLIGLSATGSLGYSIVSAASFTVSKLVIGNLYEFTVAWSASAAITTLPTLSVSS
+                     GGTATAAYPTSAGVNLLTVLSTGGGAGVTTAAQGALTFTATSTSATIAITGGILTSGT
+                     FYCQGVVSGIDASITN*"
+     CDS             join(complement(2490..2826),complement(1774..2402))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MAGKFQLSTKSLFLTYPKVPADWTKNLVRDTVYKIASDAGNQPY
+                     GYLVARELHEDGTPHFHVLLQFVVPFRTRNERIFDIQAGVDTWHHPNIQSTRDPAACA
+                     AYLQKDGMDWNFITEGLVLKATKATWSSILATATTQDEFMEAAKQDFPRDYVLNYEKL
+                     EYFAKQHYKAKVEEYVSKFTSFIVPQVLRDWVLESLDPTANRPKSLFLVGASRMGKTE
+                     WARSLGCHTYFNHMFNLDDWNHAGRYLVIDDIEWKYFPARKALLGAQSTFTMTDKYRK
+                     KVTLAWGKPCIYLCNKDMDVFNSCDEYEWLKDNCVYYNLQGKLFE*"
+ORIGIN      
+        1 taatattacc ccccatttcc caatcccact cccaccccag ggttaggggc ctcgcgtagg
+       61 gttacccagg gttagggtcg gagaattaaa tcacgtgagt attttaattc tccgacgtct
+      121 ggttccttct ctggtcttca tgctcgtgtc ttggcccttc tcccaaaaat tacacaaaca
+      181 caaacacggc ctcagaaatt attagtaaat gtcagtgccg tccacgaaag tttctggcac
+      241 tattaacggt tcttataagc cttggtctgc ttacaagggt gttcgtaagc ctattcaagg
+      301 taccaagcgt caagctgaaa gaaccattgc ccgcccaaaa aagcgcaaga cctacatatc
+      361 cggcagtggc gattatatga ttcgcgaagt tggttctcgc aagaatgact atactccttt
+      421 tggttctgta ggagctaaac ttggatctta tgttggtgct ccaggtattg gatgggcagg
+      481 tggacatttg ttgggccgta ttttaggatc tggtgactac aagatgggtc cttgtaattt
+      541 gagcggtaat gttttgacga ataagactga ggttcctcag ttttctagtt cagccagatc
+      601 caatattgtc gctcatcgtg agtatattaa ggatatttcg actggttctg ttgctggagc
+      661 ttttaacgtt gaaactattg ttattcaacc tggcgatggc agtaccttcc cttggttgtc
+      721 tactattgcc cagaattatg agcagtatcg tgttcatggg atggtgtttg agtttaaaac
+      781 tacctcatgt gatgctctta attccaccaa tacggcttta ggaactgtta ttatggctac
+      841 tgagtacaat gttaattctc ctgcttatac caacaagata tctatggaaa attctgagtt
+      901 tgcgcaaagt gcgaaaccct ctcagtctca aatgcacggg gttgagtgtg ctcctgctga
+      961 ggggttggtt aggaatttgt ttactcgatc tgcagggttg tcttctacat ctttagctct
+     1021 tcaagacaaa cgtctttatg atttggctaa ctttcagatt gccactgttg gtggtcaagc
+     1081 tgctaatatt gttgttggag agctttgggt tacatacttg attgagtttt tgaagcctca
+     1141 aattcctatt actcttggtg gtgatcttga tactttgaaa ttcaacaaga attctgctgt
+     1201 tgccactact acattggact ttggtttgat aggattatca gctactggtt ctttgggtta
+     1261 ttctattgtg tctgcagcat cttttactgt tagtaaattg gtcatcggca atctgtatga
+     1321 atttactgta gcatggtcag cttctgctgc cattactact ttgccaacat tgtctgttag
+     1381 cagtggagga accgctacgg ctgcttatcc tacatccgct ggtgttaatc ttttgactgt
+     1441 tctttctact ggaggaggtg caggtgtgac tacggctgct caaggggctc ttacgtttac
+     1501 ggcaacttct acttctgcga ctattgctat tacaggtgga atcttgactt ctggaacatt
+     1561 ttattgtcaa ggtgttgtta gtggcattga tgcttctatt acaaattagt tttgccagga
+     1621 ttactggcta ggtgtgtgtg cgatatgttt gtattaacct ttagggaaaa ggccttaggg
+     1681 accccccgga ctttaggcag ggagggatgg cctttggtcc cgacttgaaa aagaactaat
+     1741 aaatgcccgc gggagactgt attctatcta tttttattca aaaagctttc cttgcaggtt
+     1801 gtagtagaca cagttgtcct tgagccactc atactcgtca catgagttga agacatccat
+     1861 gtccttgttg cataggtaga tgcacggctt gccccaggca agggttactt tcttgcggta
+     1921 tttgtcagtc atggtgaatg tagactgtgc tccaagtaag gcctttcttg cagggaagta
+     1981 cttccattcg atatcgtcta tcaccagata gcgacctgca tggttccagt catcgagatt
+     2041 gaacatgtga ttaaagtatg tatgacagcc caaggatctc gcccattcag tttttcccat
+     2101 gcgcgaggct ccgacaagga agagtgattt gggtcggtta gccgtaggat cgaggctttc
+     2161 caatacccag tcacgtaata cttgcggtac tatgaaagaa gtaaacttcg atacatactc
+     2221 ttcaactttg gccttgtagt gttgcttggc aaagtactcg agcttttcgt aattcaacac
+     2281 gtagtcacgt ggaaagtctt gctttgctgc ttccatgaac tcgtcttgtg ttgttgcggt
+     2341 tgcaagtatt gaggaccatg tggccttggt tgctttgagg acgagtccct cagtgatgaa
+     2401 gtctcctatt tattcatatg aaaagtaagt caatatatca gacatgtcgt ccccatccca
+     2461 ctcatcatct ccaaggcaga aaattccact ccagtccata ccatcctttt gcaagtaggc
+     2521 cgcacatgct gctgggtctc gcgtgctttg gatgttcgga tgatgccacg tgtccactcc
+     2581 agcttggatg tcgaagatgc gctcgttcct tgtccggaag ggtaccacga attggagcag
+     2641 cacatggaag tgaggagtcc cgtcctcgtg tagctcccgt gccactaggt atccatatgg
+     2701 ttggtttcca gcgtcactgg cgattttgta tacggtgtcg cgtaccagat tttttgtcca
+     2761 gtccgcaggc acctttgggt aggtcaggaa cagtgacttg gtggagagtt gaaatttacc
+     2821 ggccattttg aagtgaggat gtccggatga gttggtgaat tgattgggag gaatggggga
+     2881 tta
+//
+LOCUS       CruV-105                2883 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-105 isolate 120_1846_IR2_3297.
+ACCESSION   CruV-105
+KEYWORDS    .
+SOURCE      Crucivirus-105
+  ORGANISM  Crucivirus-105
+            Unclassified.
+REFERENCE   1  (bases 1 to 2883)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2883
+                     /organism="Crucivirus-105"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1846_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     misc_feature    join(2872..2883,1..17)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             209..1609
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MSVPSTKVSGTINGSYKPWSAYKGVRKPIQGTKRQAERTIARPK
+                     KRKAYISGSGDYMIREVGSRKSDYTPFGSVGAKLGSYFGAPGIGWAGGHLLGRILGSG
+                     DYKMGPCNLSGNVLMNKTEVPQFSSSARSNIVAHREYIKDISTGSVAGAFNVETIVIQ
+                     PGDGSTFPWLSTIAQNYEQYRVHGMVFEFKTTSCDALNSTNTALGTVIMATEYNVNSP
+                     AYTNKISMENSEFAQSAKPSQSQMHGVECAPAEGLVRNLFTRSAGLSSTSLALQDKRL
+                     YDLANFQIATVGGQAANIVVGELWVTYLIEFLKPQIPITLGGDLDTLKFNKNSAVATT
+                     TLDFGLIGLSATGSLGYSIVSAASFTVSKLVIGNVYEFTVAWSASAAITTLPTLSLSS
+                     GGTATAAYPTSAGVNLLTVLSTGGGAGVTTAAQGALTFTATSTSATIATTGGILTSGT
+                     FYCQGVVSGIDASITN*"
+     CDS             join(complement(2490..2826),complement(1774..2402))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MAGKFQLSTKSLFLTYPKVPADWTKNLVRDTVYKIASDAGNQPY
+                     GYLVARELHEDGTPHFHVLLQFVVPFRTRNERIFDIQAGVDTWHHPNIQSTRDPAACA
+                     AYLQKDGMDWNFITEGLVLKATKATWSSILATATTQDEFMEAAKQDFPRDYVLNYEKL
+                     EYFAKQHYKAKVEEYVSKFTSFIVPQVLRDWVLESLDPTANRPKSLFLVGASRMGKTE
+                     WARSLGCHTYFNHMFNLDDWNHAGRYLVIDDIEWKYFPARKALLGAQSTFTMTDKYRK
+                     KVTLAWGKPCIYLCNKDMDVFNSCDEYEWLKDNCVYYNLQGKLFE*"
+ORIGIN      
+        1 taatattacc ccccatttcc caatcccact cccaccccag ggttaggggc ctcgcgtagg
+       61 gttacccagg gttagggtcg gagaattaaa tcacgtgagt attttaattc tccgacgtct
+      121 ggtcccttct ctggtcttca tgctcgtgtc ttggcccttc tcccaaaaat tacacaaaca
+      181 caaacacggc ctcagaaatt attagtaaat gtcagtgccg tccacgaaag tttctggcac
+      241 tattaacggt tcttataagc cttggtctgc ttacaagggt gttcgtaagc ctattcaagg
+      301 taccaagcgt caagctgaaa gaaccattgc ccgcccaaaa aagcgcaagg cctacatatc
+      361 cggcagcggc gattatatga ttcgcgaagt tggttctcgc aagagtgact atactccttt
+      421 tggttctgta ggagctaaac tgggatctta ttttggtgct ccaggtattg gatgggcagg
+      481 tggacatttg ttgggccgta ttttaggatc tggtgactac aagatgggtc cttgtaattt
+      541 gagcggtaat gttttgatga ataagactga ggttcctcag ttttctagtt cagctagatc
+      601 caatattgtc gctcatcgtg agtatattaa ggatatttcg actggttctg ttgctggagc
+      661 ttttaacgtt gaaactattg ttattcaacc tggcgatggc agtaccttcc cttggttgtc
+      721 tactattgcc cagaattatg agcagtatcg tgttcatggg atggtgtttg agtttaaaac
+      781 gacctcatgt gatgctctta attccaccaa tacggcttta ggaactgtta ttatggctac
+      841 tgagtacaat gttaattctc ctgcttatac caacaagata tctatggaaa attctgagtt
+      901 tgcgcaaagt gcgaaaccct ctcagtctca aatgcacggg gttgagtgtg ctcctgctga
+      961 ggggttggtt aggaatttgt ttactcgatc tgcagggttg tcttctacat ctttagctct
+     1021 tcaagacaaa cgtctttatg atttggctaa ctttcagatt gccactgttg gtggtcaagc
+     1081 tgctaatatt gttgttggag agctttgggt tacatacttg attgagtttt tgaagcctca
+     1141 aattcctatt actcttggtg gtgatcttga tactttgaaa tttaacaaga attctgctgt
+     1201 tgccactact acattggact ttggtttgat aggattatca gctactggtt ctttgggtta
+     1261 ttctattgtg tctgcagcat cttttactgt tagtaaattg gtcatcggca atgtgtatga
+     1321 atttactgta gcatggtcag cttctgctgc cattactact ttgccaacat tgtctcttag
+     1381 cagtggagga acagctacag ctgcttatcc tacatccgct ggtgttaatc ttttgactgt
+     1441 tctttctact ggaggaggtg caggtgtgac tacggctgct caaggggctc ttacgtttac
+     1501 ggcaacttct acttctgcga ctattgctac tacaggtgga atcttgactt ctggaacatt
+     1561 ttattgtcaa ggtgttgtta gtggcattga tgcttctatt acaaattagt tttgccagga
+     1621 ttactggcta ggtgtgtgtg cgatatgttt gtattaacct ttagggaaaa ggccttaggg
+     1681 accccccgga ctttaggcag ggagggatgg cctttggtcc cgacttgaaa aagaactaat
+     1741 aaatgcccgc gggagactgt attctatcta tttttattca aaaagctttc cttgcaggtt
+     1801 gtagtagaca cagttgtcct tgagccactc atactcgtca catgagttga agacatccat
+     1861 gtccttgttg cataggtaga tgcacggctt gccccaggca agggttactt tcttgcggta
+     1921 tttgtcagtc atggtgaatg tagactgtgc tccaagtaag gcctttcttg cagggaagta
+     1981 cttccattcg atatcgtcta tcaccagata gcgacctgca tggttccagt catcgagatt
+     2041 gaacatgtga ttaaagtatg tatgacagcc caaggatctc gcccattcag tttttcccat
+     2101 gcgcgaggct ccgacaagga agagtgactt gggtcggtta gccgtaggat cgaggctttc
+     2161 caatacccag tcacgtaata cttgcggtac tatgaaagaa gtaaacttcg atacatactc
+     2221 ttcaactttg gccttgtagt gttgcttggc aaagtactcg agcttttcgt aattcaacac
+     2281 gtagtcacgt ggaaagtctt gctttgctgc ttccatgaac tcatcttgtg ttgttgcggt
+     2341 tgcaagtatt gaggaccatg tggccttggt tgctttgagg acgagtccct cagtgatgaa
+     2401 gtctcctatt tattcatatg aaaagtaagt caatatatca gacatgtcgt ccccatccca
+     2461 ctcatcatct ccaaggcaga aaatgccact ccagtccata ccatcctttt gcaagtaggc
+     2521 cgcacatgct gctgggtctc gcgtgctttg gatgtttgga tgatgccatg tgtccactcc
+     2581 agcttggatg tcgaagatgc gctcgttcct tgtccggaag ggtaccacga attggagcag
+     2641 cacatggaag tgaggagtcc cgtcctcgtg tagctcccgt gccactaggt atccatacgg
+     2701 ttggtttcca gcgtcactgg cgattttgta taccgtatca cgtactagat tttttgtcca
+     2761 gtccgcaggc acctttgggt aggtgaggaa cagtgacttg gtggagagtt gaaatttacc
+     2821 ggccattttg aagtgaggat gtccggatga gttggtgaat tgattgggaa gaatggggga
+     2881 tta
+//
+LOCUS       CruV-107                2899 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-107 isolate 120_1833_IR2_3297.
+ACCESSION   CruV-107
+KEYWORDS    .
+SOURCE      Crucivirus-107
+  ORGANISM  Crucivirus-107
+            Unclassified.
+REFERENCE   1  (bases 1 to 2899)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2899
+                     /organism="Crucivirus-107"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1833_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     misc_feature    join(2889..2899,1..18)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             196..1632
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MPPTVVSGPTPYQYQKNRSTYGVAGGRIGPAKPKGSVPDRYRRM
+                     AVNMKKRKISGSGDYMIRETGSSKNEYTPFGSIGHKIGSFFGAPGIGWAGGHLIGRIL
+                     GSGDYKMGPCNLSSNVLVNKTEVPQFSSSARSNIVAHREYIKDISTGPTIGAFNVESF
+                     TVQPGDGTTFPWLSTIAQNYEQYRVHGMVFEFKTTSSDALNSTNTALGTVIMATEYNV
+                     NSPAYTNKISMENSEFAQSAKPSQSQMHGLECAPAEGLVKNLFTRTAGLSSTSLALQD
+                     KRLYDFATFQIATAGGQAANIVIGELWVTYLIEFLKPQIPTTLGGDLDTLKINGTESA
+                     VTAIRITDNLSNSTTNTVTGSLGYSIAASGIAPFTESLTLTRMVIGNLYQISSAYACS
+                     QAITTAPAWSITSGATAKLAYPSGTAFNANSTVSINGGGTGACQFMITFTASASTVVL
+                     SLTNGLLAASGNYFGQHIVSGLDSTITN*"
+     CDS             join(complement(2554..2857),complement(1840..2471))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MPGAFQLKSSCIFLTYPQANPNWTKEQVLDVIKKRCGFNEPFGW
+                     MVAKEAHKDGSPHYHALLQFVVPFRTKDERIFDIDGKHPNIQSSRDPAAVALYLEKEG
+                     DFIKHGLAFKEKKRTWGQLVEESKDSDDFMNLVASQYPRDFVLNHEKLEYYCKQKYKI
+                     KIAKYVSRFSSFANVPQSLVDWASINLNGRGDRPLSLFLVGASRLGKTEWARSLGTHT
+                     YFNSMFNLDDWNPMADYLVIDDIEWKYVPAKKALLGAQAQFTMTDKYRKKVTLTWGKP
+                     CIYLCNKDMDVYNSCEEAMWLRDNCVYVILHNKLY*"
+ORIGIN      
+        1 taatattacc ctccttttcc cggtccccag tccccggtat ctgattggtc cattgatttc
+       61 gtccgggctc ccgtttgttg tgccaagtca cgtgatcttg tgctaaggcc ctagccaaga
+      121 ttactatata agcagcttgc cagttcattc cctcttccca aaaataatct caacttgatc
+      181 taaactgtta caaatatgcc tcctacagtt gtttctggac ctactcctta tcaataccag
+      241 aagaaccgta gtacttatgg ggttgcagga ggtcggattg gtccagctaa acctaaagga
+      301 tctgttcctg atcgttatag gcgtatggct gtgaatatga agaagcgcaa gatttctgga
+      361 tctggagatt atatgattcg agaaacggga tcatctaaga acgaatatac gccctttgga
+      421 tctattgggc ataagatcgg ttccttcttt ggtgcacccg ggatcgggtg ggcgggtggt
+      481 catttgattg gtcggatttt aggatctggt gattacaaga tgggtccgtg taatttgagt
+      541 agcaatgtct tggtgaacaa gactgaggtt cctcagttct ctagttcggc taggtccaac
+      601 attgttgctc atcgcgagta catcaaggat attagcacag gtccgactat tggtgccttt
+      661 aacgtggaat cgtttacggt gcaacctggt gatggcacta ctttcccttg gttgtccacc
+      721 atagcccaga attatgagca gtaccgtgtg catgggatgg tgtttgagtt taaaacgacc
+      781 tcctcggatg ctttgaattc caccaataca gccttaggaa cggtcattat ggccaccgag
+      841 tacaacgtca atagtcctgc ttacacgaac aagatctcga tggaaaattc tgagtttgcc
+      901 caaagcgcta aaccctctca gtcccaaatg cacggtcttg aatgtgcacc tgctgagggt
+      961 ttggttaaga atttgtttac tcgaactgct ggattatcgt ctacctcttt ggctcttcaa
+     1021 gacaaacgtc tttatgactt tgccacgttt cagattgcca ctgcaggtgg tcaagctgct
+     1081 aacatcgtta ttggagagct ttgggttaca tatttgattg agtttttgaa gccccagatc
+     1141 cctactacac ttggtggtga tcttgatacg ttgaagatta acggtacaga atctgctgtt
+     1201 acggcaattc gtattacgga taatctttcc aattccacca ccaacactgt tacgggttcg
+     1261 cttggatata gtatcgcagc atcgggtatt gctccgttta cggagtcttt gactttgacc
+     1321 agaatggtta ttggcaattt ataccagatt tcgtcggcgt atgcatgttc tcaggctatt
+     1381 accacggctc ctgcatggtc cattacttca ggcgctactg ccaagttagc atatccttcg
+     1441 ggtactgcgt ttaatgccaa ttcgactgtt agtattaatg gtggtggtac tggtgcgtgt
+     1501 caatttatga tcactttcac tgctagtgcg tctactgtag ttttgtcttt gaccaacggt
+     1561 ttattggcag cctctggaaa ctactttgga cagcatattg ttagtggtct tgactccacc
+     1621 atcaccaact agggttaggg ttgtagactt gtatataacc aaaattaggg ttagggagag
+     1681 ggcctaggga cccgccggaa gcatgaaggc aggggtggcc ctcggtcccg acttgactca
+     1741 actggaacca cactcgaagg gagactttat atctgatcgc cggcgggacc ccccgaaggg
+     1801 agggcggcga tgcgaataat aaacgaatgt taaccaaaat taatacaatt tattgtgaag
+     1861 aattacgtat acacaattat ctcttaacca catagcctcc tcgcaggagt tataaacatc
+     1921 catgtctttg ttgcataagt agatgcaagg tttgccccaa gtcaaagtga ctttcttgcg
+     1981 atacttgtcc gtcatggtaa attgtgcttg ggccccaagt aacgcctttt ttgcaggtac
+     2041 gtatttccac tctatgtcat caatgaccaa ataatcagcc ataggattcc aatcatcgag
+     2101 gttaaacata ctattaaagt acgtatgagt gccaagcgag cgcgcccact ctgtctttcc
+     2161 aagtcgggag gcgccgacga ggaagaggct gagtggtctg tctcctctcc cgttgagatt
+     2221 gatggaggcc cagtcgacaa ggctctgagg aacattggca aaagacgaga aacggctgac
+     2281 atactttgcg atcttgattt tatatttttg cttgcagtag tactcgagct tctcatgatt
+     2341 caagacgaag tcgcgtgggt attgagaggc taccaaattc atgaaatcat ctgagtcctt
+     2401 ggactcttcg acgagttgtc cccaggtacg tttcttctct ttgaaagcaa ggccatgttt
+     2461 gatgaagtca cctatattat tcatagatta gggttcctga agtgaagcgg aaggcgccgt
+     2521 cgtcgtggca ccagactcca tcccattcca taccctcctt ttcgagataa agagccactg
+     2581 ctgcagggtc tcggcttgat tggatgttgg ggtgcttgcc gtcgatatcg aagattcgct
+     2641 cgtccttggt cctgaagggt acgacgaact ggagcaaggc gtggtagtgg ggggacccgt
+     2701 ctttgtgtgc ttccttggcc accatccacc cgaagggttc attgaagcca catctctttt
+     2761 tgatgacatc gaggacttgc tccttggtcc aattagggtt ggcttggggg tatgtgagaa
+     2821 atatacacga agatttaagt tggaaggcac caggcattac gaattagctg ggggactcgc
+     2881 ggggaccgaa aaggaggtt
+//
+LOCUS       CruV-170                3154 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-170 isolate C5_126106.
+ACCESSION   CruV-170
+KEYWORDS    .
+SOURCE      Crucivirus-170
+  ORGANISM  Crucivirus-170
+            Unclassified.
+REFERENCE   1  (bases 1 to 3154)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3154
+                     /organism="Crucivirus-170"
+                     /mol_type="genomic DNA"
+                     /isolate="C5_126106"
+                     /isolation_source="Soil"
+                     /country="New Zealand"
+                     /collection_date=2012
+     CDS             join(1..165,343..885)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MRVGEERHQDGGVHFHVVVVFGTKLSTKNVRLFDITPPGGAAEH
+                     PNIRKFDKKQMKKADHEAWMHDSKVSGQTTPYPFTLMGEVSIREPKPDGRGKLDKRRH
+                     WLVIGPPDIGKTHWINVTFKGKSVYLRPNNKYPFEANGYSQQPVVVYDDVVPQWAELS
+                     DVTNVHSLEKATYGESRYRGNWWKEDQARIVLIFLNSFNVPSYALEDGQDARYDLFVA
+                     RFNTLRWNQRDKAWYVF*"
+     CDS             complement(1081..2214)
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MIPTGNVKAASSGGVVVSHREYLGDVYSKFSDSPAVPTAFSIAE
+                     YILNPGNSITFTWLAPIARSFEEYRIRKMMFQFRSTSGNSVASANTALGAVMLATQYN
+                     VTNMPFASKIEMENYAHGQSGVPSQDILHQVDLKKAASPLKTLYVREDNTPVPSGQDP
+                     RLYDFGKFSIATQGQQANATDLGELWCSYVIELIKPKIPTAQTDVLLGSLTDHFALDP
+                     GVISATSGKYFGVTGSTTQDPATGSTLGGKIADIPGNGNYYLFPGYGLDSGLRLPIGT
+                     KALFHYDMVGAGTTLTVAQITWTPGINWSAFALWRNSSQAGPDYNNINGAINIAAQGG
+                     LACMVKTSDGDSLGDHVSITAGTLCTSPGSGDLVVTLIPAAIV*"
+ORIGIN      
+        1 atgcgggtcg gagaggagcg acatcaggac ggtggtgtgc actttcacgt cgtggttgtc
+       61 ttcggtacga agctttccac caagaacgtg cgtctgtttg acatcacacc acctggcggg
+      121 gcggcagagc atcccaacat ccgcaagttc gataagaagc agatggttgg caggtaagcc
+      181 gttagtatca tgagctggaa gtgcagcggg cgtaaacccg ctgtacgaaa ctgatttgcg
+      241 atatgatgca ggctttgcta cgccagtaaa gacgggaaga tcaccgactt cggagtttgg
+      301 aagccacact ctttgttcgc ggactcgaac aattatctca agaagaaggc tgaccatgaa
+      361 gcttggatgc acgactccaa ggtgtctggt cagacaacgc cgtatccctt caccctcatg
+      421 ggtgaggtct ctattcgcga gcctaaacct gacgggcgcg gcaagcttga caagcgccgg
+      481 cattggctcg tgataggccc tcccgacatt ggtaaaaccc actggattaa cgttaccttc
+      541 aagggcaagt cggtgtatct ccgcccaaac aacaagtatc cgtttgaagc caacggttac
+      601 tcgcagcagc ctgtcgtcgt atacgatgac gttgtgcctc agtgggcgga gttgtccgac
+      661 gtgaccaatg tgcacagcct ggagaaggct acgtacgggg aatcccgtta ccgcggcaat
+      721 tggtggaagg aggatcaagc gcgcatcgtg ctcatcttcc tcaacagttt caacgtgccg
+      781 agctatgctc tggaggatgg gcaggacgca cgttacgact tgttcgttgc gcgcttcaac
+      841 acgttgcgct ggaaccagcg cgacaaagcg tggtacgtgt tctaaacacg tgcgttgcct
+      901 atttgcgtat ttcgtaaatt gctttttatg tggaaaagcg ccaactcacg cttgaaaaac
+      961 cacgaatcac gtcccagtga agctcgcaag ataaaacgcg ggcatggcca tgcacgggta
+     1021 tgcaacccct gtcggtctgc atggtgaccg cttcacgctc tccagctgcg tggtaggtta
+     1081 ctacactatc gctgctggaa tcagcgtgac aaccaggtct ccgctgccag ggcttgtgca
+     1141 cagtgttcct gctgtgatgg agacatggtc tcccaaactg tcaccgtctg acgttttcac
+     1201 catgcaggcc aagcctcctt gtgccgcaat gttaattgcg ccgttgatat tgttgtagtc
+     1261 cggtcctgct tgactggagt ttcgccacaa ggcaaacgcc gaccagttaa tgcccggcgt
+     1321 ccacgtgatt tgcgccactg tcaaggtggt cccggcgccg accatgtcat agtggaacag
+     1381 cgccttagtg ccgatcggca agcggagtcc agaatccaga ccgtagcccg ggaatagata
+     1441 ataattcccg tttcctggga tgtctgcgat tttccctccc agcgtcgatc cagtggctgg
+     1501 atcctgcgtg gtacttcctg tcacgccgaa gtacttcccg cttgttgccg atatcactcc
+     1561 tggatctaga gcgaagtgat ccgtcagaga accgagcagt acgtcagtct gcgcagttgg
+     1621 aatcttcggc ttgatcagct cgatgacgta gctgcaccac agctcgccca agtctgtggc
+     1681 gtttgcttgc tggccttgcg tcgcaatgct gaactttcca aaatcgtaga gccgcgggtc
+     1741 ttgacctgat ggcactggcg tgttgtcttc gcgcacgtac agcgtcttca atggagacgc
+     1801 agccttcttg aggtccactt ggtgaagaat gtcctgcgag ggtactccgc tctggccgtg
+     1861 cgcatagttc tccatttcga tcttgctagc gaaaggcatg ttggtcacgt tgtattgcgt
+     1921 tgccagcatg acggctccga gagcagtgtt cgctgaggcc acagagtttc cgctcgtcga
+     1981 gcggaactgg aacatcattt tcctgatccg atactcttcg aagctgcggg cgattggcgc
+     2041 cagccaggtg aacgtgatgg agttccctgg gttgaggatg tactcggcaa tgctgaacgc
+     2101 agtgggaact gctggtgagt ctgagaactt gctgtagaca tctccgaggt actctctgtg
+     2161 agagacaacg acgccgccgg aggaagctgc tttgacgttg cctgtaggaa tcaattgtaa
+     2221 gcgagcccgc gagcgaacaa gacttcaccg aatgaaggga ctcccatggg tccaggtcca
+     2281 tagaggctgc ctcgtcgtcc tcgaggggtt gacttgacag aggaagctcg cttgcggctt
+     2341 cctttctttc tcgaggcttt tccgcgcgca acgacggttt tgtcgaaagc atcgcgcatg
+     2401 gacttgaccc gcttcgctga gtagccctta gcataccggc ctttacctgt tgaagcgcgt
+     2461 ttgcgctttg gcattgctta atgaaagcaa ggacagctgg attgcaaggg attttcacgt
+     2521 gtggagaatc cttaggatat ttctcttctt tgctcataaa ttcctgccca acagagcagg
+     2581 tttattagcg aggtcgcgcc ctcgctaagt acatgccccc cggtcatacc agaaggttta
+     2641 gatgtatatc aacttgcatc ccgggtccgg ggcgggtagc cccggccagg gggtgcaggg
+     2701 gggcggagcc ccccgcaaaa aatattagtt aaaccgaaaa gtagttgttc cggccctcgg
+     2761 tgggggacca actcaaacct tgtctatttt gctttctagg catggctgaa cataaagcgg
+     2821 atgctatgga tgttcgccct gacggaaaaa atgcaaatgc gcagccggaa gcgcttccgc
+     2881 actttgcgca acgcaaacag ttctggaaag cagcatttga ggctgctggc attgagcagg
+     2941 aggacgagga cccggagttt gcctgcgatg atgtgccgga gccaaaagca ttccgcttgc
+     3001 aggcgaagaa cctttttctg acctattccc agtcccgtct aacgccccaa ctgatttggg
+     3061 atagctttag caaaggtccg cgtcttaaga gcggagtatt acattttgta accttttctt
+     3121 tgtagcccaa gacgcacgtg gaacgtgcct gcgc
+//
+LOCUS       CruV-279                3501 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-279 isolate 120_1295_IR2_3297.
+ACCESSION   CruV-279
+KEYWORDS    .
+SOURCE      Crucivirus-279
+  ORGANISM  Crucivirus-279
+            Unclassified.
+REFERENCE   1  (bases 1 to 3501)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3501
+                     /organism="Crucivirus-279"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1295_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     CDS             complement(346..1731)
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MSKRQRAPKKAPYVKKEYANPGIPYAVSQPNKFWRIKKDLPPAD
+                     YWKKRYWRRRITGRGDYVMDASRSVGHQWGGYAGAKVGEFVGSTAQTLLGSLLTGMGD
+                     YTVKKNVFMKGRLPQVVNQPTGGGTIIRFQEYLTDVITAPVAGDFKIQSFLINAANPV
+                     TFPFLSQIAANYEQYEVEGMIFEFRSTSADSLNSTNTALGTVMQATQYDVGDDVFEAK
+                     LDMLNYEYSTSCRPSVNCAHMIECAPSQTTVSKLYTLYNQGVPDNADPRLYHLGRYSI
+                     ATTGFQGTSVNIGELHVTYQVRLLKPKLFVSLGETANFLEQILGDGTTTTPYSDPAPL
+                     PGPATVGTNFFVNESNNSTFFIDTNLIRLPPTAAVLYYRIEILWTGTAPAGYSPPTLI
+                     YLNCEQTDIDVAPDVGTIVAGKVALMITVKTKPTSIAPTITLANDGVFPSGNKQVEVR
+                     IMQITTEFNGV*"
+     CDS             join(complement(2754..3228),complement(2189..2712))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MQCFVSFKKKKYFTAVKKLFPRAHIELKSQQSTMKQASDYCKKD
+                     GNFHEKGTLPLDGNVAGGKGTKRKWDEIKSFATSGQLDQIDAEIFVLHYRNLKQISYD
+                     YGNDRFVNLPDVCGEWIYGPPGVGKSHIARAENPDLYVKMINKWWDNYDGQKTVLLDD
+                     FGHEHFMLGHHLKIWADKYPFRGEIKCHSRMFRPEKIVVTSNCHPAEIWDSEDDMCKA
+                     IVRRFKIRRIDVLKKNDDTEPKLRKTANTKINLRREDAQHNLLHLSSINIPQIIDLTK
+                     EEEAHTNKTLEMLQQGKMHSISLTPTQRKSSQSEEEMYDSDDDVIYSDSESMSESM*"
+ORIGIN      
+        1 agatttcggg tataagacac ggtacctaat ttccttatat agttttctta ttttggaaca
+       61 cgtgcgtgaa actgcctcat taggacggcc acacgttttg gtagttaaaa acgtgtgaac
+      121 gtgcccttgc ggtaagtgtc attaccgaaa ataggagttt gacatgtgac acttttgaca
+      181 tgtttgcaca attcacaccg cgtgaccttc ctaattccga aataggtaag tgtcaaaaat
+      241 ttttgacagg tgtcaatcgg gatttgacac ttaccgaaac acacttgtga aaatgtgaaa
+      301 attttaccgg cggacctacg cgtcaaaaac taaaaaattt tttatttaaa ctccattaaa
+      361 ttccgtagtt atttgcataa tacgaacttc aacttgtttg ttgcctgaag ggaatactcc
+      421 gtcgttcgcc agagtaattg ttggagcaat tgaagttggt ttggtcttga ctgtaatcat
+      481 aagggccacc tttcctgcga caatagttcc tacgtcgggt gcgacgtcaa tgtcagtttg
+      541 ttcgcagtta agatatatca aagttggagg ggaataaccg gctggagcag taccggtcca
+      601 gaggatttca attctataat ataaaactgc cgccgttggt ggcagtctaa tgagattggt
+      661 gtcgatgaaa aaggtgctgt tgttgctttc attaacaaag aaatttgttc cgaccgtagc
+      721 tggaccgggt agtggtgctg gatctgaata aggggtagtt gttgttccat caccaagaat
+      781 ttgttcaaga aaattagctg tctctccaag ggacacgaat agttttggtt ttaataatct
+      841 tacttggtaa gtcacatgaa gttcgccgat gttcacgctt gtcccttgaa aacctgtggt
+      901 cgcaattgaa taccggccga ggtgataaag acgaggatct gcgttgtcag gcactccttg
+      961 gttgtagagt gtgtaaagct tgctgactgt tgtttggctg ggggcacatt ctatcatatg
+     1021 tgcacagttg actgaagggc ggcaggaggt gctgtactca taatttaaca tatcaagttt
+     1081 tgcttcgaaa acgtcgtctc cgacatcgta ttgagttgct tgcataactg ttcctagtgc
+     1141 ggtgtttgtt gagtttaatg agtcagcact tgttgaacga aattcaaaaa tcatgccttc
+     1201 gacttcatac tgttcgtagt ttgcagcgat ttgcgacagg aatggaaagg tgactggatt
+     1261 tgccgcatta atgagaaagc tttgaatttt gaagtctccg gcaactggtg cagtgattac
+     1321 atccgtaaga tactcctgga agcgaatgat agtccctcca cctgtcggtt gattgactac
+     1381 ttgaggtaat ctgcccttca taaatacgtt ctttttaaca gtgtagtccc ccatcccagt
+     1441 taataaactt ccgagaagag tttgcgccgt gctaccgacg aactctccaa ccttcgcgcc
+     1501 agcgtatccc ccccactggt gtcccaccga gcgggaggca tccatgacat agtcccctcg
+     1561 acctgtaatc ctccgtctcc aatatcgttt cttccaataa tcagccggag gtagatcttt
+     1621 tttgatgcgc cagaatttgt tcggttgaga gacagcataa ggaattccag ggttagcata
+     1681 ttcctttttg acataggggg ccttcttagg tgctctttgt cgtttagaca tttgtgaaat
+     1741 aagttcgggg aaaagtgtgt ttgtttatat agtaccgtgt cacgtgcaca cgtggggaca
+     1801 ttcaacgtga ctaaatcatg ccacgtgcgc acgtggtaag acggggcttc gataagacga
+     1861 cgccctctag ggtaatacta ggccttgggg ccgacctaga gggcgccgga acgatcgagg
+     1921 gggagttgga cgaatccgcg cctccgccgg cgctgttatg aattgtaact tcttactttc
+     1981 cagggtcaaa catagactga acgggccttg gggccctgaa gatttttttt cccctggcca
+     2041 ctgtattttg ccgtgatccc cctaccaccg tattgtggtg ttagcctgcc ggcggcgtgt
+     2101 gagcctacgg cgtgggccgc gactgctgaa tgctgaatac tgaattctaa attatgaagg
+     2161 gattcaatgc ccagttaagt ttatttaatc acatactttc agacatactc tcagagtcag
+     2221 aataaataac atcgtcatcg ctgtcataca tctcttcctc agactgtgaa ctcttcctct
+     2281 gtgtaggtgt taaagatata ctatgcatct tgccttgttg taacatttct agtgttttgt
+     2341 ttgtatgtgc ttcttcttcc ttcgtcagat caattatttg tggtatatta atagatgata
+     2401 gatgaagtag attatgctgt gcatcctctc ttcttaagtt tatcttcgtg ttagcagttt
+     2461 ttcttaactt gggttcggta tcatcattct tcttcaatac atcaatcctt ctaatcttga
+     2521 atcgtctgac tatagctttg cacatatcat cctcagaatc ccatatttca gctgggtggc
+     2581 agttgcttgt gacaacaatt ttttctggtc tgaacattct tgaatgacac ttaatctctc
+     2641 ctctgaaagg atacttgtca gcccagattt ttaagtggtg gcccaacata aagtgttcat
+     2701 gtccaaagtc atctaaaagg taagtacatt acaacaagtt gttaatggtt tacctaataa
+     2761 cacagttttt tgtccatcgt aattgtccca ccatttgttt atcatcttca catataaatc
+     2821 ggggttctcg gctcgagcaa tatgagactt tccaactcct gggggtccat aaatccattc
+     2881 tccgcaaacg tccggtaaat taacgaagcg gtcattacca taatcataag atatctgctt
+     2941 caaattacga tagtgtaaca caaagatttc agcatctatc tgatctaact gtccactagt
+     3001 agcgaaagat ttgatttcat cccacttgcg tttggtgcct tttcctccag caacattacc
+     3061 atctaatgga agggttccct tctcatgaaa attaccatcc tttttacaat aatcagaggc
+     3121 ttgcttcata gtagattgtt gtgacttcag ctctatatga gctcttggga agagcttctt
+     3181 aacagcagta aaatacttct tctttttgaa agaaacaaaa cattgcatgt gttcagtgcc
+     3241 actctcgcct ttctcgaggc cacagatagt ataatcgcat tcgtcagcaa cagcatcaaa
+     3301 ggcagcgcca tcagtttcgt taggatggtt aataacaatg atccagtgtt tacctagtta
+     3361 aaattatcaa taggattgag gatggattga ggatggattg aggttggatt cttacgcttt
+     3421 tttcttacgc ttttttcttg cgcttttacc ttgcgattta ttatttgtgc ttgaggaggc
+     3481 gttgctacta gtgtctgaca t
+//
+LOCUS       CruV-340                3708 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-340 isolate Sty_223.
+ACCESSION   CruV-340
+KEYWORDS    .
+SOURCE      Crucivirus-340
+  ORGANISM  Crucivirus-340
+            Unclassified.
+REFERENCE   1  (bases 1 to 3708)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3708
+                     /organism="Crucivirus-340"
+                     /mol_type="genomic DNA"
+                     /isolate="Sty_223"
+                     /isolation_source="Water"
+                     /country="New Zealand"
+                     /collection_date=2012
+     misc_feature    join(3692..3708,1..12)
+                     /note="stem-loop"
+     CDS             856..2331
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MLDDLIEEMQAATPRETTRATGNFQEPMLSAQDYVNRYRAKREA
+                     YPLIKAQKQAFREQYRADLNNPQSMVYQQRLGKLVRGGGRKRYRKRYRRKGRRGGRRY
+                     YGRGTYVASAGANLGGRIGGWLGATGGEMLGNWGGRMIGLGDYEVNKNVFSGRLPEVT
+                     NIAGNGGTVIRYQEYLGDVTTSATAGAFKIDSYLLNAANENTFPWLSQIAANYDQFEI
+                     QGILFEFRSTSGNALNSTNTALGTVMFATQYDTVDTPFASKSEMLNYEFSTSGMPSHN
+                     QTHMIECDPHQTPLPLLFTEQGSTNPPNTDPRLYFLGRTQIATTGFQAASVNIGELHV
+                     TYQVKLLKPKLVTTLGLTNGFYRAVSNTITPTLPLGDFANANVIFSNSDYDITATDIL
+                     FPTFGTDKQYSIELVWVGTVNAAVATYPTVSYFNGASDGGGAFQVPPPTSANVIRTLM
+                     YQQVNVAGGQLRPFIRLGTSGAYPTGTTSVTIVINELPVNA*"
+     CDS             join(complement(2838..3411),complement(2378..2775))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MESCSLVQSEAATSVGVPSTNKSNAAPVRRVQLRAKHWCITLNN
+                     YNDSDCLRFNQPTQFDYAICGIERGKDGTPHLQGYVVYKQRVVLSRLQRDFPRGHFEI
+                     AKGTPLQNKTYCSKEMDFTEYGDLPLTGSQATSRNWQEAKEFAIAGKLDDIDPEVYIK
+                     YIKNLEHIQARHRPRLESNVSLDNEWHWGPTGTGKSRYVRTAHPDAYIKSAATEWWNG
+                     YDNQDVVIIEDLDIYHVKLGYYLKIWTDHYPFPANIKGSGEIMIRPKKVIITSNYTPE
+                     EIWTDSKTIDPIRRRFNFIEYKVHQILHALNGNLVSFDGDTYTVLDQ*"
+     misc_feature    complement(3700..3708)
+                     /note="nonanucleotide"
+ORIGIN      
+        1 taatctaggg gcacaaccac acgcacgtgg gagaaaaaaa gaaaaaaaaa atagtcccgg
+       61 atggaattga accatcgacc ttgtgttaaa ccatatgaaa cacacgcact accactatgc
+      121 tatcggaact gaatgaaaat gtgtaaagcg aataggctat ggcacgtagc cttcggctac
+      181 tccgcttttt agatattggt gacttcacgc tccgctggga gtctgccgtg attttgtctg
+      241 ccgcgagtcc tcgccgccga acaagtcggc tcggaatatt agagtcatag taataaaaaa
+      301 gatttattta agatttacag aagatctacg taaacaaggt ttctttttag gagactcgtc
+      361 tgagtcctcc agatcatcgg aatagtcatc atcttgatca gcccaaagaa cttcattagc
+      421 aatttcacgg agtaaggtaa acatttcagt tagagtttgt tcaatatcaa aaagtctttg
+      481 ttgatacaca tgtttgtaaa catcaggatg gatttctccc atatcgtgaa acacaacttt
+      541 gactggttct acttccatgt ttctaagtaa acatgtgcaa cacgtgctaa gaatattcga
+      601 agaatggacc cgatagtaga tgattggaca gatgatattg caaattattg ggatagtttc
+      661 caaaaacaag tattagatgt tcctgatagt ccaagagtaa ggaatcaaat tacaccttat
+      721 aaaaggaatg cagaacatgc aaatatgttt actaattggt tttttccaca gcaaagaaga
+      781 agaatagatt ataatgtacc tgatacacaa gaattaagtg taacaccaat tagagaagag
+      841 gaaaatcctt atcaaatgct agatgattta attgaagaaa tgcaagctgc aacaccacgt
+      901 gaaacaacac gtgctactgg aaatttccaa gaaccgatgc tatcggcaca agactacgtc
+      961 aatcgttatc gagcgaaacg agaagcgtat cctttaatca aagcacagaa acaagcgttt
+     1021 cgagaacaat acagagcaga tttaaataac ccacaatcaa tggtttatca acaacgtctt
+     1081 ggaaaactag tcagaggagg aggaagaaaa cgttaccgaa aacgttatcg aagaaaagga
+     1141 agacgtggtg gaagaagata ttacggacga ggaacctacg ttgcatcagc cggtgcaaac
+     1201 ttaggtggtc gtattggtgg gtggctaggc gccactggag gagaaatgct tggaaactgg
+     1261 ggaggacgaa tgattggatt aggagattac gaagtcaaca agaatgtatt ctctggtaga
+     1321 ttacctgaag taactaacat tgctggaaat ggaggtacag taatcagata tcaagaatat
+     1381 cttggtgatg taacaacatc agcaactgct ggagcattca aaatagattc atacttatta
+     1441 aacgccgcaa atgaaaatac atttccatgg ttatcacaaa tagcagcaaa ttacgatcaa
+     1501 tttgaaatcc aaggaatctt attcgaattt agaagtacat ctggaaatgc cttaaattct
+     1561 accaacacag cattaggaac agtgatgttt gctacacaat atgatacagt agacacacct
+     1621 ttcgcttcaa agagtgaaat gctaaattac gaattttcca caagcggaat gccttcacac
+     1681 aatcaaacac atatgataga atgcgatcca catcaaacac cactaccgtt attattcaca
+     1741 gaacaaggaa gtactaatcc accaaacact gacccaagat tatacttcct aggaagaact
+     1801 caaatagcaa caactggatt tcaagcagca agtgtcaaca ttggagaatt gcacgtaact
+     1861 tatcaagtaa agttattaaa accaaaatta gttacaacac taggattaac taatggtttt
+     1921 tacagagctg taagtaacac aataacacca actttacctt taggagattt tgcaaatgcc
+     1981 aacgtaatat tcagcaactc agattacgac ataactgcta cggatatatt attccctaca
+     2041 tttggaacag acaaacaata ttcaatagaa ttagtttggg taggaacagt aaacgcagca
+     2101 gtagcaactt atcctacagt atcatatttt aatggagcaa gcgatggagg aggagcattt
+     2161 caagtaccgc cacctacaag tgcaaatgta ataagaacat taatgtatca acaagttaat
+     2221 gtagctggag gacaattaag accgtttatc agattaggaa cttctggagc ctatccaaca
+     2281 ggaacaacta gtgtaaccat tgttatcaat gagttacctg ttaatgctta attatgaaat
+     2341 gttaaaaaga aataaaaaga tttttttttt aaaattatta ttgatctagt acagtataag
+     2401 tatcaccatc aaaactaact aagttaccat taagagcatg taagatttga tgtactttat
+     2461 attcaataaa gttaaaacga cgtcgaatcg gatcgatcgt cttactatca gtccaaattt
+     2521 cttcaggagt ataattggaa gtaataatca ccttcttagg tcggatcata atttcaccag
+     2581 atcctttgat attagcaggg aatggataat gatcggtcca aatcttgagg tagtaaccaa
+     2641 gtttgacatg ataaatatca agatcttcaa taatgacaac atcttgattg tcataaccat
+     2701 tccaccattc agtagcagca gatttgatat aggcatcggg atgagctgtc ctgacataac
+     2761 gggacttacc agtacctaaa tttttagcat cattgccgtt atcaacggct atgaaaaaca
+     2821 ttcttataaa aatttacctg taggacccca atgccattca ttatccaagg aaacatttga
+     2881 ttcgaggcga ggacgatgac gagcttgaat atgttctaaa tttttgatat atttgatata
+     2941 gacttcagga tctatatcat caagcttacc agctatagca aattccttag cttcttgcca
+     3001 attacgggaa gtagcttgag aaccagtaag aggtaaatca ccatattcag taaaatccat
+     3061 ttctttggag caataggtct tattttgaag aggagtacct tttgcaattt cgaaatgacc
+     3121 tctgggaaag tcacgttgaa gtctagaaag tacaacacgt tgtttgtaaa caacgtaacc
+     3181 ttgaagatgg ggagtaccgt cttttcccct ctcaatacca caaatagcat aatcgaactg
+     3241 ggttggttgg ttaaagcgaa gacagtccga atcattgtag ttgttgagag taatacacca
+     3301 atgcttggct ctaagttgaa cacgacggac aggagcagca ttagatttgt tggtcgaggg
+     3361 caccccaaca gaagtggctg cttctgattg tacgaggcta caagactcca tctaaggcaa
+     3421 taagacagta aaaactgaat atttgaccgg gggggggtcg gccttttaag gaaatttgaa
+     3481 aaaaaaattt tgtggtttta tatatttaaa tatttcaatt tgaatttgaa attgaaattg
+     3541 aaaaacgtgc gcacatgcgt tggttgaact tcaccctgga gggtcgaaaa tatgtttttc
+     3601 agactggggt catatatgaa aaatatgtct agagggtcga caggaaaatc gcacgtgggg
+     3661 atcgggctag ggagatgagg acagaggatg cgcccctagg taatactg
+//
+LOCUS       CruV-346                3749 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-346 isolate 120_1193_IR2_3297.
+ACCESSION   CruV-346
+KEYWORDS    .
+SOURCE      Crucivirus-346
+  ORGANISM  Crucivirus-346
+            Unclassified.
+REFERENCE   1  (bases 1 to 3749)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3749
+                     /organism="Crucivirus-346"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1193_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     CDS             1..1473
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MVKRRKQHYPLAPIHDQYHAQAIMDQYDPKRARGTDFSKSRYGA
+                     TALLATPEQRLNRRLGRFRGQGGYKDYLKWIPRGIGALAGGALALESGGDVIGGAKSG
+                     WGRGGQFSKWAGWGDYAPVTMNSIMSGNEGMSSQQQIQVSNGAVDGSGDVLISNTEFV
+                     QNVVVTASAAGTSSFSLQSYALNPGMSDAFPWLSQISNNFSLYEFQQLVFQYKPTSGE
+                     FGSSGSNSLGKIIMATNYDADSENFANSRQMENYDYASACKPSTGMLHGVECAKKQRM
+                     TDQLYVRSGATSKDKVLTDLGTFQIATEGITTSAAGTFVIGELWVSYTLKLSRKLLNS
+                     KLGVDIEFDQASQTGSATPGSAVTYQARQIGGTLSYISTTTFRYTFPLNVNSGFYHIT
+                     AVIKSDNLASNRQFSTTVPALNCTVRAVNNSLGFNISHPQTLTGVGALASNGSIEFFV
+                     SVDAPGALLAHVDFVVGAGGFEATTGVSVLVMQANPQVVS*"
+     misc_feature    907..929
+                     /note="stem-loop"
+     misc_feature    915..923
+                     /note="nonanucleotide"
+     CDS             complement(1474..1899)
+                     /codon_start=1
+                     /product="putative ORF"
+                     /translation="MPILDKIEWEAQLRNVPVETIWDEYIAMGGGRFLDLTKEKDPRS
+                     PPPSPRTPSPTPEDSSLSPEMKVEQRRRSQRLRQRSMISPPIPIRMRGSEYWNSLCAP
+                     PLNLNLSIIDFEFELPDVDALEIDTNLINHMKRNANCID*"
+     CDS             join(2013..2394,2444..2949)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MIRLFYFAGLFFDRIKMSRSRNWCFTLNNYSEDDVKTFENVECE
+                     YIIFGFEVGESGTPHLQGYIRFKNACRLSTLSSLCARAHYEVAKGDALSNIKYCSKQF
+                     NEKQLLGEEWRPFFEKGDRPFTKSEASVARYDDAYKLAREGNFEDIQKDILIRCYNSL
+                     RRIHSDFKQPVLMLQPGSKHEWFYGPTGSGKSRAAREHNGYFLKNASNKWWDGYNAEE
+                     VVILDDFDKKFEYNGYYLKIWADIYPFSAEVKNGSTGSIRPKKIIVTSNYHPNEIWTD
+                     EQTLEPLLRRFNVTKYNVL*"
+ORIGIN      
+        1 atggttaaaa gacgtaaaca acattatcca cttgctccta ttcatgatca gtatcatgct
+       61 caagccataa tggatcagta tgatcctaag cgtgcgcggg gtaccgattt ttccaaaagc
+      121 aggtatggtg ctactgccct tcttgccact cctgagcaaa gattgaatcg gagattagga
+      181 agatttcgcg gtcaaggagg ttataaagat tatttaaaat ggataccccg cggtattggc
+      241 gctcttgctg gcggggcttt agcactcgaa agtggcgggg acgtcattgg gggtgcgaag
+      301 agcggttggg ggcgaggagg acagttctct aaatgggctg gttggggtga ttatgcccct
+      361 gttactatga attctattat gagtggtaat gaaggcatgt ctagccaaca acaaattcag
+      421 gtttctaacg gtgcagtcga cggttctggt gatgtcctta tttcaaatac tgaatttgtt
+      481 caaaatgttg ttgtgactgc gtctgctgct ggtacatcta gtttttcgtt gcagtcctat
+      541 gctctaaatc caggaatgag cgatgccttt ccttggttgt ctcagatatc taataatttt
+      601 tcattgtatg agtttcaaca gcttgtcttt cagtataaac ctacttctgg tgaatttggt
+      661 tcttctggtt ctaattcact tggaaaaatt attatggcta cgaattatga tgctgattct
+      721 gaaaactttg caaattctcg ccaaatggag aattatgatt atgcatctgc atgtaaacca
+      781 tcaactggta tgttgcatgg agttgaatgc gctaagaagc agcgcatgac cgaccagttg
+      841 tacgtaagga gtggtgcgac aagcaaggac aaagtattaa ccgatttggg tacatttcaa
+      901 attgctacag aaggtataac aacttctgct gcaggcactt ttgttatagg cgagttatgg
+      961 gtgagttaca ccctaaaact gagccgcaag cttcttaata gcaaacttgg agttgatatt
+     1021 gaatttgatc aagcgtccca aaccggtagt gccactcctg gtagcgctgt tacttatcaa
+     1081 gcccgtcaaa ttggaggaac gcttagctac attagcacaa cgacttttcg ctatacattt
+     1141 cctttgaatg ttaattctgg cttttatcat attactgctg ttattaagtc agataatctg
+     1201 gctagtaaca ggcagttctc tactactgtt cctgctctta attgcactgt tcgagccgtt
+     1261 aataattcac ttggatttaa tatttcacat cctcaaactc tcaccggtgt tggtgcattg
+     1321 gcttctaatg gtagtattga gttttttgtg tctgttgatg ctcctggtgc tttattagca
+     1381 catgtcgact tcgttgttgg agcaggagga tttgaagcca ctacaggtgt atctgtatta
+     1441 gttatgcaag ccaatcctca agttgtttct taattaatca atacaatttg catttctttt
+     1501 catatgatta attaaattag tgtcaatctc taacgcgtcc acatctggta attcaaattc
+     1561 aaagtctatt attgagagat ttaaattaag cggtggcgca cataaactat tccaatactc
+     1621 acttcctctc atgcgtatcg gtattggcgg gcttatcata gaccgttgtc tcaacctttg
+     1681 tgatcgtcgt cgctgctcga ccttcatctc tggtgaaagt gaagagtctt ctggtgtagg
+     1741 acttggtgtt cgaggcgagg gaggcggtga acgagggtct ttttcctttg ttaaatctag
+     1801 gaatctccca ccgcccattg cgatgtattc gtcccatatt gtttccacag gaacatttct
+     1861 cagttgagct tcccattcta ttttgtccaa aattggcatt cttaatactg ttagaagact
+     1921 taattgtaac acgcgacttg aaaagtcaaa tttcttttgt cgtgatttct atgtttacgt
+     1981 ttggaaccgg ggtctaaaca acagataacc tgatgattag gttattttat ttcgcgggtt
+     2041 tattttttga cagaataaaa atgagcaggt cccgaaattg gtgttttact ttgaacaact
+     2101 actctgaaga tgatgttaag acatttgaaa atgttgaatg tgaatacatt atatttggtt
+     2161 ttgaagtcgg ggaaagtggt actcctcacc tgcaggggta cattcgtttt aagaacgctt
+     2221 gtcgtttgtc cactttgagc tctctatgcg ctcgcgctca ttatgaggtc gctaaaggcg
+     2281 atgctcttag caatattaag tattgttcta agcagttcaa tgagaaacaa cttttaggtg
+     2341 aagagtggag gccctttttt gaaaagggtg accgcccatt tactaaaagc gaaggtgaat
+     2401 taagcatatt tggtgttggt aattttgaca tttggttttg tagccagtgt tgctagatac
+     2461 gacgatgctt ataaattagc tcgtgaaggt aattttgagg atattcaaaa agacatcctc
+     2521 attcgttgtt ataacagttt aaggcgtatt cattctgatt ttaagcaacc tgtgttaatg
+     2581 ttacagcctg gttcaaagca tgagtggttc tatggtccca caggtagtgg gaaatctcgt
+     2641 gctgctcgtg agcataatgg ttattttttg aagaatgcat ctaacaagtg gtgggatggt
+     2701 tataatgctg aagaagttgt tattctggat gattttgata aaaagtttga gtataatggg
+     2761 tattatttga agatttgggc ggatatttat ccatttagtg ctgaagtaaa aaacggcagt
+     2821 actggatcta tccgacccaa aaagattatt gttactagca attatcatcc aaatgaaatt
+     2881 tggactgatg aacaaacttt agaacctctt ttaagaagat ttaatgttac taaatataat
+     2941 gttttataag tataaatgta aattgaacat tattggtaaa accagcaaat atatggttgt
+     3001 ggccacggaa agagcaggat aatctacgca gtaatgcgag tatgttgtcc atccccttga
+     3061 ttcaaggtat ccgtctaaca acagtagcaa tattatgcta cctaattgca ctataaaaat
+     3121 taataatgga aacaggttca ttatgtatgt cacaacattc atttttttaa tatcgcctaa
+     3181 attgtctttg tctgttgttt gcgtacagtc ttcttcttgc tctttgcaat acagccatac
+     3241 gatgattatc cgctaatagc ctcctttgcc acggtgcaaa gagccgccgc cttatatggt
+     3301 ggtgtggcgg tgttcccaaa cgaaatgaat gccggtcatc tatatgtctt gtttgggctc
+     3361 ttgtatttaa aatgagaggc gagctattgc ttgaagaatt ggaactcatt ttattatggc
+     3421 tgtcacgcgc gacttttggg agcaaaaagc aggtgcagct gcaagctgct taagagcggt
+     3481 gggtagggac ccgccgcgta catgctattt caaacaacat caaccccctg gcggcaatag
+     3541 tgtttgtttc attgcggagc cacagttgtt gactaagttc agtattacct tagtcaacag
+     3601 ctgtgtcagt gtcagcccta agtaacccta aaaaatagcc tcgaaacacc ttatattatg
+     3661 atgtacccag cgactaccca gtgaattttg tgacacattg gattgtgaca acttacttac
+     3721 tcctgtgtca gtgtgtttta cataacaaa
+//
+LOCUS       CruV-347                3766 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-347 isolate 120_1156_IR2_3297.
+ACCESSION   CruV-347
+KEYWORDS    .
+SOURCE      Crucivirus-347
+  ORGANISM  Crucivirus-347
+            Unclassified.
+REFERENCE   1  (bases 1 to 3766)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3766
+                     /organism="Crucivirus-347"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1156_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     misc_feature    join(3752..3766,1..21)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             95..1789
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MSAVLTNFDIEQAIKKRRLSLPYQNQSDQIMGDILYAGAAPTAA
+                     APKKTYKRRYKRRYGARKYKRRSYQYGRYARELRDFYAPRGSEQSINAFGADRYSANE
+                     AQLKLRRATRFYGKGGYWDFLKPVGKWAARGVGALAGGGLGFEAGGLTGAVEGAQAGY
+                     DRGAAFSKWAGWGAYNPAAGFGDGHSGGDVATNSLMQMTGGGPSQQISVNSDSVEGDV
+                     IISYTEFVQNVTVSSLAAGSSPFTVQSFPLNPGFSTTFPWLSQLANNFTLYEMNGLIF
+                     QYKPTSGDYGSTNSNALGKVIMCTNYDPDAPAFFGAQQMENYDYAVACKPSNGMYHAV
+                     ETHPKQRVTNQMYVRAGSTTKDLTLCDLGLFQVATEGIYTGAAGTYVIGELWVTYSVK
+                     LSRKNLNDASLGISIPVDYFTQRSLVNSAPGGTMVSQLSRIGCVISSQTSTRIRVTFP
+                     TSISSGFYSINCWGCDATGTPFASSQNFTSVGAVSNCGLRSINSGAQAVQRAPNISTL
+                     SVANNVINYFILVTINAPGTLQAYVELNLSATLNASSQLALIVEQVPQALYAAAIL*"
+     CDS             join(2727..3048,3143..3666)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MSARARNWCFTLNNYTDEEVQLVMKEHTPRNYIVFGYETGENGT
+                     PHLQGYVMLKNPAKLDVMKKWIPRAHFEIARGKPQQNIDYCIKEVFNAEINGVEHVPF
+                     FEEGVQTKRYDEAYELAKQGDFESIPKDILIRCYRSLKSIHSDQKKTIESLTPGVKHF
+                     WFHGSTGTGKSMKAREIFSPFYLKNASNKWWDGYNGEDNVIIDDFDKKFEYNGYYLKI
+                     WGDMYGFVGEVKNGNTGLIRPRNIVVTSNFHPEEIWQDKQTLEPLLRRFQVICFPVSY
+                     DILKN*"
+ORIGIN      
+        1 tagtattacc ctaaggtaag tgcttgtgtt tgtgtttcga atgccatttc cgaaaacaca
+       61 aaattgtcca aacggatttt tatagacaca ttcaatgtca gctgtactta ccaattttga
+      121 tatagaacaa gctataaaaa aaagacgatt gtctttgcca tatcaaaatc agtcagatca
+      181 aatcatggga gacattttat atgcaggagc ggctccaaca gccgctgcgc ccaagaaaac
+      241 gtacaagaga agatacaaga ggaggtacgg tgcgcgcaaa tacaaaaggc gctcgtatca
+      301 atacggacgt tacgccagag agctccgcga cttctacgcc cctcgtgggt cagaacaatc
+      361 aataaacgct tttggcgctg atcgatattc agctaacgaa gctcaattaa aattacgacg
+      421 agccacccgg ttttacggta aaggtggtta ttgggacttt ttaaaaccag taggcaagtg
+      481 ggctgcccgc ggagtaggtg cattagcagg tggtggttta ggtttcgaag ctggaggatt
+      541 aaccggagct gtagaaggag cgcaagctgg ttatgaccgt ggtgcagcgt tttcaaagtg
+      601 ggctggttgg ggcgcctata atcctgctgc tggatttggg gatggacaca gcggaggaga
+      661 cgtggccact aatagtttaa tgcaaatgac aggtggtggt ccgtcacaac aaatatcagt
+      721 taactctgat tctgtcgaag gcgacgttat catttcatat acagagtttg tgcagaacgt
+      781 taccgtatct tcactagctg caggatcatc tcctttcact gttcaaagct tccctttaaa
+      841 cccaggtttt tcaacaacat ttccatggct ttcgcaatta gccaataatt ttactcttta
+      901 tgaaatgaat ggtttgatat tccaatacaa acctacatcc ggagattatg gttcaactaa
+      961 ttcaaatgct ttaggtaaag ttattatgtg taccaattat gatccagacg cacctgcatt
+     1021 ttttggtgcg caacaaatgg aaaattatga ttatgctgtt gcctgtaaac cttcaaatgg
+     1081 catgtaccat gcagttgaaa cccatccaaa gcagagagtt actaatcaaa tgtatgttcg
+     1141 tgctggaagc acaaccaaag atttaacttt atgtgattta ggcctcttcc aggtagcaac
+     1201 agaaggtatt tatactggtg cagctggtac ctacgtaata ggtgaattgt gggttactta
+     1261 ttccgtgaag ttatcccgta aaaatttgaa tgatgcttct ttaggaatct caatccccgt
+     1321 tgattacttt acacaacgta gcttagttaa ctctgcacca ggaggaacta tggtttctca
+     1381 attatctcgc attggatgtg taatctctag tcaaacttcc actcgtatca gagtaacgtt
+     1441 ccctaccagc atcagttccg gattctactc cattaattgc tggggttgcg atgcaactgg
+     1501 aactccattt gctagtagtc aaaacttcac tagtgttggt gctgttagta attgtggatt
+     1561 acgttctatt aattctggtg cacaagcagt gcaacgtgct cctaatatct caactctgag
+     1621 tgttgctaat aacgttatta attatttcat tttagttact ataaacgctc caggtacttt
+     1681 acaagcttat gttgaactga acctcagcgc tacactcaat gcatcatccc aattagctct
+     1741 aattgtagaa caagttccgc aagcgttgta cgctgcagct atactttaaa cacaattata
+     1801 acaatatgcc tttttaattt ttttataatg tctcaaccca ttcaacataa aattagatat
+     1861 gaacaaatac aggtgcaact ccgtcccctc actactcgta ggttgcatct tattggaagg
+     1921 atggatcata tcattaaacg cgaggtagaa agcaaaacgt acagcgaata taagtattgg
+     1981 aatcaacaac aaatccttgt tttcgccgag aaacaaagga tagattccat tatcaaagga
+     2041 ttaaatgatg aattaaatgt atatgattca tacatgtatt gttaaaattt aaaacatttt
+     2101 atttatctgt aacattaaaa acatcatcat tacttaaatt tgacaaagat gatccatccg
+     2161 atgaagtatc gctaacttca gtcatatcat aatatcgtga ctgcgtttta gctaacagaa
+     2221 tatcttcttc caatctctcc cgaataagct ctagttcagc aaccgcgtga agcgagtcat
+     2281 acaattccca atcaaaatct ggcctagatt gtttcattgc aatcagcata tctctagctt
+     2341 gttccgattc gctccgctta atggacattt agtttgtaac ttttcttctt gtatgtaaag
+     2401 gtataggtaa cgcaccttgt tttttatata ttagtaaaca gttttctcgc ctacttacat
+     2461 atcaacgtgt ttcccgcgct gcgagcacgc tcagcgcagc gtggtatccg tataaactat
+     2521 gttttaggtt caccatgttg aataactatg ttttaggttc accatgtata ggtttagtaa
+     2581 caactaacgt tagactataa gctcccccgc gctagtgggg gcgggggggg agcacagcgc
+     2641 agcgagttta gcaagacccc aagaacacag gattgagatt actatgttct cgtggtcttt
+     2701 tcaaatcata atttttttaa aaaatcatgt ctgcaagagc aagaaactgg tgttttacgt
+     2761 taaataatta tacagatgaa gaagttcaat tggtaatgaa agagcacaca cctcgtaact
+     2821 acattgtttt tggttatgaa actggtgaaa atggaactcc acatttgcaa ggttatgtaa
+     2881 tgcttaaaaa ccccgcgaaa ttagacgtaa tgaaaaaatg gatacctcgt gctcattttg
+     2941 aaattgctcg tggtaaacca caacagaata tagactactg tattaaggag gtttttaatg
+     3001 ctgaaattaa tggcgtggaa catgttcctt tttttgaaga aggagtacgt cctaaaatca
+     3061 atgatagttc aggtgcgttc gcttttttta tggataacaa caacgatttt cgtgtatgtc
+     3121 atgacatatc tttatggttt agagacgaaa agatatgatg aagcttatga gcttgccaaa
+     3181 caaggcgatt ttgaaagcat acctaaagat atattaattc gttgttatag atctttgaaa
+     3241 agtattcact ctgaccaaaa aaaaacaatt gaaagtttaa cacctggcgt taaacatttt
+     3301 tggtttcacg gttctacagg tacagggaaa tccatgaaag ctagagaaat attttctcct
+     3361 ttctatctga aaaacgcttc taacaaatgg tgggatggtt ataatggaga agacaatgtt
+     3421 attattgatg attttgacaa aaaatttgaa tataatggat attatttaaa aatatggggc
+     3481 gacatgtatg gatttgtcgg tgaagttaag aatggaaaca ctgggctcat acgccctcgt
+     3541 aatatagtgg tgacttccaa ctttcatccg gaggaaatct ggcaggataa gcagactcta
+     3601 gagcccttat tgcgaagatt tcaagttata tgctttcccg tatcatatga tatattaaag
+     3661 aattaatata cctcacaata ccataaagta ttattattat tataactaca accaattttt
+     3721 caaaatccgt aagtacggac atcaaacaca aacttacctt aggata
+//
+LOCUS       CruV-370                3948 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-370 isolate 120_1056_IR2_3297.
+ACCESSION   CruV-370
+KEYWORDS    .
+SOURCE      Crucivirus-370
+  ORGANISM  Crucivirus-370
+            Unclassified.
+REFERENCE   1  (bases 1 to 3948)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3948
+                     /organism="Crucivirus-370"
+                     /mol_type="genomic DNA"
+                     /isolate="120_1056_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     misc_feature    join(3944..3948,1..15)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             126..476
+                     /codon_start=1
+                     /product="putative ORF"
+                     /translation="MMPRWSYRRSYGRRKSSYRRYGRARSYRPRRAPYKVSRRRGTWR
+                     AKGYKASLGGGTTFTHDAGEERGGRGASVLGALANAGLAAMAGGMSGGPVGALVGGAG
+                     SLLGRLAQSVSGSG*"
+     CDS             157..507
+                     /codon_start=1
+                     /product="putative ORF"
+                     /translation="MEEESLHIVVMVVRDRIVHDVHRTKFREDEELGGRKVTKHLLVV
+                     ELRSHTMLEKNVVDAVLLFLVLLLTLVSLQWQEVCLEDPSEHLSEEQVRFLDVLLNPY
+                     LEVVNLSFSIQRIY*"
+     CDS             504..1886
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MKRMSNDSYGKRERAEFDTYGGIDPNSQLARDIANNLSTTESHS
+                     YTDPYPPASKKKKVQRSTNFSVTGVTGPGDYTLGAGISKNSLTGDDVPMFKGTGLGAT
+                     TFKHREFIQDIVTSPTPGAFNIETFPINPGLKQTFPWLSNIAQNFQEYRIHGMLFEFK
+                     TMSSDALNSTNTALGSVIMGSQYNVYQIPFANKQFMENTEFSSSCKPSTSMLHAIECA
+                     PYETPTMTHFIRQGDLKDNNTGASGDLRLYDLANFSIATTGMQGANVTLGELWVTYNV
+                     ELIKPAANENDLLLGDHFIEPDTSLVTNSAVTGLYLGLNPQNIVKTPFSNFGSSLSTV
+                     LLPVPAVRIKLPEWFTGKVKVEYQATGNPVAGQLIAPQFFPDGPGVTRLFEYPAGSGT
+                     FVDQNVIITTNTGVPGDLSILINTAQFNVVANENNGITLSNGVDAGWVLAGYTSASLF
+                     VYTWPDLEAF*"
+     CDS             join(complement(2944..3115),complement(1898..2634))
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="-VKLSKQLSPSRKPKEKPKTSSTNFRLRAKRVYLTFPRTAVTKE
+                     ALKDSIVMLESQGSVRNLKKVRAYLAKEDANPLFFGKGQSEGDPKKNSSTEVAERIIA
+                     GGTMRDLIKDFPGFCLMNTSKILTFKTNVEATLLAKELLPWTDVTYAGFDMDSQILTR
+                     WLKDNFFKPRTFKQKQLYLWGPPDHLKTTLFRLVAERKRLYWASPKEEFFDGYADDDC
+                     DAMVFDEFVTRDLSILNQILEGGCARLRVKGAQVLKSKNCPVIILSNAEPAKWFGKSL
+                     LLPAFLSRVLVVDLKNPIDIDGIKFV*"
+     CDS             2289..2606
+                     /codon_start=1
+                     /product="putative ORF"
+                     /translation="MKVRGLKKLSFSHLVKICESMSNPAYVTSVQGSSSFARRVASTF
+                     VLKVRILEVFIRQNPGKSLIRSLIVPPAMIRSATSVELFFLGSPSLCPFPKNNGFASS
+                     FAR*"
+ORIGIN      
+        1 taatattact agcgaaaaaa caatcccttc cccccgttct caacaatttc cggtgtttcg
+       61 aataagggat ttgtagctga agttttttaa atctttcgaa acacacacat ttcaaacgcc
+      121 aacatctgat gccaaggtgg agttatagac gatcatatgg aagaagaaag tcttcatatc
+      181 gtcgttatgg tcgtgcgcga tcgtatcgtc cacgacgtgc accgtacaaa gtttcgagaa
+      241 gacgaggaac ttggagggcg aaaggttaca aagcatctct tggtggtgga actacgttca
+      301 cacacgatgc tggagaagaa cgtggtggac gcggtgcttc tgttcttggt gctcttgcta
+      361 acgctggtct cgctgcaatg gcaggaggta tgtctggagg acccgtcgga gcacttgtcg
+      421 gaggagcagg ttcgcttctt ggacgtcttg ctcaatccgt atctggaagt ggttaacctt
+      481 tctttttcaa ttcagaggat ctattgaaac gaatgtcaaa cgattcgtat gggaaaaggg
+      541 aacgtgcaga atttgatact tacggtggta tagatccaaa ttcgcaactt gcaagagaca
+      601 ttgcaaataa tctatctacc actgaatctc attcatacac tgacccgtac ccacccgctt
+      661 caaagaagaa aaaagtacaa cgaagtacta acttttctgt caccggcgtg actggtccag
+      721 gtgattacac tttgggcgct ggcatcagca agaattctct cactggcgac gatgtcccga
+      781 tgttcaaagg aactggattg ggagcaacca ctttcaaaca tcgtgaattc attcaagaca
+      841 tcgtaacttc tccaacgcca ggagcattca acattgaaac gtttcccatc aatcccggat
+      901 tgaaacaaac gtttccttgg ctttccaata tcgcacagaa cttccaagaa tatcgtattc
+      961 acggcatgtt gttcgaattc aaaacgatgt catcggacgc cctgaattca acaaacaccg
+     1021 ctcttggttc tgtcatcatg ggttcacagt acaacgtgta ccaaatccca ttcgccaaca
+     1081 agcaattcat ggagaatacg gaattctcat cgagttgcaa accaagcact tcgatgttgc
+     1141 atgcaatcga atgcgctccg tacgagacgc caacgatgac tcacttcatc cgtcaaggcg
+     1201 atctcaagga caacaatacg ggggcttcgg gggatctgcg cctttacgat cttgcgaatt
+     1261 tctcaattgc aacaaccgga atgcaaggcg caaacgtcac tcttggcgaa ctatgggtaa
+     1321 catacaacgt cgaactcatt aagcctgccg ccaatgaaaa cgaccttctt cttggtgatc
+     1381 actttatcga accagataca agtcttgtca ccaactccgc agtgactggt ctctatcttg
+     1441 gtctcaaccc acagaacatc gtgaagacgc ccttctccaa ctttggaagt tccctttcca
+     1501 ccgtcctact tccagtccct gcagttcgaa tcaaactccc cgaatggttc actggtaaag
+     1561 tgaaagtcga atatcaagcg actggcaacc ctgttgctgg tcagcttata gctccacaat
+     1621 tctttccaga tggtcccggg gtaactcgtt tgttcgaata cccagcagga tcaggaacgt
+     1681 ttgttgatca aaacgtcatt atcactacca acactggtgt gcctggtgac ctctccatcc
+     1741 tgatcaatac cgcccaattc aacgttgttg cgaatgaaaa caacggaatc actctgtcaa
+     1801 acggagttga tgctggttgg gtgcttgctg gttatacgtc cgcatccctg ttcgtgtaca
+     1861 catggcccga tctcgaggcc ttttaaaaaa aataaaatca aacgaatttt attccatcaa
+     1921 tgtcgattgg atttttaagg tccacaacca atacacgaga aagaaaagca ggaagcagaa
+     1981 gagacttccc gaaccacttg gctggttcag cgttcgaaag aatgataaca gggcagttct
+     2041 tcgacttcag tacttgcgct cccttcactc tcagtcgtgc gcaaccccct tcgaggatct
+     2101 gattgagaat cgaaaggtcc cgcgtcacga actcgtcgaa gaccatcgca tcacaatcgt
+     2161 cgtccgcata tccatcaaag aactcttcct ttggagaagc ccagtacagt cgcttccgtt
+     2221 cagcgacgag acgaaacagc gtggtcttca ggtgatccgg aggcccccac aagtacagct
+     2281 gcttctgctt gaaagtccgt ggcttgaaga agttgtcctt cagccaccta gtcaaaattt
+     2341 gcgaatccat gtcgaacccg gcatacgtca catcggtcca gggaagcagc tccttcgcga
+     2401 gaagagtcgc ttccacgttc gttttgaagg tcagaatttt agaagtattc atcaggcaaa
+     2461 atcccggaaa atccttgatc aggtccctca tcgtcccccc ggcgatgatc cgttcggcga
+     2521 cctccgtcga actattcttc ttgggatccc cctcgctctg cccttttccg aagaacaacg
+     2581 gatttgcgtc ctcctttgcg agataagctc gtaccttttt caagtttctc acaccttgat
+     2641 agttcccgtg ctggccttaa aagacagaaa gaaactaacg ttcagtttat tgaaaaaagg
+     2701 ttctgattca cagaaagagg ttatgacctt cgcacagctg gtccaggaag tttggatccc
+     2761 ttaggtcgat ctccgaattg aacactatga tcacgtgcaa gtgcgttgca atcggctctg
+     2821 attttggctt ctttggcaag tcggaggaga gcagggtcat ggggggggga ttggatgtct
+     2881 tcttccctgg actggacgag tgatgctcct ggactatcat tccccaagtc acttctggaa
+     2941 gacttccttg agactccagc atcacgatgc tgtcttttaa ggcctctttg gtgactgcgg
+     3001 tccgcggaaa ggtcaagtag acccttttgg cacgcagcct gaagttggtt gatgaggtct
+     3061 tgggcttctc ctttggcttt cttgagggtg acaattgctt cgacaatttc acagaggagg
+     3121 tcttcctgga gcagagattc ttcgatgcat tcctcttccc gaatgtcgat gtcggtgagc
+     3181 tccccttcgt cgtcgtcgtc atcgaccgtg aggtcgatga tgacagggct tggggggatc
+     3241 cttgggggtc cggggagctt cttgagggca gggggagcac acaattcctt gaggggagtc
+     3301 ctgggtgttt cacgaaacaa ctcttgggcg gggagataca ggggcccagc tctgatggga
+     3361 gaagacttgg ggaccatggg caagggatgt ccaagagctc cttgcactgg aggggagcac
+     3421 aagacagatc ttgtcttggt gagctgatct ctcctagcct tttgcgcttt agacgattgc
+     3481 attgaagtgg tgatgaaaag gccgttttga tgatttgatt gtgtgtttgg tgagagaaaa
+     3541 aacagataat tgtattttct taaccccccc tcaagtacca tacaaatatt atggtattat
+     3601 ctccagatct aatctaagat ctgatctaag atctccctgt gaattctttg aaagatctgc
+     3661 attcgaagaa tgcagatcta cagatctcag ggttaggttc ttaaccctct cttagtaggg
+     3721 ggggtgcgta tgcacccccc ctctctaagt tagtactaat gttagtatac taacataaca
+     3781 agcttctatc cccaacaggg atactatccc taataaacaa tgagactata gaggggttag
+     3841 ggtggggtag aagtaaatgg taaggatgca gtaaggacgc agggatgcat aatcagtagc
+     3901 gtgacatcgt aaatgtccac tgagtttttt cgcgcgcgat ttatcgct
+//
+LOCUS       CruV-413                4234 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-413 isolate 120_861_IR2_3297.
+ACCESSION   CruV-413
+KEYWORDS    .
+SOURCE      Crucivirus-413
+  ORGANISM  Crucivirus-413
+            Unclassified.
+REFERENCE   1  (bases 1 to 4234)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4234
+                     /organism="Crucivirus-413"
+                     /mol_type="genomic DNA"
+                     /isolate="120_861_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     CDS             join(1..373,756..1369)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MSDSVASSVSALAPLSAPTPSLDKDATLNKCRAWCFTLNNFTEA
+                     EEKMARCNTKASYIIFGKEIGENGTPHLQGYVRFSSAVHFNTVRKWLPRARWTNANGS
+                     PLDNYLYCSKGKGEKKPDADLRPARDGRFDDIPAEIYIKYRQTFINEHKAWKNRPRPM
+                     IGAVLTDWQKTLTEKLLGDAHPRQIMWYWERTGGVGKSWLATYLLRNHNAIVLSTGKT
+                     ADVAYLLDDPKIVCFDISRALDMDHINFGVMEDIKNGRIFSPKYESIIKSFEVPHVVV
+                     FANVPCPDGKFSADRLVEVDLSSQSLVQPTQSAQASYAVNFQTSFDFDDLLN*"
+     CDS             complement(1358..1828)
+                     /codon_start=1
+                     /product="putative ORF"
+                     /translation="MVKRKFDCVVDWTLPWQSWIHLFGDTEFGEQIDQYLGGRVIFDG
+                     DHFYYIDGSSRRATKYDPWKKMGFQQLSGLCMLYARAVQVQFSEPDNVLLHRWTPSWD
+                     AEDEGINHICLFHCICQIFEKPFIWKVIKDMNIAYSKKHYLADKKKLKKFLLIE*"
+     CDS             1884..3617
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MEIDTFITPERPKRARSPASSSQQFQRFRKFQKTPSNHRHFVQM
+                     PVKRRYSRRSGSSWGRSDQQKRAHEEMIANQMDAKTARGSEYSLDKYGLSYSLANAGQ
+                     KQARFFSGYRGRGDYNSSIKPWLQRWIPKGSLSAAGGALGSYFGGASGGTLGSGVGSL
+                     AANYLGWGRYRKNYKGRGDYGGSAGGNQIMSGSIDTPITVNASDDLSGDIWISHREFL
+                     QNVTASTGAGVTISPFQVTAFPINVGLTETFPWLAQLAAQFTLYDLHGLMFEFKPTSG
+                     EFGVTGNNSLGKVVMCTQYDPDAASFSSTVQMENYDYANACKPSEHMVHAVETHPAQR
+                     SANMLYIRTGASLKDKVFTDIGKFQIATEGIPLAASTTSNVGELWVTYRVKLSRAQLF
+                     TSLLNSSTNADAFIGYTAANGTMFDTTTATTLNAIGVDTTKYNFLIAANTAAPKISNT
+                     IGCTLTGTSTTAAQLIFPVNIVQGQYLIACYMESPNGTIAAAGSAMGITAGANTTLAQ
+                     TKLLQSTAFVSYSGAGGQQTQAVAYAVVSVTAPGNLQAIVNFTYIAQWSALATLSTQI
+                     IVTEIPVHLIQ*"
+ORIGIN      
+        1 atgtctgact ccgttgcttc ttcagtctct gcactagcac cactctctgc acctacgcca
+       61 tctctagaca aagatgctac actcaacaaa tgtagagctt ggtgcttcac tcttaacaac
+      121 ttcaccgaag ccgaagagaa gatggctaga tgtaacacca aggctagtta catcatattc
+      181 ggaaaggaaa tcggagagaa tggtactcct cacctacaag gatatgtccg cttctcatct
+      241 gcagttcact tcaacaccgt cagaaagtgg ttacctagag ctagatggac taacgccaac
+      301 ggatctcctt tggataatta cttatattgc tctaaaggga aaggcgaaaa gaaacctgat
+      361 gctgacctta gacgtggatt ggataaatat atcaaccacg gtctagatgc taacatcatc
+      421 gaagtcggcg acagacctac agctgtaggt catctgaaag gtattgttta cactttcgaa
+      481 actgtgcttg aattggttga agaagcttct tcatacattc ctactgatat ccgccttgag
+      541 ttagatgact tcgttaagtc ggctattagt gaactcgctt acataattga cataacttcg
+      601 ccatctctag acattactga tcatgcacac cttgccatgg attgggatta cgattctgac
+      661 aatcaatcac aaccttataa aaagtctaaa atctaaatat atttactttt taggaggaga
+      721 aaaaacaagt gagatgtggg atatggcaaa acaagctgca agagatggca gatttgatga
+      781 catccctgcg gaaatataca tcaaatacag acaaacattc ataaatgaac acaaggcttg
+      841 gaagaacaga ccacgtccca tgatcggtgc cgtgctaacc gactggcaaa agacattgac
+      901 tgagaaactg ctaggagatg cacaccctag acagattatg tggtactggg aacgaaccgg
+      961 tggtgtcggt aaatcatggt tggcaacata cttactgcgc aaccacaacg ccatcgtttt
+     1021 gtcaacaggc aaaacagctg acgtcgctta tctactagat gatccaaaga ttgtatgctt
+     1081 cgatatctct cgcgctctcg acatggatca tataaatttt ggcgtaatgg aagacattaa
+     1141 aaatggtcgc atttttagtc ctaagtacga atccatcatc aaatcctttg aagttccaca
+     1201 tgtcgtggta ttcgctaacg taccttgccc agacggaaaa ttctctgctg acagattagt
+     1261 cgaagtagac ttatcttcac aatcattagt gcagcctaca caatctgcac aagcaagcta
+     1321 cgccgttaac tttcaaactt catttgattt tgatgattta ctcaattaac agaaattttt
+     1381 tcaatttctt tttatcagct aaataatgtt ttttgctata tgcaatattc atatctttaa
+     1441 taactttcca aataaatggc ttctcaaata tttgacatat acaatgaaac aaacaaatat
+     1501 ggtttattcc ttcatcttca gcatcccaac taggtgtcca ccgatgcaat aaaacattat
+     1561 caggttcact gaattgaacc tgaacagctc gagcatacag catacacaac ccgcttaact
+     1621 gttgaaaacc cattttcttc catggatcat acttcgtagc ccttcgcgag ctcccatcaa
+     1681 tataataaaa atgatcacca tcaaagataa ctcttcctcc taaatattga tcaatttgtt
+     1741 caccaaattc agtgtcacca aaaagatgaa tccacgattg ccaaggcaac gtccaatcaa
+     1801 caacacaatc aaacttgcgt ttaaccattt ggaacacatg ccagtgtacc actggaacac
+     1861 gtaaaagtgt tccataaatt aaaatggaga tagacacatt tatcactcct gaaagaccta
+     1921 aaagagcaag aagcccagca agttcttctc agcaatttca acgtttcaga aagtttcaaa
+     1981 aaacaccatc taaccatcgc catttcgttc aaatgccagt taaaagaaga tactcaagaa
+     2041 gatccggaag ttcctggggt cgttcagacc aacagaaacg agcacatgaa gaaatgatag
+     2101 caaaccaaat ggacgctaaa acagcgcgtg gttcagaata ttcactagat aaatacggtt
+     2161 taagttacag cttggcaaac gctggccaaa aacaagcaag gttcttttcg ggttacagag
+     2221 gaagaggtga ttacaacagc agtattaaac catggttaca aagatggata ccaaaaggat
+     2281 ccctctctgc agcaggtggt gctttaggat cttattttgg aggagcttcc ggcggtacac
+     2341 ttggaagcgg cgtcggttca ctagcagcca actacctcgg ctggggtcga taccgaaaaa
+     2401 actacaaggg ccgcggcgac tacgggggat ccgccggcgg caatcaaatt atgtcaggaa
+     2461 gtattgacac cccaatcact gtaaacgctt cagatgattt atcaggagat atatggataa
+     2521 gtcatagaga gtttcttcaa aatgtcacag ccagcactgg cgctggtgta accataagcc
+     2581 ctttccaagt caccgctttc cctattaacg taggcttaac agaaacattt ccttggttag
+     2641 cacaattagc tgcgcaattt acgttgtatg atctgcacgg tttaatgttc gaattcaaac
+     2701 caacaagtgg agaattcggt gtaaccggaa ataactctct aggaaaagta gttatgtgta
+     2761 cacaatatga tcctgacgcg gcttcatttt cctcgacagt ccaaatggaa aactacgact
+     2821 acgcaaacgc ttgcaagccg tcagaacaca tggtacacgc agtagaaact cacccagcac
+     2881 aacgttcagc aaatatgcta tacatccgta ctggagcttc gttaaaagac aaagtcttca
+     2941 cagacattgg aaaattccaa atcgcaacag aaggtattcc attggctgct agcacaacca
+     3001 gtaacgtcgg ggagttatgg gtcacataca gggtcaagct aagtagagca cagctcttca
+     3061 cctcactgtt aaacagttct acaaacgctg acgccttcat tggttacaca gcagctaatg
+     3121 gaactatgtt cgacacaact acagcaacta ctttaaatgc tataggtgtc gacacaacta
+     3181 agtacaattt cttaattgcg gcaaacactg ctgcccctaa gatatcaaat actataggct
+     3241 gcacccttac aggtaccagc actacggctg ctcagttaat attccctgtc aatattgtcc
+     3301 aaggccaata cttgatagct tgctacatgg aatccccaaa tggaaccata gcagcagcag
+     3361 gttccgcaat gggcattacc gctggagcaa ataccaccct tgctcagact aagctccttc
+     3421 agtcaacagc tttcgtctca tactcaggag ctggtggaca acaaactcaa gctgttgctt
+     3481 acgctgttgt ctcggtaact gctcccggta accttcaggc aatagttaac tttacttaca
+     3541 tcgcccaatg gtctgcacta gcaacactct ctactcaaat tatcgtaaca gaaataccag
+     3601 tgcatttaat ccaataatca atttaaatat atatgtaaat tgaacaatac aggcgacata
+     3661 gtcaaacaca cagtaacaag tacactcaac caaacatact gtaaacagta ctcgcttata
+     3721 gatgtacgaa actgtgaaat aagccaataa tcaattccta gcgtaatgat tattgaagct
+     3781 tgcaacacca aaaaaaagat aaaagccggg caattcattt acagaatgcc cgttaaggcc
+     3841 atggctacac cggtttaagc catggcactg gaacagtagc ccctggtaat aattacaggg
+     3901 gcaactgttc caaatggctt ttttaaacct aaacagaccc tgtctgggtt agagaagaca
+     3961 tgtttcataa acctaaacat atcctaaggt taaacctaaa cctaaacaga ccctgtctgg
+     4021 gttagagaag acatgtttca taaacctaaa cagaccctgt ctggtttgca aacacgtaac
+     4081 gcgtgcaatg acgtaatgtc gcgtgcagtc atgtgacatc acgtcatatg acgtgatcat
+     4141 ggcttaaacc aaatttaaca cgtaaccgtc agccatatgg ctaactacgc cttggttaga
+     4201 ccaaaccctc caacgggaca tcgtcacttc ttaa
+//
+LOCUS       CruV-426                4368 bp    DNA     circular     25-AUG-2020
+DEFINITION  Crucivirus-426 isolate 120_646_IR2_3297.
+ACCESSION   CruV-426
+KEYWORDS    .
+SOURCE      Crucivirus-426
+  ORGANISM  Crucivirus-426
+            Unclassified.
+REFERENCE   1  (bases 1 to 4368)
+  AUTHORS   de la Higuera,I., Kasun,G.W., Torrance,E.L., Pratt,A.A.,
+            Maluenda,A., Colombet,J., Bisseux,M., Ravet,V., Dayaram,A.,
+            Stainton,D., Kraberger,S., Zawar-Reza,P., Goldstien,S., Briskie,J.,
+            White,R., Taylor,H., Gomez,C., Ainley,D.G., Harding,J.S.,
+            Fontenele,R.S., Schreck,J., Ribeiro,S.G., Oswald,S.A., Arnold,J.M.,
+            Varsani,A., Enault,F. and Stedman,K.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-FEB-2020) Biology, Portland State University, 1719 SW
+            10th Ave, Portland, Oregon 97201, USA
+COMMENT     Bankit Comment: ALT EMAIL:ide@pdx.edu                              
+            Bankit Comment: TOTAL # OF SEQS:451                                
+            Bankit Comment: GAP: est. length - alignment                       
+                                                                               
+            ##Assembly-Data-START##                                            
+            Assembly Method       :: MetaSPAdes v. 3.12; IDBA-UD v. 1.1.1;     
+                                     MEGAHIT v. 1.0.3                          
+            Sequencing Technology :: 454; Illumina                             
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4368
+                     /organism="Crucivirus-426"
+                     /mol_type="genomic DNA"
+                     /isolate="120_646_IR2_3297"
+                     /isolation_source="Water"
+                     /country="Norway"
+                     /collection_date=2011
+     misc_feature    join(4368,1..18)
+                     /note="stem-loop"
+     misc_feature    1..9
+                     /note="nonanucleotide"
+     CDS             join(215..692,902..1482)
+                     /codon_start=1
+                     /product="Putative Replication Associated Protein"
+                     /translation="MGSDQNATQECAQTMAAMPEYLRLDSVDDIYGMGLPSIGDVSQN
+                     SQQLTQGPSQRGKARAFVVTVNNPDPDYIKRVEKESKKFTYCIIGTEVAPTTGTPHLQ
+                     CYIRFRNGTAFSTVSKIFPQAHVTRALGNAQQNFIYCSKDGNFKEIGERPNFDGHLKG
+                     GEANKLRYSEFIKYAKEGEFDEIEPDLYVKHYSTAKRICCEYKPLPEDLTCYGAKQVG
+                     VWYYGKTLSGKSRAARLEFPGAYLKNCDNKWWCGYQAERFVIMDDFDKQHNYMGHKLK
+                     IWVDIYAFRAEVKGGSITIRPEKIIVTSNYHPSEIWSDDTTLEPLLRRFKIVRFLTTD
+                     DIMNSRFQNDECRPSHII*"
+     CDS             complement(1483..3045)
+                     /codon_start=1
+                     /product="Putative CruV Capsid Protein"
+                     /translation="MARISYRGVANYLRRGKRQARFKRGARSLRYRNKSARTRLTNLR
+                     DQNPAWQVGGAISRATFGADRYTATDDQKSNRLLWNYKGPGMYGNGNYCGNGAYGGHA
+                     GGNQIIASNTVQKPIQVNSSGNPEGDVYITHREFIGNVSATAVNATGVDQVISSDFVV
+                     QPYFVNAGLVNSYPWLSQIAQQFTLYQFNGVIYQYKPTSGEFGSATTALGKVIMSTQY
+                     DPDSPLFINSIEMENYDYTTACKPSESMLHGVETNKNQLATNMLYTRAPVPTKDLVFT
+                     DYGIFQIATEGITIPVPANSSKTVNIGELWVSYQVRLSRAKLFTSVLGGSVLCDSQAG
+                     ANLVLQLAGVPTADTIFGHVTPAWLSSSVYSADYAIKASTANLFASRATNTLGATIIG
+                     IAGAGIRVTFPTSVNAGLFSISLSYEAQSENMQVMPNYEIQNMVNAAEGTLGLQNWSA
+                     PNVTLTAIAPLHEGTTNAYHNVIFINAPGLKQGSFEIVCAASQYPEGAVGGGYGVMSV
+                     LITQLPFGTNNP*"
+     CDS             3195..4244
+                     /codon_start=1
+                     /product="putative ORF"
+                     /translation="MSNFQIVPRTARGQYGLATGTVALSALANWIHGQDYQTLSSIYG
+                     QIREGVSGNMDLISGGLRYTSDQVRGAWNFLRESAMARDYATSHGEDLGAFDPGTNLA
+                     LNQNAALWSYLPTDADMNTSYYGQQQLQPDQVTNITDDDIMGNYQAAIGQKRLRGGGG
+                     KPPGPPPPPSGPPPNTIPVDPLPEMRAAESTPFKWPPRLMPKKTDPDYNFLTYATEQS
+                     IMGVLVDYALIALRLSPDPRPGKHEHIFLGDVDLVDLWNIHYYHITHASPVHTVFEEL
+                     KNYYYSCMNAEKNHAKNLKYYKHQNDYNDKMKKRWQNTATKKASRLKTVSSKYNKMKT
+                     DMDNYLKNKLLSTLF*"
+ORIGIN      
+        1 tactattacc ctagagctgg tgagccgtgc cagataaata gatatgttta cttgcggata
+       61 acatataatc ggctaagata tacaccaact cgaggcctag agctgtgccc attcttttta
+      121 tcacgatata agtacgcaag tacgggcata tatccgttgt tcggtccttt gggactttac
+      181 atcacaaaaa cttttttgta taaattacaa atttatgggc tccgaccaaa atgcgaccca
+      241 agaatgcgcc caaacgatgg ccgccatgcc agaatacctc cgtcttgact ccgttgatga
+      301 catttacgga atgggacttc catcaattgg agatgtcagc caaaactctc aacaacttac
+      361 tcaaggccca agccaaaggg gaaaagcccg agcatttgtt gttacggtta acaacccaga
+      421 cccggattat attaaaagag ttgaaaagga gtcgaagaag ttcacctatt gtattattgg
+      481 aacagaagtc gcaccaacaa ccggaacccc tcatttacaa tgttacatcc gcttccggaa
+      541 tggaaccgca tttagtaccg tgtctaagat cttccctcaa gcgcacgtca cccgagcctt
+      601 aggcaacgca caacagaact ttatctattg ttcgaaagat ggaaatttta aagaaattgg
+      661 cgaacgccct aacttcgatg gccatctcaa aggtgcgatt gatattattg aagatatgcg
+      721 gctatcttat agaaccgact ctcgtctgtc tgaccatcct atcatcgaat tatattcttt
+      781 gctttctgat tttatgtctg aaattgagga tgagttgtgt ctctcttacc ctgatgcatt
+      841 tgagtctgat tcgagtattc attcaatgtg ttcatgtaat gatcaaatta tataaatata
+      901 ggcggtgaag ccaataaact tcgttattct gaatttataa aatacgcgaa agagggggaa
+      961 tttgatgaaa ttgaacccga cctttatgta aaacattatt caactgccaa acgtatttgc
+     1021 tgtgaatata aaccgttacc agaagattta acatgttatg gcgccaaaca ggttggtgtc
+     1081 tggtattacg gtaaaaccct ttctgggaaa tcacgagctg caaggcttga atttcctggt
+     1141 gcatatttga aaaattgcga taacaaatgg tggtgtgggt accaagccga aagatttgtt
+     1201 attatggacg acttcgataa acaacataat tatatgggac acaagttgaa aatttgggtt
+     1261 gatatttatg catttagagc tgaagtcaaa ggaggaagta taactatccg acccgagaag
+     1321 ataattgtta caagcaatta ccatccctct gagatatggt ctgatgatac tacattagaa
+     1381 ccgttattac ggagatttaa aatagtgaga tttttaacga cagatgatat tatgaatagt
+     1441 agatttcaaa atgatgaatg tagaccaagt catattattt aattaaggat tattagtgcc
+     1501 gaaaggcaat tgagtaatta aaactgacat cactccatat cctcccccaa ctgcaccttc
+     1561 tggatattgg cttgccgcgc aaacaatctc gaaacttcct tgttttaaac ctggtgcatt
+     1621 tatgaatatc acattgtggt atgcatttgt agttccctca tgtaatggcg ctattgctgt
+     1681 tagggttaca tttggagctg accagttctg taaccctaat gttccttctg ctgcatttac
+     1741 catgttctgt atctcgtagt ttggcattac ttgcatattc tctgattgtg cttcatatga
+     1801 caaagatata ctgaataaac ccgcgtttac acttgttggg aatgtaaccc ttatccctgc
+     1861 tcctgcaatt ccaataattg tagcacctag tgtattagtt gctcttgaag caaacaaatt
+     1921 cgctgttgat gcttttattg cgtaatcggc tgagtataca gatgatgaca accatgctgg
+     1981 agtaacgtgc ccgaatatag tatctgcagt aggcacccct gctagctgca atactaagtt
+     2041 tgcccctgct tgtgaatcac acaatacgga ccctcccaaa acacttgtga agagcttcgc
+     2101 tcttgacaat cttacttgat aagataccca tagttcacct atgttaacag tctttgaact
+     2161 gtttgcagga actggaattg taattccttc cgtagctatc tggaatatac catagtctgt
+     2221 aaatactaag tccttagttg gtacaggcgc tcttgtatat aacatattag ttgctagctg
+     2281 gttcttgttg gtttcaactc catgtagcat actttcacta ggcttgcaag ccgtagtata
+     2341 atcatagttc tccatttcaa tggaattgat aaacaaagga gaatctggat catattgagt
+     2401 actcattatg actttaccca atgctgtagt agctgaacca aactctccag atgttggttt
+     2461 atattggtaa ataacaccgt tgaattggta taacgtgaac tgttgtgcaa tttgacttaa
+     2521 ccatggatat gagttaacaa gtcccgcatt aacaaagtaa ggctgaacaa cgaaatcaga
+     2581 tgagatcact tgatctacac ctgttgcatt cacagctgtt gctgacacat ttccaatgaa
+     2641 ttctctgtgg gtgatgtata catctccttc tggattacca cttgaattga cttgaatggg
+     2701 tttctggaca gtattagatg caataatctg gttgccaccg gcgtgaccac cgtaagcgcc
+     2761 gtttccacag taattaccat ttccgtacat tcctggacct ttataattcc agagtaatct
+     2821 atttgatttc tgatcatccg tagctgtgta tcggtctgcg ccaaatgtag ctcgcgaaat
+     2881 ggcaccaccg acttgccaag caggattctg atctcttaga ttagttaaac gtgtacgtgc
+     2941 acttttattt ctgtaacgta gtgatcgagc tcctctcttg aaacgtgctt gacgttttcc
+     3001 acgtcttaga taattagcga ctccgcgata acttattctt gccatttaaa tataaatgat
+     3061 acttagcaca tagacaaata gaccgaaccg gaatttcaca gtagcaattt cgtggaggcg
+     3121 cggagcgaag acggcgcgcc ggagccactt ggaacgagta acggcgaagc tgttacgaaa
+     3181 cttaacataa aagaatgtct aactttcaaa tagtacctag aactgctaga ggacaatatg
+     3241 gactagcgac tggaactgtc gcgctttctg ctttagcaaa ttggatacat ggtcaagatt
+     3301 atcagactct gagtagtata tacgggcaga ttcgtgaagg tgtatctgga aatatggatc
+     3361 ttatatctgg tggtttaaga tacacgtcag atcaagtacg tggtgcttgg aactttttgc
+     3421 gcgagtcagc catggcccgt gactatgcta catcacatgg tgaagacctt ggtgcttttg
+     3481 atcctggtac aaatttagct ttgaatcaaa atgctgcttt gtggagttat ttacctacag
+     3541 atgctgatat gaatacttct tattatggcc agcagcagct tcaacccgat caggttacaa
+     3601 atattactga tgatgatatt atggggaatt atcaagctgc aattggtcaa aaaaggttaa
+     3661 gaggtggagg tggtaaacct ccaggtcctc caccccctcc ttcaggacct ccgcctaata
+     3721 ctattccagt agatcctctt cctgagatgc gtgcagctga atctacaccg tttaagtggc
+     3781 ctcctagatt gatgcctaaa aaaactgatc cagattataa ttttttaact tatgcgactg
+     3841 agcaatcaat tatgggcgta ttagtagatt atgctcttat agcgttacgt ttaagtcctg
+     3901 atccaagacc tggaaaacat gagcacatat ttcttggaga tgttgatctt gtagatcttt
+     3961 ggaatattca ttactatcat attactcatg cttctcctgt tcatactgtt tttgaagaac
+     4021 ttaagaatta ttattattct tgtatgaatg ctgagaaaaa tcacgcgaaa aatttgaagt
+     4081 attataaaca tcaaaatgat tataatgata aaatgaaaaa acgttggcaa aacactgcta
+     4141 caaaaaaggc ctcgagactt aaaactgtaa gttctaagta taataaaatg aaaaccgata
+     4201 tggataacta tttgaaaaat aagttactta gcactttgtt ttaaagaatt ctatcaacat
+     4261 taatataagc attaataaat ttgatattgc tgaaattatt tcccaattaa tttggttcat
+     4321 tttgtattta agttcttaaa ttatattggc acacgagctc taggattc
+//

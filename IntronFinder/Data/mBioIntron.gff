@@ -1,0 +1,358 @@
+##gff-version 3
+##source-version geneious 2020.2.4
+##sequence-region	CruV-537	1	6350
+CruV-537	Geneious	region	1	6350	.	+	0	Is_circular=true
+CruV-537	Geneious	source	1	6350	.	+	.	Name=source Crucivirus-537
+CruV-537	Geneious	CDS	1	588	.	-	0	Name=putative ORF CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.0
+CruV-537	Geneious	CDS	5661	6350	.	-	0	Name=putative ORF CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.0
+CruV-537	Geneious	misc_feature	6345	6350	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.1
+CruV-537	Geneious	misc_feature	1	18	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.1
+CruV-537	Geneious	misc_feature	6350	6350	.	.	.	Name=nonanucleotide;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.2
+CruV-537	Geneious	misc_feature	1	8	.	+	.	Name=nonanucleotide;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.2
+CruV-537	Geneious	CDS	627	2072	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-537	Geneious	misc_feature	1822	1841	.	+	.	Name=stem-loop
+CruV-537	Geneious	misc_feature	1828	1836	.	-	.	Name=nonanucleotide
+CruV-537	Geneious	CDS	3927	4334	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.3
+CruV-537	Geneious	CDS	2806	3519	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000531.3
+CruV-537	Geneious	CDS	4521	5492	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-529	1	5452
+CruV-529	Geneious	region	1	5452	.	+	0	Is_circular=true
+CruV-529	Geneious	source	1	5452	.	+	.	Name=source Crucivirus-529
+CruV-529	Geneious	misc_feature	5448	5452	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.4
+CruV-529	Geneious	misc_feature	1	14	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.4
+CruV-529	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-529	Geneious	CDS	19	441	.	-	0	Name=putative ORF CDS
+CruV-529	Geneious	CDS	37	498	.	+	0	Name=putative ORF CDS
+CruV-529	Geneious	CDS	642	871	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.5
+CruV-529	Geneious	CDS	1002	1321	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.5
+CruV-529	Geneious	CDS	1432	1805	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.5
+CruV-529	Geneious	CDS	2038	2529	.	-	0	Name=putative ORF CDS
+CruV-529	Geneious	CDS	2614	3918	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-529	Geneious	CDS	4246	4638	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-526	1	5312
+CruV-526	Geneious	region	1	5312	.	+	0	Is_circular=true
+CruV-526	Geneious	source	1	5312	.	+	.	Name=source Crucivirus-526
+CruV-526	Geneious	CDS	1	496	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.6
+CruV-526	Geneious	CDS	833	1293	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000532.6
+CruV-526	Geneious	CDS	1305	1682	.	+	0	Name=putative ORF CDS
+CruV-526	Geneious	CDS	1337	2005	.	+	0	Name=putative ORF CDS
+CruV-526	Geneious	CDS	2044	3735	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-526	Geneious	CDS	4406	4714	.	+	0	Name=putative ORF CDS
+CruV-526	Geneious	CDS	4733	5083	.	+	0	Name=putative ORF CDS
+##sequence-region	CruV-523	1	5256
+CruV-523	Geneious	region	1	5256	.	+	0	Is_circular=true
+CruV-523	Geneious	source	1	5256	.	+	.	Name=source Crucivirus-523
+CruV-523	Geneious	misc_feature	5246	5256	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000533.7
+CruV-523	Geneious	misc_feature	1	17	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000533.7
+CruV-523	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-523	Geneious	CDS	312	1652	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-523	Geneious	misc_feature	1291	1312	.	+	.	Name=stem-loop
+CruV-523	Geneious	misc_feature	1299	1307	.	+	.	Name=nonanucleotide
+CruV-523	Geneious	CDS	3663	3728	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000533.8
+CruV-523	Geneious	CDS	3754	4536	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000533.8
+##sequence-region	CruV-522	1	5225
+CruV-522	Geneious	region	1	5225	.	+	0	Is_circular=true
+CruV-522	Geneious	source	1	5225	.	+	.	Name=source Crucivirus-522
+CruV-522	Geneious	CDS	1	730	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000533.9
+CruV-522	Geneious	CDS	793	1082	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000533.9
+CruV-522	Geneious	CDS	1163	1615	.	-	0	Name=putative ORF CDS
+CruV-522	Geneious	CDS	1702	2505	.	+	0	Name=putative ORF CDS
+CruV-522	Geneious	CDS	2518	3747	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-522	Geneious	CDS	3908	4726	.	-	0	Name=putative ORF CDS
+CruV-522	Geneious	CDS	3941	4279	.	+	0	Name=putative ORF CDS
+CruV-522	Geneious	CDS	4836	5180	.	+	0	Name=putative ORF CDS
+##sequence-region	CruV-518	1	5126
+CruV-518	Geneious	region	1	5126	.	+	0	Is_circular=true
+CruV-518	Geneious	source	1	5126	.	+	.	Name=source Crucivirus-518
+CruV-518	Geneious	CDS	1	193	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000535.10
+CruV-518	Geneious	CDS	566	1653	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000535.10
+CruV-518	Geneious	CDS	1700	2086	.	-	0	Name=putative ORF CDS
+CruV-518	Geneious	CDS	2189	2597	.	+	0	Name=Putative CruV Capsid Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000535.11
+CruV-518	Geneious	CDS	2817	3797	.	+	0	Name=Putative CruV Capsid Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000535.11
+CruV-518	Geneious	CDS	4475	4987	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-517	1	5120
+CruV-517	Geneious	region	1	5120	.	+	0	Is_circular=true
+CruV-517	Geneious	source	1	5120	.	+	.	Name=source Crucivirus-517
+CruV-517	Geneious	CDS	1	428	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000536.12
+CruV-517	Geneious	CDS	795	1398	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000536.12
+CruV-517	Geneious	CDS	1515	2903	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-517	Geneious	CDS	3178	3738	.	+	0	Name=putative ORF CDS
+CruV-517	Geneious	CDS	3229	3741	.	-	0	Name=putative ORF CDS
+CruV-517	Geneious	CDS	4007	4852	.	+	0	Name=putative ORF CDS
+CruV-517	Geneious	CDS	4435	4734	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-515	1	5111
+CruV-515	Geneious	region	1	5111	.	+	0	Is_circular=true
+CruV-515	Geneious	source	1	5111	.	+	.	Name=source Crucivirus-515
+CruV-515	Geneious	CDS	1	428	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000537.13
+CruV-515	Geneious	CDS	795	1398	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000537.13
+CruV-515	Geneious	CDS	1515	2894	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-515	Geneious	CDS	3169	3729	.	+	0	Name=putative ORF CDS
+CruV-515	Geneious	CDS	3220	3732	.	-	0	Name=putative ORF CDS
+CruV-515	Geneious	CDS	3998	4843	.	+	0	Name=putative ORF CDS
+CruV-515	Geneious	CDS	4426	4725	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-513	1	5051
+CruV-513	Geneious	region	1	5051	.	+	0	Is_circular=true
+CruV-513	Geneious	source	1	5051	.	+	.	Name=source Crucivirus-513
+CruV-513	Geneious	CDS	1	730	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000539.14
+CruV-513	Geneious	CDS	791	1086	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000539.14
+CruV-513	Geneious	CDS	1099	1500	.	-	0	Name=putative ORF CDS
+CruV-513	Geneious	CDS	2391	2443	.	+	0	Name=Putative CruV Capsid Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000540.15
+CruV-513	Geneious	CDS	2567	3683	.	+	0	Name=Putative CruV Capsid Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000540.15
+CruV-513	Geneious	CDS	3694	4191	.	-	0	Name=putative ORF CDS
+CruV-513	Geneious	CDS	4454	4999	.	+	0	Name=putative ORF CDS
+##sequence-region	CruV-512	1	5039
+CruV-512	Geneious	region	1	5039	.	+	0	Is_circular=true
+CruV-512	Geneious	source	1	5039	.	+	.	Name=source Crucivirus-512
+CruV-512	Geneious	misc_feature	5026	5039	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000541.16
+CruV-512	Geneious	misc_feature	1	16	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000541.16
+CruV-512	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-512	Geneious	CDS	168	1646	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-512	Geneious	CDS	1667	3127	.	-	0	Name=putative ORF CDS
+CruV-512	Geneious	CDS	2441	2797	.	+	0	Name=putative ORF CDS
+CruV-512	Geneious	CDS	4135	4535	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000541.17
+CruV-512	Geneious	CDS	3252	4086	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000541.17
+CruV-512	Geneious	CDS	4656	4988	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-508	1	4998
+CruV-508	Geneious	region	1	4998	.	+	0	Is_circular=true
+CruV-508	Geneious	source	1	4998	.	+	.	Name=source Crucivirus-508
+CruV-508	Geneious	CDS	1	67	.	-	0	Name=putative ORF CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.18
+CruV-508	Geneious	CDS	4511	4998	.	-	0	Name=putative ORF CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.18
+CruV-508	Geneious	misc_feature	4988	4998	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.19
+CruV-508	Geneious	misc_feature	1	19	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.19
+CruV-508	Geneious	misc_feature	1	8	.	-	.	Name=nonanucleotide;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.20
+CruV-508	Geneious	misc_feature	4998	4998	.	.	.	Name=nonanucleotide;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.20
+CruV-508	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-508	Geneious	CDS	85	447	.	+	0	Name=putative ORF CDS
+CruV-508	Geneious	CDS	454	2226	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-508	Geneious	CDS	3097	3411	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.21
+CruV-508	Geneious	CDS	2315	2896	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000542.21
+CruV-508	Geneious	CDS	3455	3757	.	-	0	Name=putative ORF CDS
+CruV-508	Geneious	CDS	3664	4125	.	+	0	Name=putative ORF CDS
+CruV-508	Geneious	CDS	4381	4908	.	-	0	Name=putative ORF CDS
+CruV-508	Geneious	CDS	4511	4936	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-499	1	4920
+CruV-499	Geneious	region	1	4920	.	+	0	Is_circular=true
+CruV-499	Geneious	source	1	4920	.	+	.	Name=source Crucivirus-499
+CruV-499	Geneious	misc_feature	4910	4920	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000543.22
+CruV-499	Geneious	misc_feature	1	18	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000543.22
+CruV-499	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-499	Geneious	CDS	203	2389	.	+	.	Name=Putative CruV Capsid Protein
+CruV-499	Geneious	CDS	2887	3445	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000543.23
+CruV-499	Geneious	CDS	3745	4613	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000543.23
+CruV-499	Geneious	CDS	3597	4613	.	+	.	Name=Putative ORF
+CruV-499	Geneious	CDS	3769	4341	.	+	0	Name=putative ORF CDS
+CruV-499	Geneious	CDS	3941	4249	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-497	1	4881
+CruV-497	Geneious	region	1	4881	.	+	0	Is_circular=true
+CruV-497	Geneious	source	1	4881	.	+	.	Name=source Crucivirus-497
+CruV-497	Geneious	CDS	1	253	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.24
+CruV-497	Geneious	CDS	397	1226	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.24
+CruV-497	Geneious	CDS	1223	2476	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-497	Geneious	CDS	3911	4309	.	+	0	Name=putative ORF CDS
+##sequence-region	CruV-490	1	4826
+CruV-490	Geneious	region	1	4826	.	+	0	Is_circular=true
+CruV-490	Geneious	source	1	4826	.	+	.	Name=source Crucivirus-490
+CruV-490	Geneious	CDS	1	341	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.25
+CruV-490	Geneious	CDS	564	1188	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.25
+CruV-490	Geneious	CDS	1436	2320	.	-	0	Name=putative ORF CDS
+CruV-490	Geneious	CDS	3461	4753	.	+	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-483	1	4768
+CruV-483	Geneious	region	1	4768	.	+	0	Is_circular=true
+CruV-483	Geneious	source	1	4768	.	+	.	Name=source Crucivirus-483
+CruV-483	Geneious	CDS	1	250	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.26
+CruV-483	Geneious	CDS	351	467	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.26
+CruV-483	Geneious	CDS	507	1213	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000544.26
+CruV-483	Geneious	misc_feature	270	299	.	+	.	Name=stem-loop
+CruV-483	Geneious	misc_feature	281	289	.	+	.	Name=nonanucleotide
+CruV-483	Geneious	CDS	1239	1655	.	+	0	Name=putative ORF CDS
+CruV-483	Geneious	CDS	1242	1547	.	-	0	Name=putative ORF CDS
+CruV-483	Geneious	CDS	1430	1846	.	+	0	Name=putative ORF CDS
+CruV-483	Geneious	CDS	1549	2841	.	+	0	Name=putative ORF CDS
+CruV-483	Geneious	CDS	2864	4042	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-483	Geneious	CDS	4069	4383	.	-	0	Name=putative ORF CDS
+CruV-483	Geneious	CDS	4338	4721	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-465	1	4568
+CruV-465	Geneious	region	1	4568	.	+	0	Is_circular=true
+CruV-465	Geneious	source	1	4568	.	+	.	Name=source Crucivirus-465
+CruV-465	Geneious	CDS	1	516	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000545.27
+CruV-465	Geneious	CDS	599	1306	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000545.27
+CruV-465	Geneious	CDS	1421	1792	.	-	0	Name=putative ORF CDS
+CruV-465	Geneious	CDS	1832	2302	.	-	0	Name=putative ORF CDS
+CruV-465	Geneious	CDS	1919	2230	.	+	0	Name=putative ORF CDS
+CruV-465	Geneious	CDS	2412	3974	.	+	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-462	1	4547
+CruV-462	Geneious	region	1	4547	.	+	0	Is_circular=true
+CruV-462	Geneious	source	1	4547	.	+	.	Name=source Crucivirus-462
+CruV-462	Geneious	misc_feature	4536	4547	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000546.28
+CruV-462	Geneious	misc_feature	1	20	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000546.28
+CruV-462	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-462	Geneious	CDS	59	2218	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-462	Geneious	CDS	3105	3463	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000546.29
+CruV-462	Geneious	CDS	2307	2889	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000546.29
+CruV-462	Geneious	CDS	3977	4426	.	-	0	Name=putative ORF CDS
+CruV-462	Geneious	CDS	4006	4365	.	+	0	Name=putative ORF CDS
+CruV-462	Geneious	CDS	4119	4430	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-460	1	4538
+CruV-460	Geneious	region	1	4538	.	+	0	Is_circular=true
+CruV-460	Geneious	source	1	4538	.	+	.	Name=source Crucivirus-460
+CruV-460	Geneious	CDS	1	385	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000548.30
+CruV-460	Geneious	CDS	657	1294	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000548.30
+CruV-460	Geneious	misc_feature	610	639	.	+	.	Name=stem-loop
+CruV-460	Geneious	misc_feature	625	633	.	+	.	Name=nonanucleotide
+CruV-460	Geneious	CDS	1483	1869	.	-	0	Name=putative ORF CDS
+CruV-460	Geneious	CDS	1896	2282	.	-	0	Name=putative ORF CDS
+CruV-460	Geneious	CDS	2313	4034	.	+	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-458	1	4521
+CruV-458	Geneious	region	1	4521	.	+	0	Is_circular=true
+CruV-458	Geneious	source	1	4521	.	+	.	Name=source Crucivirus-458
+CruV-458	Geneious	CDS	1	1404	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-458	Geneious	CDS	2466	2867	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000548.31
+CruV-458	Geneious	CDS	1668	2360	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000548.31
+CruV-458	Geneious	misc_feature	1746	1779	.	+	.	Name=stem-loop
+CruV-458	Geneious	misc_feature	1760	1768	.	+	.	Name=nonanucleotide
+CruV-458	Geneious	CDS	2982	3374	.	-	0	Name=putative ORF CDS
+CruV-458	Geneious	CDS	3232	3621	.	+	0	Name=putative ORF CDS
+CruV-458	Geneious	CDS	3280	3585	.	-	0	Name=putative ORF CDS
+CruV-458	Geneious	CDS	3639	4319	.	+	0	Name=putative ORF CDS
+CruV-458	Geneious	CDS	3662	4381	.	+	0	Name=putative ORF CDS
+CruV-458	Geneious	CDS	3722	4033	.	-	0	Name=putative ORF CDS
+##sequence-region	CruV-450	1	4485
+CruV-450	Geneious	region	1	4485	.	+	0	Is_circular=true
+CruV-450	Geneious	source	1	4485	.	+	.	Name=source Crucivirus-450
+CruV-450	Geneious	CDS	1	385	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000550.32
+CruV-450	Geneious	CDS	631	1340	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000550.32
+CruV-450	Geneious	CDS	1534	1881	.	-	0	Name=putative ORF CDS
+CruV-450	Geneious	CDS	1906	2277	.	-	0	Name=putative ORF CDS
+CruV-450	Geneious	CDS	2343	3998	.	+	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-434	1	4427
+CruV-434	Geneious	region	1	4427	.	+	0	Is_circular=true
+CruV-434	Geneious	source	1	4427	.	+	.	Name=source Crucivirus-434
+CruV-434	Geneious	CDS	1	340	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000550.33
+CruV-434	Geneious	CDS	692	1404	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000550.33
+CruV-434	Geneious	CDS	1949	2584	.	-	0	Name=putative ORF CDS
+CruV-434	Geneious	CDS	2678	4246	.	+	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-426	1	4368
+CruV-426	Geneious	region	1	4368	.	+	0	Is_circular=true
+CruV-426	Geneious	source	1	4368	.	+	.	Name=source Crucivirus-426
+CruV-426	Geneious	misc_feature	4368	4368	.	.	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000551.34
+CruV-426	Geneious	misc_feature	1	18	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000551.34
+CruV-426	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-426	Geneious	CDS	215	692	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000551.35
+CruV-426	Geneious	CDS	902	1482	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000551.35
+CruV-426	Geneious	CDS	1483	3045	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-426	Geneious	CDS	3195	4244	.	+	0	Name=putative ORF CDS
+##sequence-region	CruV-413	1	4234
+CruV-413	Geneious	region	1	4234	.	+	0	Is_circular=true
+CruV-413	Geneious	source	1	4234	.	+	.	Name=source Crucivirus-413
+CruV-413	Geneious	CDS	1	373	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000551.36
+CruV-413	Geneious	CDS	756	1369	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000551.36
+CruV-413	Geneious	CDS	1358	1828	.	-	0	Name=putative ORF CDS
+CruV-413	Geneious	CDS	1884	3617	.	+	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-370	1	3948
+CruV-370	Geneious	region	1	3948	.	+	0	Is_circular=true
+CruV-370	Geneious	source	1	3948	.	+	.	Name=source Crucivirus-370
+CruV-370	Geneious	misc_feature	3944	3948	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000552.37
+CruV-370	Geneious	misc_feature	1	15	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000552.37
+CruV-370	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-370	Geneious	CDS	126	476	.	+	0	Name=putative ORF CDS
+CruV-370	Geneious	CDS	157	507	.	+	0	Name=putative ORF CDS
+CruV-370	Geneious	CDS	504	1886	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-370	Geneious	CDS	2944	3115	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000552.38
+CruV-370	Geneious	CDS	1898	2634	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000552.38
+CruV-370	Geneious	CDS	2289	2606	.	+	0	Name=putative ORF CDS
+##sequence-region	CruV-347	1	3766
+CruV-347	Geneious	region	1	3766	.	+	0	Is_circular=true
+CruV-347	Geneious	source	1	3766	.	+	.	Name=source Crucivirus-347
+CruV-347	Geneious	misc_feature	3752	3766	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000552.39
+CruV-347	Geneious	misc_feature	1	21	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000552.39
+CruV-347	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-347	Geneious	CDS	95	1789	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-347	Geneious	CDS	2727	3048	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000553.40
+CruV-347	Geneious	CDS	3143	3666	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000553.40
+##sequence-region	CruV-346	1	3749
+CruV-346	Geneious	region	1	3749	.	+	0	Is_circular=true
+CruV-346	Geneious	source	1	3749	.	+	.	Name=source Crucivirus-346
+CruV-346	Geneious	CDS	1	1473	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-346	Geneious	misc_feature	907	929	.	+	.	Name=stem-loop
+CruV-346	Geneious	misc_feature	915	923	.	+	.	Name=nonanucleotide
+CruV-346	Geneious	CDS	1474	1899	.	-	0	Name=putative ORF CDS
+CruV-346	Geneious	CDS	2013	2394	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000553.41
+CruV-346	Geneious	CDS	2444	2949	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000553.41
+##sequence-region	CruV-340	1	3708
+CruV-340	Geneious	region	1	3708	.	+	0	Is_circular=true
+CruV-340	Geneious	source	1	3708	.	+	.	Name=source Crucivirus-340
+CruV-340	Geneious	misc_feature	3692	3708	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000553.42
+CruV-340	Geneious	misc_feature	1	12	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000553.42
+CruV-340	Geneious	CDS	856	2331	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-340	Geneious	CDS	2838	3411	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000554.43
+CruV-340	Geneious	CDS	2378	2775	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000554.43
+CruV-340	Geneious	misc_feature	3700	3708	.	-	.	Name=nonanucleotide
+##sequence-region	CruV-279	1	3501
+CruV-279	Geneious	region	1	3501	.	+	0	Is_circular=true
+CruV-279	Geneious	source	1	3501	.	+	.	Name=source Crucivirus-279
+CruV-279	Geneious	CDS	346	1731	.	-	0	Name=Putative CruV Capsid Protein CDS
+CruV-279	Geneious	CDS	2754	3228	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000554.44
+CruV-279	Geneious	CDS	2189	2712	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000554.44
+##sequence-region	CruV-174	1	3172
+CruV-174	Geneious	region	1	3172	.	+	0	Is_circular=true
+CruV-174	Geneious	source	1	3172	.	+	.	Name=source Crucivirus-174
+CruV-174	Geneious	misc_feature	3163	3172	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000554.45
+CruV-174	Geneious	misc_feature	1	16	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000554.45
+CruV-174	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-174	Geneious	CDS	26	1576	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-174	Geneious	CDS	2238	2784	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000555.46
+CruV-174	Geneious	CDS	1587	2158	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000555.46
+##sequence-region	CruV-170	1	3154
+CruV-170	Geneious	region	1	3154	.	+	0	Is_circular=true
+CruV-170	Geneious	source	1	3154	.	+	.	Name=source Crucivirus-170
+CruV-170	Geneious	CDS	1	165	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000555.47
+CruV-170	Geneious	CDS	343	885	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000555.47
+CruV-170	Geneious	CDS	1081	2214	.	-	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-107	1	2899
+CruV-107	Geneious	region	1	2899	.	+	0	Is_circular=true
+CruV-107	Geneious	source	1	2899	.	+	.	Name=source Crucivirus-107
+CruV-107	Geneious	misc_feature	2889	2899	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.48
+CruV-107	Geneious	misc_feature	1	18	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.48
+CruV-107	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-107	Geneious	CDS	196	1632	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-107	Geneious	CDS	2554	2857	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.49
+CruV-107	Geneious	CDS	1840	2471	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.49
+##sequence-region	CruV-105	1	2883
+CruV-105	Geneious	region	1	2883	.	+	0	Is_circular=true
+CruV-105	Geneious	source	1	2883	.	+	.	Name=source Crucivirus-105
+CruV-105	Geneious	misc_feature	2872	2883	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.50
+CruV-105	Geneious	misc_feature	1	17	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.50
+CruV-105	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-105	Geneious	CDS	209	1609	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-105	Geneious	CDS	2490	2826	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.51
+CruV-105	Geneious	CDS	1774	2402	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000556.51
+##sequence-region	CruV-104	1	2883
+CruV-104	Geneious	region	1	2883	.	+	0	Is_circular=true
+CruV-104	Geneious	source	1	2883	.	+	.	Name=source Crucivirus-104
+CruV-104	Geneious	misc_feature	2872	2883	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.52
+CruV-104	Geneious	misc_feature	1	17	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.52
+CruV-104	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-104	Geneious	CDS	209	1609	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-104	Geneious	CDS	2490	2826	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.53
+CruV-104	Geneious	CDS	1774	2402	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.53
+##sequence-region	CruV-103	1	2881
+CruV-103	Geneious	region	1	2881	.	+	0	Is_circular=true
+CruV-103	Geneious	source	1	2881	.	+	.	Name=source Crucivirus-103
+CruV-103	Geneious	misc_feature	2870	2881	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.54
+CruV-103	Geneious	misc_feature	1	19	.	+	.	Name=stem-loop;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.54
+CruV-103	Geneious	misc_feature	1	9	.	+	.	Name=nonanucleotide
+CruV-103	Geneious	CDS	187	1602	.	+	0	Name=Putative CruV Capsid Protein CDS
+CruV-103	Geneious	CDS	2224	2824	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.55
+CruV-103	Geneious	CDS	1843	2162	.	-	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000557.55
+##sequence-region	CruV-84	1	2612
+CruV-84	Geneious	region	1	2612	.	+	0	Is_circular=true
+CruV-84	Geneious	source	1	2612	.	+	.	Name=source Crucivirus-84
+CruV-84	Geneious	CDS	1	291	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000558.56
+CruV-84	Geneious	CDS	338	835	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000558.56
+CruV-84	Geneious	CDS	1035	2414	.	-	0	Name=Putative CruV Capsid Protein CDS
+##sequence-region	CruV-83	1	2612
+CruV-83	Geneious	region	1	2612	.	+	0	Is_circular=true
+CruV-83	Geneious	source	1	2612	.	+	.	Name=source Crucivirus-83
+CruV-83	Geneious	CDS	1	291	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000559.57
+CruV-83	Geneious	CDS	338	835	.	+	0	Name=Putative Replication Associated Protein CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1606985000559.57
+CruV-83	Geneious	CDS	1035	2414	.	-	0	Name=Putative CruV Capsid Protein CDS
