@@ -50,6 +50,6 @@ Programs are run in the basic format "java -jar [JAR_NAME.jar] [system arguments
 - CheckFiles
 
 ## TO-DO ##
-- Generate jars for working scripts/programs
+- TEST jars for working scripts/programs
 - Add annotation columns for stemp loop/iterons
 - Intron Finder
