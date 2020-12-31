@@ -16,24 +16,29 @@ import org.biojava.nbio.genome.parsers.gff.GFF3Reader;
  * Prints out a report of the nucleotides around the 5', branch point, and 3' sites
  */
 public class IntronAnalyzer {
+
+    static int exonLength = 10;
+
     public static void main(String[] args) throws IOException {
+
         BufferedReader fastaReader = new BufferedReader(new FileReader(new File(args[1])));
 
         FeatureList gffFeatures = GFF3Reader.read(args[0]);
 
         int[][] intervals = readGFF(gffFeatures);
-        String[] sequences = readFasta(fastaReader);
+        String[] sequenceNames = new String[intervals.length];
+        String[] sequences = readFasta(fastaReader, sequenceNames);
 
         String[] introns = extract(intervals, sequences);
 
-        double[][] fivePrime = new double[8][10];
-        double[][] branchPoint = new double[8][20];
-        double[][] threePrime = new double[8][10];
+        double[][] fivePrime = new double[8][20];
+        double[][] threePrime = new double[8][20];
 
-        analyzeIntrons(introns, fivePrime, branchPoint, threePrime);
+        extractFastas(introns, sequenceNames);
+        analyzeIntrons(introns, fivePrime, threePrime);
 
         PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(args[2])));
-        printResults(pw, fivePrime, branchPoint, threePrime);
+        printResults(pw, fivePrime, threePrime);
     }
 
     /**
@@ -75,9 +80,9 @@ public class IntronAnalyzer {
 
             if (intronFound) {
                 if (lastRepIntervals[0] > currentFeature.location().bioStart()) {
-                    intervals.add(new int[]{lastRepIntervals[0], currentFeature.location().bioEnd()});
+                    intervals.add(new int[]{lastRepIntervals[0] + exonLength, currentFeature.location().bioEnd() - exonLength});
                 } else {
-                    intervals.add(new int[]{lastRepIntervals[1], currentFeature.location().bioStart()});
+                    intervals.add(new int[]{lastRepIntervals[1] - exonLength, currentFeature.location().bioStart() + exonLength});
                 }
 
                 intronFound = false;
@@ -95,13 +100,15 @@ public class IntronAnalyzer {
      * @return a string array of the sequences
      * @throws IOException bufferedreader exception
      */
-    static String[] readFasta(BufferedReader br) throws IOException {
+    static String[] readFasta(BufferedReader br, String[] names) throws IOException {
         ArrayList<String> sequences = new ArrayList<>();
         String line;
-
+        int count = 0;
         while ((line = br.readLine()) != null) {
             if (line.charAt(0) == '>') {
+                names[count] = line;
                 sequences.add(br.readLine());
+                count++;
             }
         }
 
@@ -110,7 +117,7 @@ public class IntronAnalyzer {
 
     /**
      * Extract the introns from the sequences and store in an array
-     * @param intervals start and enpoints of each intron
+     * @param intervals start and endpoints of each intron
      * @param sequences array of complete sequences
      * @return array of intron sequences
      */
@@ -170,11 +177,10 @@ public class IntronAnalyzer {
         return complement.toString();
     }
 
-    static void analyzeIntrons(String[] introns, double[][] five, double[][] branch, double[][] three) {
+    static void analyzeIntrons(String[] introns, double[][] five, double[][] three) {
         int total = 0;
-        int branchL = 20;
-        int threeL = 10;
-        int fiveL = 10;
+        int threeL = three[0].length;
+        int fiveL = five[0].length;
 
         for (int i = 0; i < introns.length; i++) {
             String intron = introns[i];
@@ -202,32 +208,20 @@ public class IntronAnalyzer {
                     }
                 }
 
-                for (int j = intron.length() - branchL; j < intron.length(); j++) {
+                for (int j = intron.length() - threeL; j < intron.length(); j++) {
                     char c = intron.charAt(j);
                     switch (c) {
                         case 'A':
-                            if (j >= intron.length() - threeL) {
-                                three[0][j - (intron.length() - threeL)]++;
-                            }
-                            branch[0][j - (intron.length() - branchL)]++;
+                            three[0][j - (intron.length() - threeL)]++;
                             break;
                         case 'T':
-                            if (j >= intron.length() - threeL) {
-                                three[1][j - (intron.length() - threeL)]++;
-                            }
-                            branch[1][j - (intron.length() - branchL)]++;
+                            three[1][j - (intron.length() - threeL)]++;
                             break;
                         case 'C':
-                            if (j >= intron.length() - threeL) {
-                                three[2][j - (intron.length() - threeL)]++;
-                            }
-                            branch[2][j - (intron.length() - branchL)]++;
+                            three[2][j - (intron.length() - threeL)]++;
                             break;
                         case 'G':
-                            if (j >= intron.length() - threeL) {
-                                three[3][j - (intron.length() - threeL)]++;
-                            }
-                            branch[3][j - (intron.length() - branchL)]++;
+                            three[3][j - (intron.length() - threeL)]++;
                             break;
                     }
                 }
@@ -235,47 +229,32 @@ public class IntronAnalyzer {
 
         }
 
-        for (int j = 0; j < 20; j++) {
+        for (int j = 0; j < threeL; j++) {
             for (int k = 0; k < 8; k++) {
                 if (k < 4) {
-                    if (j < 10) {
-                        five[k][j] /= total;
-                        three[k][j] /= total;
-                    }
-                    branch[k][j] /= total;
+                    five[k][j] /= total;
+                    three[k][j] /= total;
                 } else {
                     switch (k) {
                         case 4:
                             //purine
-                            if (j < 10) {
-                                five[k][j] = (five[0][j]+five[3][j]);
-                                three[k][j] = (three[0][j]+three[3][j]);
-                            }
-                            branch[k][j] = (branch[0][j]+branch[3][j]);
+                            five[k][j] = (five[0][j]+five[3][j]);
+                            three[k][j] = (three[0][j]+three[3][j]);
                             break;
                         case 5:
                             //pyrimidine
-                            if (j < 10) {
-                                five[k][j] = (five[1][j]+five[2][j]);
-                                three[k][j] = (three[1][j]+three[2][j]);
-                            }
-                            branch[k][j] = (branch[1][j]+branch[2][j]);
+                            five[k][j] = (five[1][j]+five[2][j]);
+                            three[k][j] = (three[1][j]+three[2][j]);
                             break;
                         case 6:
                             //AT
-                            if (j < 10) {
-                                five[k][j] = (five[0][j]+five[1][j]);
-                                three[k][j] = (three[0][j]+three[1][j]);
-                            }
-                            branch[k][j] = (branch[0][j]+branch[1][j]);
+                            five[k][j] = (five[0][j]+five[1][j]);
+                            three[k][j] = (three[0][j]+three[1][j]);
                             break;
                         case 7:
                             //CG
-                            if (j < 10) {
-                                five[k][j] = (five[2][j]+five[3][j]);
-                                three[k][j] = (three[2][j]+three[3][j]);
-                            }
-                            branch[k][j] = (branch[2][j]+branch[3][j]);
+                            five[k][j] = (five[2][j]+five[3][j]);
+                            three[k][j] = (three[2][j]+three[3][j]);
                             break;
                     }
                 }
@@ -284,12 +263,29 @@ public class IntronAnalyzer {
         }
     }
 
-    static void printResults(PrintWriter pw, double[][] five, double[][] branch, double[][] three) {
-        pw.println(", , 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20");
+    /**
+     * Function extractFastas meant to extract sequences around the splice sites for alignemnt in Geneious
+     * @param introns array of introns
+     * @param names corresponding array of sequence names
+     * @throws IOException File Writer
+     */
+    static void extractFastas(String[] introns, String[] names) throws IOException {
+        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("Data\\extracted.fasta")));
+
+        for (int i = 0; i < introns.length; i++) {
+            if (introns[i].length() >= 40) {
+                pw.println(names[i]);
+                pw.println(introns[i].substring(0, 20) + introns[i].substring(introns[i].length() - 20));
+            }
+        }
+
+        pw.close();
+    }
+
+    static void printResults(PrintWriter pw, double[][] five, double[][] three) {
+        pw.println(", , -10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
 
         printMatrix(pw, five, "five");
-
-        printMatrix(pw, branch, "branch");
 
         printMatrix(pw, three, "three");
 
