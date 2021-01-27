@@ -1,0 +1,497 @@
+##gff-version 3
+##source-version geneious 2021.0.3
+##sequence-region	EAF_Carc_IR2_c27	1	6282
+EAF_Carc_IR2_c27	Geneious	region	1	6282	.	+	0	Is_circular=true
+EAF_Carc_IR2_c27	Geneious	CDS	3181	4272	.	-	.	Name=Putative CP CDS
+EAF_Carc_IR2_c27	Geneious	CDS	2237	2543	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659182.0
+EAF_Carc_IR2_c27	Geneious	CDS	2581	3158	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659182.0
+EAF_Carc_IR2_c27	Stem-Loop_Finder	nonanucleotide	1742	1750	.	+	.	Name=nona
+EAF_Carc_IR2_c27	Stem-Loop_Finder	nonanucleotide	4112	4120	.	+	.	Name=nona
+EAF_Carc_IR2_c27	Stem-Loop_Finder	stem_loop	1735	1765	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c27	Stem-Loop_Finder	stem_loop	4103	4125	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c27	Iteron_Finder	iteron	1695	1699	.	+	.	Name=iteron2
+EAF_Carc_IR2_c27	Iteron_Finder	iteron	1707	1711	.	+	.	Name=iteron2
+EAF_Carc_IR2_c27	Iteron_Finder	iteron	1709	1713	.	+	.	Name=iteron1
+EAF_Carc_IR2_c27	Iteron_Finder	iteron	1718	1722	.	+	.	Name=iteron1
+EAF_Carc_IR2_c27	Iteron_Finder	iteron	4091	4095	.	+	.	Name=iteron1
+EAF_Carc_IR2_c27	Iteron_Finder	iteron	4096	4100	.	+	.	Name=iteron1
+##sequence-region	EAF_Carc_IR2_c61	1	5701
+EAF_Carc_IR2_c61	Geneious	region	1	5701	.	+	0	Is_circular=true
+EAF_Carc_IR2_c61	Geneious	CDS	1	217	.	+	.	Name=Putative Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659183.1
+EAF_Carc_IR2_c61	Geneious	CDS	474	1285	.	+	.	Name=Putative Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659183.1
+EAF_Carc_IR2_c61	Geneious	CDS	3072	4226	.	+	.	Name=Putative CP CDS
+EAF_Carc_IR2_c61	Stem-Loop_Finder	stem_loop	341	378	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c61	Stem-Loop_Finder	stem_loop	2068	2091	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c61	Stem-Loop_Finder	stem_loop	1157	1177	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c61	Stem-Loop_Finder	nonanucleotide	355	363	.	+	.	Name=nona
+EAF_Carc_IR2_c61	Stem-Loop_Finder	nonanucleotide	356	364	.	+	.	Name=nona
+EAF_Carc_IR2_c61	Stem-Loop_Finder	nonanucleotide	1164	1172	.	+	.	Name=nona
+EAF_Carc_IR2_c61	Stem-Loop_Finder	nonanucleotide	2075	2083	.	+	.	Name=nona
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	308	315	.	+	.	Name=iteron4
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	309	316	.	+	.	Name=iteron2
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	323	330	.	+	.	Name=iteron4
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	325	332	.	+	.	Name=iteron2
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	375	381	.	+	.	Name=iteron1
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	382	388	.	+	.	Name=iteron1
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	311	316	.	+	.	Name=iteron3
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	327	332	.	+	.	Name=iteron3
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	409	414	.	+	.	Name=iteron3
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	420	425	.	+	.	Name=iteron3
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	1193	1198	.	+	.	Name=iteron2
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	1202	1207	.	+	.	Name=iteron2
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	2029	2034	.	+	.	Name=iteron2
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	2047	2052	.	+	.	Name=iteron2
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	2099	2104	.	+	.	Name=iteron1
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	2108	2113	.	+	.	Name=iteron1
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	1180	1184	.	+	.	Name=iteron1
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	1186	1190	.	+	.	Name=iteron1
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	1207	1211	.	+	.	Name=iteron3
+EAF_Carc_IR2_c61	Iteron_Finder	iteron	1225	1229	.	+	.	Name=iteron3
+##sequence-region	EAF_Carc_SvL2_c21	1	4612
+EAF_Carc_SvL2_c21	Geneious	region	1	4612	.	+	0	Is_circular=true
+EAF_Carc_SvL2_c21	Geneious	CDS	258	1141	.	+	.	Name=Putative CP CDS (Stops at GEL%2C Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659183.2
+EAF_Carc_SvL2_c21	Geneious	CDS	1276	1810	.	+	.	Name=Putative CP CDS (Stops at GEL%2C Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659183.2
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	stem_loop	1749	1773	.	+	.	Name=stem-loop
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	nonanucleotide	1758	1766	.	+	.	Name=nona
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	stem_loop	2011	2037	.	+	.	Name=stem-loop
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	nonanucleotide	2016	2024	.	+	.	Name=nona
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	nonanucleotide	2018	2026	.	+	.	Name=nona
+EAF_Carc_SvL2_c21	Iteron_Finder	iteron	2041	2045	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c21	Iteron_Finder	iteron	2059	2063	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c21	Iteron_Finder	iteron	2074	2078	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	stem_loop	2742	2777	.	+	.	Name=stem-loop
+EAF_Carc_SvL2_c21	Stem-Loop_Finder	nonanucleotide	2757	2765	.	+	.	Name=nona
+EAF_Carc_SvL2_c21	Geneious	CDS	3352	4509	.	+	.	Name=Putative Rep CDS
+##sequence-region	EAF_Carc_SvL2_c39	1	4481
+EAF_Carc_SvL2_c39	Geneious	region	1	4481	.	+	0	Is_circular=true
+EAF_Carc_SvL2_c39	Geneious	CDS	1470	2879	.	+	.	Name=Putative CP CDS
+EAF_Carc_SvL2_c39	Geneious	CDS	300	440	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659184.3
+EAF_Carc_SvL2_c39	Geneious	CDS	592	1404	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659184.3
+EAF_Carc_SvL2_c39	Stem-Loop_Finder	stem_loop	4050	4084	.	+	.	Name=stem-loop
+EAF_Carc_SvL2_c39	Stem-Loop_Finder	stem_loop	3640	3673	.	+	.	Name=stem-loop
+EAF_Carc_SvL2_c39	Stem-Loop_Finder	nonanucleotide	3650	3658	.	+	.	Name=nona
+EAF_Carc_SvL2_c39	Stem-Loop_Finder	nonanucleotide	4063	4071	.	+	.	Name=nona
+EAF_Carc_SvL2_c39	Stem-Loop_Finder	nonanucleotide	4064	4072	.	+	.	Name=nona
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4081	4087	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4094	4100	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4011	4016	.	+	.	Name=iteron2
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4028	4033	.	+	.	Name=iteron2
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3614	3618	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3617	3621	.	+	.	Name=iteron5
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3622	3626	.	+	.	Name=iteron5
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3626	3630	.	+	.	Name=iteron1
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3676	3680	.	+	.	Name=iteron3
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3678	3682	.	+	.	Name=iteron2
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3685	3689	.	+	.	Name=iteron3
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3690	3694	.	+	.	Name=iteron2
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3710	3714	.	+	.	Name=iteron4
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	3716	3720	.	+	.	Name=iteron4
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4011	4015	.	+	.	Name=iteron3
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4014	4018	.	+	.	Name=iteron5
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4015	4019	.	+	.	Name=iteron4
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4017	4021	.	+	.	Name=iteron3
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4019	4023	.	+	.	Name=iteron5
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4020	4024	.	+	.	Name=iteron4
+EAF_Carc_SvL2_c39	Iteron_Finder	iteron	4028	4032	.	+	.	Name=iteron3
+##sequence-region	EAF_Colo_Milan_c441	1	4106
+EAF_Colo_Milan_c441	Geneious	region	1	4106	.	+	0	Is_circular=true
+EAF_Colo_Milan_c441	Geneious	CDS	855	1354	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659184.4
+EAF_Colo_Milan_c441	Geneious	CDS	1370	1955	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659184.4
+EAF_Colo_Milan_c441	Geneious	CDS	1989	3953	.	-	.	Name=Putative CP CDS
+EAF_Colo_Milan_c441	Stem-Loop_Finder	stem_loop	4010	4041	.	+	.	Name=stem-loop
+EAF_Colo_Milan_c441	Stem-Loop_Finder	nonanucleotide	4022	4030	.	+	.	Name=nona
+EAF_Colo_Milan_c441	Stem-Loop_Finder	nonanucleotide	4023	4031	.	+	.	Name=nona
+EAF_Colo_Milan_c441	Iteron_Finder	iteron	4045	4050	.	+	.	Name=iteron1
+EAF_Colo_Milan_c441	Iteron_Finder	iteron	4051	4056	.	+	.	Name=iteron1
+##sequence-region	EAF_Roux2_virusbaton_c671	1	4712
+EAF_Roux2_virusbaton_c671	Geneious	region	1	4712	.	+	0	Is_circular=true
+EAF_Roux2_virusbaton_c671	Geneious	CDS	1	990	.	+	.	Name=Putative Rep CDS
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	2680	2684	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	2704	2708	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	stem_loop	2720	2756	.	+	.	Name=stem-loop
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	stem_loop	2721	2755	.	+	.	Name=stem-loop
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	stem_loop	2722	2754	.	+	.	Name=stem-loop
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	2731	2739	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	2733	2741	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	2734	2742	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	2736	2744	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	2743	2747	.	+	.	Name=iteron1
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	2767	2771	.	+	.	Name=iteron1
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	2773	2777	.	+	.	Name=iteron3
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	2796	2800	.	+	.	Name=iteron3
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	stem_loop	2987	3018	.	+	.	Name=stem-loop
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	2998	3006	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	3000	3008	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3017	3021	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3018	3023	.	+	.	Name=iteron3
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3019	3023	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3029	3033	.	+	.	Name=iteron1
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3034	3039	.	+	.	Name=iteron3
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3035	3039	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3035	3040	.	+	.	Name=iteron4
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3044	3048	.	+	.	Name=iteron1
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3056	3060	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	3056	3061	.	+	.	Name=iteron4
+EAF_Roux2_virusbaton_c671	Geneious	CDS	3801	4410	.	-	.	Name=Putative HMMER CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.5
+EAF_Roux2_virusbaton_c671	Geneious	CDS	3353	3746	.	-	.	Name=Putative HMMER CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.5
+EAF_Roux2_virusbaton_c671	Geneious	CDS	3130	3223	.	-	.	Name=Putative HMMER CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.5
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4376	4380	.	+	.	Name=iteron4
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4388	4392	.	+	.	Name=iteron3
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4394	4398	.	+	.	Name=iteron4
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4400	4404	.	+	.	Name=iteron3
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	stem_loop	4425	4458	.	+	.	Name=stem-loop
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	4438	4446	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Stem-Loop_Finder	nonanucleotide	4439	4447	.	+	.	Name=nona
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4454	4458	.	+	.	Name=iteron1
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4462	4467	.	+	.	Name=iteron2
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4464	4468	.	+	.	Name=iteron1
+EAF_Roux2_virusbaton_c671	Iteron_Finder	iteron	4472	4477	.	+	.	Name=iteron2
+##sequence-region	EAMS_Lach_SydneyBayRA2_c455	1	4711
+EAMS_Lach_SydneyBayRA2_c455	Geneious	region	1	4711	.	+	0	Is_circular=true
+EAMS_Lach_SydneyBayRA2_c455	Geneious	CDS	3104	3251	.	-	.	Name=Putative HMM CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.6
+EAMS_Lach_SydneyBayRA2_c455	Geneious	CDS	1644	2860	.	-	.	Name=Putative HMM CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.6
+EAMS_Lach_SydneyBayRA2_c455	Geneious	CDS	1	1338	.	+	.	Name=Putative Rep
+##sequence-region	EAMS_Lach_SydneyBayRB2_c109	1	4844
+EAMS_Lach_SydneyBayRB2_c109	Geneious	region	1	4844	.	+	0	Is_circular=true
+EAMS_Lach_SydneyBayRB2_c109	Geneious	CDS	2191	2635	.	-	.	Name=Putative CP CDS (INtron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.7
+EAMS_Lach_SydneyBayRB2_c109	Geneious	CDS	917	2142	.	-	.	Name=Putative CP CDS (INtron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.7
+EAMS_Lach_SydneyBayRB2_c109	Geneious	CDS	1	915	.	+	.	Name=Putative Rep CDS
+##sequence-region	ETS_Han_JilinM_c5	1	7207
+ETS_Han_JilinM_c5	Geneious	region	1	7207	.	+	0	Is_circular=true
+ETS_Han_JilinM_c5	Geneious	CDS	1307	2311	.	+	.	Name=Putative CP (no Stop on time)
+ETS_Han_JilinM_c5	Stem-Loop_Finder	stem_loop	3401	3424	.	+	.	Name=stem-loop
+ETS_Han_JilinM_c5	Stem-Loop_Finder	nonanucleotide	3411	3419	.	+	.	Name=nona
+ETS_Han_JilinM_c5	Iteron_Finder	iteron	3438	3442	.	+	.	Name=iteron2
+ETS_Han_JilinM_c5	Iteron_Finder	iteron	3447	3451	.	+	.	Name=iteron3
+ETS_Han_JilinM_c5	Iteron_Finder	iteron	3448	3452	.	+	.	Name=iteron1
+ETS_Han_JilinM_c5	Iteron_Finder	iteron	3453	3457	.	+	.	Name=iteron1
+ETS_Han_JilinM_c5	Iteron_Finder	iteron	3461	3465	.	+	.	Name=iteron2
+ETS_Han_JilinM_c5	Iteron_Finder	iteron	3468	3472	.	+	.	Name=iteron3
+ETS_Han_JilinM_c5	Geneious	CDS	4741	4821	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.8
+ETS_Han_JilinM_c5	Geneious	CDS	3598	4701	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659185.8
+##sequence-region	ETS_Han_JilinP_c150	1	7524
+ETS_Han_JilinP_c150	Geneious	region	1	7524	.	+	0	Is_circular=true
+ETS_Han_JilinP_c150	Stem-Loop_Finder	nonanucleotide	740	748	.	+	.	Name=nona
+ETS_Han_JilinP_c150	Stem-Loop_Finder	stem_loop	735	760	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c150	Geneious	CDS	5180	5716	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.9
+ETS_Han_JilinP_c150	Geneious	CDS	4083	4667	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.9
+ETS_Han_JilinP_c150	Geneious	CDS	259	1557	.	-	.	Name=Putative CP CDS
+ETS_Han_JilinP_c150	Iteron_Finder	iteron	769	773	.	+	.	Name=iteron1
+ETS_Han_JilinP_c150	Iteron_Finder	iteron	777	781	.	+	.	Name=iteron1
+##sequence-region	ETS_Han_JilinP_c180	1	6773
+ETS_Han_JilinP_c180	Geneious	region	1	6773	.	+	0	Is_circular=true
+ETS_Han_JilinP_c180	Geneious	CDS	3698	4040	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.10
+ETS_Han_JilinP_c180	Geneious	CDS	4372	5012	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.10
+ETS_Han_JilinP_c180	Geneious	CDS	643	1911	.	+	.	Name=Putative BLAST CP CDS
+ETS_Han_JilinP_c180	Stem-Loop_Finder	nonanucleotide	932	940	.	+	.	Name=nona
+ETS_Han_JilinP_c180	Stem-Loop_Finder	nonanucleotide	4747	4755	.	+	.	Name=nona
+ETS_Han_JilinP_c180	Stem-Loop_Finder	nonanucleotide	4749	4757	.	+	.	Name=nona
+ETS_Han_JilinP_c180	Stem-Loop_Finder	nonanucleotide	5758	5766	.	+	.	Name=nona
+ETS_Han_JilinP_c180	Stem-Loop_Finder	stem_loop	4733	4763	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c180	Stem-Loop_Finder	stem_loop	4734	4762	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c180	Stem-Loop_Finder	stem_loop	924	946	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c180	Stem-Loop_Finder	stem_loop	5752	5771	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	5800	5806	.	+	.	Name=iteron1
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	5821	5827	.	+	.	Name=iteron1
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	893	898	.	+	.	Name=iteron1
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	902	907	.	+	.	Name=iteron1
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	956	960	.	+	.	Name=iteron2
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	965	969	.	+	.	Name=iteron3
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	974	978	.	+	.	Name=iteron2
+ETS_Han_JilinP_c180	Iteron_Finder	iteron	985	989	.	+	.	Name=iteron3
+##sequence-region	ETS_Han_JilinP_c315	1	5414
+ETS_Han_JilinP_c315	Geneious	region	1	5414	.	+	0	Is_circular=true
+ETS_Han_JilinP_c315	Geneious	CDS	7	179	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.11
+ETS_Han_JilinP_c315	Geneious	CDS	337	394	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.11
+ETS_Han_JilinP_c315	Geneious	CDS	501	911	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.11
+ETS_Han_JilinP_c315	Geneious	CDS	2471	3307	.	+	.	Name=Putative CP CDS
+##sequence-region	ETS_Han_Shandong_c305	1	5110
+ETS_Han_Shandong_c305	Geneious	region	1	5110	.	+	0	Is_circular=true
+ETS_Han_Shandong_c305	Geneious	CDS	3112	5040	.	+	.	Name=Putative CP CDS
+ETS_Han_Shandong_c305	Geneious	CDS	2145	2289	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.12
+ETS_Han_Shandong_c305	Geneious	CDS	2436	3115	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.12
+##sequence-region	ETS_Han_Shandong_c596	1	3813
+ETS_Han_Shandong_c596	Geneious	region	1	3813	.	+	0	Is_circular=true
+ETS_Han_Shandong_c596	HMMAnnotator	CDS	3348	3804	.	+	.	Name=Putative HMMER Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.13
+ETS_Han_Shandong_c596	HMMAnnotator	CDS	17	657	.	+	.	Name=Putative HMMER Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659186.13
+ETS_Han_Shandong_c596	Geneious	CDS	1107	2831	.	+	.	Name=Putative CP CDS
+##sequence-region	ETS_Han_Shandong_c611	1	3777
+ETS_Han_Shandong_c611	Geneious	region	1	3777	.	+	0	Is_circular=true
+ETS_Han_Shandong_c611	Stem-Loop_Finder	stem_loop	3106	3134	.	+	.	Name=stem-loop
+ETS_Han_Shandong_c611	Geneious	CDS	1306	3093	.	-	.	Name=Putative CP CDS
+ETS_Han_Shandong_c611	Geneious	CDS	1	671	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659187.14
+ETS_Han_Shandong_c611	Geneious	CDS	709	871	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659187.14
+ETS_Han_Shandong_c611	Stem-Loop_Finder	nonanucleotide	3116	3124	.	+	.	Name=nona
+ETS_Han_Shandong_c611	Stem-Loop_Finder	nonanucleotide	3117	3125	.	+	.	Name=nona
+ETS_Han_Shandong_c611	Iteron_Finder	iteron	3088	3092	.	+	.	Name=iteron2
+ETS_Han_Shandong_c611	Iteron_Finder	iteron	3098	3102	.	+	.	Name=iteron2
+ETS_Han_Shandong_c611	Iteron_Finder	iteron	3135	3139	.	+	.	Name=iteron1
+ETS_Han_Shandong_c611	Iteron_Finder	iteron	3140	3144	.	+	.	Name=iteron1
+##sequence-region	NW_Brin_undilA_c139	1	5872
+NW_Brin_undilA_c139	Geneious	region	1	5872	.	+	0	Is_circular=true
+NW_Brin_undilA_c139	Geneious	CDS	4195	4363	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659187.15
+NW_Brin_undilA_c139	Geneious	CDS	4597	5390	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659187.15
+NW_Brin_undilA_c139	Geneious	CDS	1225	2289	.	+	.	Name=Putative CP CDS
+NW_Brin_undilA_c139	Stem-Loop_Finder	nonanucleotide	230	238	.	+	.	Name=nona
+NW_Brin_undilA_c139	Stem-Loop_Finder	nonanucleotide	4406	4414	.	+	.	Name=nona
+NW_Brin_undilA_c139	Stem-Loop_Finder	stem_loop	4395	4423	.	+	.	Name=stem-loop
+NW_Brin_undilA_c139	Stem-Loop_Finder	stem_loop	221	246	.	+	.	Name=stem-loop
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4425	4431	.	+	.	Name=iteron1
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4433	4439	.	+	.	Name=iteron1
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4367	4371	.	+	.	Name=iteron5
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4373	4377	.	+	.	Name=iteron5
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4374	4378	.	+	.	Name=iteron4
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4375	4379	.	+	.	Name=iteron3
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4379	4383	.	+	.	Name=iteron4
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4380	4384	.	+	.	Name=iteron3
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4445	4449	.	+	.	Name=iteron2
+NW_Brin_undilA_c139	Iteron_Finder	iteron	4456	4460	.	+	.	Name=iteron2
+##sequence-region	NW_Brin_undilA_c212	1	5078
+NW_Brin_undilA_c212	Geneious	region	1	5078	.	+	0	Is_circular=true
+NW_Brin_undilA_c212	Stem-Loop_Finder	nonanucleotide	2622	2630	.	+	.	Name=nona
+NW_Brin_undilA_c212	Stem-Loop_Finder	stem_loop	2611	2637	.	+	.	Name=stem-loop
+NW_Brin_undilA_c212	Geneious	CDS	2166	2604	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659187.16
+NW_Brin_undilA_c212	Geneious	CDS	925	1976	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659187.16
+NW_Brin_undilA_c212	Geneious	CDS	3565	5109	.	-	.	Name=Putative CP CDS
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2573	2578	.	+	.	Name=iteron1
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2587	2592	.	+	.	Name=iteron1
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2580	2584	.	+	.	Name=iteron2
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2602	2606	.	+	.	Name=iteron2
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2649	2653	.	+	.	Name=iteron4
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2655	2659	.	+	.	Name=iteron3
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2667	2671	.	+	.	Name=iteron4
+NW_Brin_undilA_c212	Iteron_Finder	iteron	2679	2683	.	+	.	Name=iteron3
+##sequence-region	NW_Brin_undilB_c209	1	4815
+NW_Brin_undilB_c209	Geneious	region	1	4815	.	+	0	Is_circular=true
+NW_Brin_undilB_c209	Stem-Loop_Finder	stem_loop	2763	2797	.	+	.	Name=stem-loop
+NW_Brin_undilB_c209	Geneious	CDS	3390	4949	.	-	.	Name=Putative CP CDS
+NW_Brin_undilB_c209	Geneious	CDS	1847	2189	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659188.17
+NW_Brin_undilB_c209	Geneious	CDS	979	1607	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659188.17
+NW_Brin_undilB_c209	Iteron_Finder	iteron	2764	2768	.	+	.	Name=iteron1
+NW_Brin_undilB_c209	Iteron_Finder	iteron	2771	2775	.	+	.	Name=iteron1
+NW_Brin_undilB_c209	Stem-Loop_Finder	nonanucleotide	2776	2784	.	+	.	Name=nona
+NW_Brin_undilB_c209	Stem-Loop_Finder	nonanucleotide	2777	2785	.	+	.	Name=nona
+##sequence-region	NW_Brin_undilC_c290	1	4293
+NW_Brin_undilC_c290	Geneious	region	1	4293	.	+	0	Is_circular=true
+NW_Brin_undilC_c290	Stem-Loop_Finder	nonanucleotide	377	385	.	+	.	Name=nona
+NW_Brin_undilC_c290	Stem-Loop_Finder	stem_loop	371	391	.	+	.	Name=stem-loop
+NW_Brin_undilC_c290	Geneious	CDS	2364	3896	.	+	.	Name=Putative CP CDS
+NW_Brin_undilC_c290	Geneious	CDS	878	1261	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659188.18
+NW_Brin_undilC_c290	Geneious	CDS	1342	1974	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659188.18
+NW_Brin_undilC_c290	Iteron_Finder	iteron	345	349	.	+	.	Name=iteron2
+NW_Brin_undilC_c290	Iteron_Finder	iteron	365	369	.	+	.	Name=iteron2
+NW_Brin_undilC_c290	Iteron_Finder	iteron	430	434	.	+	.	Name=iteron1
+NW_Brin_undilC_c290	Iteron_Finder	iteron	442	446	.	+	.	Name=iteron1
+##sequence-region	EAF_Carc_IR2_c13	1	6814
+EAF_Carc_IR2_c13	Geneious	region	1	6814	.	+	0	Is_circular=true
+EAF_Carc_IR2_c13	Stem-Loop_Finder	nonanucleotide	3018	3026	.	+	.	Name=nona
+EAF_Carc_IR2_c13	Stem-Loop_Finder	stem_loop	3008	3037	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c13	Geneious	CDS	2611	2904	.	-	.	Name=Putative HMMER CP CDS (Intron;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659189.19
+EAF_Carc_IR2_c13	Geneious	CDS	1504	2547	.	-	.	Name=Putative HMMER CP CDS (Intron;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659189.19
+EAF_Carc_IR2_c13	Geneious	CDS	552	1502	.	+	.	Name=Putative Rep CDS
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2960	2966	.	+	.	Name=iteron4
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2981	2987	.	+	.	Name=iteron4
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2958	2962	.	+	.	Name=iteron5
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2961	2965	.	+	.	Name=iteron5
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2968	2972	.	+	.	Name=iteron3
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2974	2978	.	+	.	Name=iteron3
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	2982	2986	.	+	.	Name=iteron5
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	3033	3037	.	+	.	Name=iteron2
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	3039	3043	.	+	.	Name=iteron1
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	3047	3051	.	+	.	Name=iteron2
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	3060	3064	.	+	.	Name=iteron1
+EAF_Carc_IR2_c13	Iteron_Finder	iteron	3075	3079	.	+	.	Name=iteron1
+##sequence-region	EAF_Carc_IR2_c1026	1	4024
+EAF_Carc_IR2_c1026	Geneious	region	1	4024	.	+	0	Is_circular=true
+EAF_Carc_IR2_c1026	Geneious	CDS	69	103	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659190.20
+EAF_Carc_IR2_c1026	Geneious	CDS	3045	3867	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659190.20
+EAF_Carc_IR2_c1026	Geneious	CDS	1296	2474	.	+	.	Name=Putative CP CDS
+EAF_Carc_IR2_c1026	Stem-Loop_Finder	nonanucleotide	963	971	.	+	.	Name=nona
+EAF_Carc_IR2_c1026	Stem-Loop_Finder	nonanucleotide	964	972	.	+	.	Name=nona
+EAF_Carc_IR2_c1026	Stem-Loop_Finder	stem_loop	948	985	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c1026	Stem-Loop_Finder	stem_loop	949	984	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	980	989	.	+	.	Name=iteron1
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	1000	1009	.	+	.	Name=iteron1
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	984	990	.	+	.	Name=iteron3
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	992	998	.	+	.	Name=iteron3
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	920	925	.	+	.	Name=iteron5
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	933	938	.	+	.	Name=iteron5
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	984	989	.	+	.	Name=iteron2
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	992	997	.	+	.	Name=iteron2
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	997	1002	.	+	.	Name=iteron4
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	1004	1009	.	+	.	Name=iteron2
+EAF_Carc_IR2_c1026	Iteron_Finder	iteron	1008	1013	.	+	.	Name=iteron4
+##sequence-region	EAF_Carc_IR2_c1240	1	3587
+EAF_Carc_IR2_c1240	Geneious	region	1	3587	.	+	0	Is_circular=true
+EAF_Carc_IR2_c1240	Geneious	CDS	3188	3587	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659190.21
+EAF_Carc_IR2_c1240	Geneious	CDS	41	504	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659190.21
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	stem_loop	724	760	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	nonanucleotide	739	747	.	+	.	Name=nona
+EAF_Carc_IR2_c1240	Iteron_Finder	iteron	782	786	.	+	.	Name=iteron1
+EAF_Carc_IR2_c1240	Iteron_Finder	iteron	805	809	.	+	.	Name=iteron1
+EAF_Carc_IR2_c1240	Geneious	CDS	887	2407	.	+	.	Name=Putative CP CDS
+EAF_Carc_IR2_c1240	Iteron_Finder	iteron	2424	2428	.	+	.	Name=iteron1
+EAF_Carc_IR2_c1240	Iteron_Finder	iteron	2431	2435	.	+	.	Name=iteron1
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	stem_loop	2455	2476	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	nonanucleotide	2461	2469	.	+	.	Name=nona
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	nonanucleotide	2463	2471	.	+	.	Name=nona
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	stem_loop	3107	3129	.	+	.	Name=stem-loop
+EAF_Carc_IR2_c1240	Stem-Loop_Finder	nonanucleotide	3116	3124	.	+	.	Name=nona
+##sequence-region	EAF_Carc_SvL1_c39	1	7001
+EAF_Carc_SvL1_c39	Geneious	region	1	7001	.	+	0	Is_circular=true
+EAF_Carc_SvL1_c39	Geneious	CDS	780	1568	.	+	.	Name=Putative CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659190.22
+EAF_Carc_SvL1_c39	Geneious	CDS	1653	2738	.	+	.	Name=Putative CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659190.22
+EAF_Carc_SvL1_c39	Geneious	CDS	2755	3699	.	-	.	Name=Putative Rep CDS
+##sequence-region	EAF_Carc_SvL2_c4	1	5334
+EAF_Carc_SvL2_c4	Geneious	region	1	5334	.	+	0	Is_circular=true
+EAF_Carc_SvL2_c4	Geneious	CDS	5025	5211	.	-	.	Name=Putative Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659191.23
+EAF_Carc_SvL2_c4	Geneious	CDS	3650	4632	.	-	.	Name=Putative Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659191.23
+EAF_Carc_SvL2_c4	Geneious	CDS	2710	2988	.	-	.	Name=Putative CP CDS (Standard with intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659191.24
+EAF_Carc_SvL2_c4	Geneious	CDS	1555	2667	.	-	.	Name=Putative CP CDS (Standard with intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659191.24
+##sequence-region	EAMS_Lach_SydneyBayCB1_c138	1	4782
+EAMS_Lach_SydneyBayCB1_c138	Geneious	region	1	4782	.	+	0	Is_circular=true
+EAMS_Lach_SydneyBayCB1_c138	Geneious	CDS	706	2052	.	+	.	Name=Putative HMM CP CDS
+EAMS_Lach_SydneyBayCB1_c138	Geneious	CDS	3271	3598	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659191.25
+EAMS_Lach_SydneyBayCB1_c138	Geneious	CDS	2626	3212	.	-	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659191.25
+##sequence-region	ETS_Han_JiangsuP_c207	1	3136
+ETS_Han_JiangsuP_c207	Geneious	region	1	3136	.	+	0	Is_circular=true
+ETS_Han_JiangsuP_c207	Geneious	CDS	1	1290	.	+	.	Name=Putative CP CDS
+ETS_Han_JiangsuP_c207	Geneious	CDS	2013	2531	.	-	.	Name=Putative Rep CDS (Double Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659192.26
+ETS_Han_JiangsuP_c207	Geneious	CDS	1763	1992	.	-	.	Name=Putative Rep CDS (Double Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659192.26
+ETS_Han_JiangsuP_c207	Geneious	CDS	1565	1742	.	-	.	Name=Putative Rep CDS (Double Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659192.26
+##sequence-region	ETS_Han_JilinM_c93	1	3777
+ETS_Han_JilinM_c93	Geneious	region	1	3777	.	+	0	Is_circular=true
+ETS_Han_JilinM_c93	Stem-Loop_Finder	stem_loop	3688	3716	.	+	.	Name=stem-loop
+ETS_Han_JilinM_c93	Geneious	CDS	1888	3675	.	-	.	Name=Putative CP CDS
+ETS_Han_JilinM_c93	Geneious	CDS	517	1253	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659193.27
+ETS_Han_JilinM_c93	Geneious	CDS	1285	1453	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659193.27
+ETS_Han_JilinM_c93	Stem-Loop_Finder	nonanucleotide	3698	3706	.	+	.	Name=nona
+ETS_Han_JilinM_c93	Stem-Loop_Finder	nonanucleotide	3699	3707	.	+	.	Name=nona
+ETS_Han_JilinM_c93	Iteron_Finder	iteron	3670	3674	.	+	.	Name=iteron2
+ETS_Han_JilinM_c93	Iteron_Finder	iteron	3680	3684	.	+	.	Name=iteron2
+ETS_Han_JilinM_c93	Iteron_Finder	iteron	3717	3721	.	+	.	Name=iteron1
+ETS_Han_JilinM_c93	Iteron_Finder	iteron	3722	3726	.	+	.	Name=iteron1
+##sequence-region	ETS_Han_JilinP_c289	1	5708
+ETS_Han_JilinP_c289	Geneious	region	1	5708	.	+	0	Is_circular=true
+ETS_Han_JilinP_c289	Geneious	CDS	1	295	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659193.28
+ETS_Han_JilinP_c289	Geneious	CDS	581	1359	.	+	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659193.28
+ETS_Han_JilinP_c289	Geneious	CDS	3079	4221	.	+	.	Name=Putative CP CDS
+ETS_Han_JilinP_c289	Stem-Loop_Finder	nonanucleotide	343	351	.	+	.	Name=nona
+ETS_Han_JilinP_c289	Stem-Loop_Finder	nonanucleotide	344	352	.	+	.	Name=nona
+ETS_Han_JilinP_c289	Stem-Loop_Finder	nonanucleotide	1902	1910	.	+	.	Name=nona
+ETS_Han_JilinP_c289	Stem-Loop_Finder	stem_loop	328	366	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c289	Stem-Loop_Finder	stem_loop	329	365	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c289	Stem-Loop_Finder	stem_loop	1889	1915	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	363	370	.	+	.	Name=iteron2
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	371	378	.	+	.	Name=iteron2
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	386	391	.	+	.	Name=iteron4
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	397	402	.	+	.	Name=iteron4
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	1870	1875	.	+	.	Name=iteron1
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	1888	1893	.	+	.	Name=iteron1
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	1930	1935	.	+	.	Name=iteron2
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	1954	1959	.	+	.	Name=iteron2
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	322	326	.	+	.	Name=iteron1
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	333	337	.	+	.	Name=iteron1
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	357	361	.	+	.	Name=iteron3
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	376	380	.	+	.	Name=iteron3
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	387	391	.	+	.	Name=iteron5
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	393	397	.	+	.	Name=iteron5
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	398	402	.	+	.	Name=iteron5
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	1962	1966	.	+	.	Name=iteron3
+ETS_Han_JilinP_c289	Iteron_Finder	iteron	1968	1972	.	+	.	Name=iteron3
+##sequence-region	ETS_Han_JilinP_c326	1	5340
+ETS_Han_JilinP_c326	Geneious	region	1	5340	.	+	0	Is_circular=true
+ETS_Han_JilinP_c326	Stem-Loop_Finder	stem_loop	944	969	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c326	Geneious	CDS	1754	3295	.	+	.	Name=Putative CP CDS
+ETS_Han_JilinP_c326	Geneious	CDS	4979	5276	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659194.29
+ETS_Han_JilinP_c326	Geneious	CDS	4057	4910	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659194.29
+ETS_Han_JilinP_c326	Stem-Loop_Finder	nonanucleotide	953	961	.	+	.	Name=nona
+ETS_Han_JilinP_c326	Stem-Loop_Finder	nonanucleotide	954	962	.	+	.	Name=nona
+ETS_Han_JilinP_c326	Iteron_Finder	iteron	892	897	.	+	.	Name=iteron2
+ETS_Han_JilinP_c326	Iteron_Finder	iteron	917	922	.	+	.	Name=iteron2
+ETS_Han_JilinP_c326	Iteron_Finder	iteron	937	942	.	+	.	Name=iteron1
+ETS_Han_JilinP_c326	Iteron_Finder	iteron	944	949	.	+	.	Name=iteron1
+##sequence-region	ETS_Han_JilinP_c343	1	5166
+ETS_Han_JilinP_c343	Geneious	region	1	5166	.	+	0	Is_circular=true
+ETS_Han_JilinP_c343	Stem-Loop_Finder	stem_loop	1619	1645	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c343	Geneious	CDS	233	1801	.	+	.	Name=Putative CP CDS
+ETS_Han_JilinP_c343	Geneious	CDS	2930	3356	.	-	.	Name=Putative BLAST Rep CDS (intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659195.30
+ETS_Han_JilinP_c343	Geneious	CDS	1880	2865	.	-	.	Name=Putative BLAST Rep CDS (intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659195.30
+ETS_Han_JilinP_c343	Stem-Loop_Finder	nonanucleotide	1629	1637	.	+	.	Name=nona
+ETS_Han_JilinP_c343	Stem-Loop_Finder	nonanucleotide	1630	1638	.	+	.	Name=nona
+ETS_Han_JilinP_c343	Iteron_Finder	iteron	1662	1667	.	+	.	Name=iteron2
+ETS_Han_JilinP_c343	Iteron_Finder	iteron	1688	1693	.	+	.	Name=iteron2
+ETS_Han_JilinP_c343	Iteron_Finder	iteron	1594	1598	.	+	.	Name=iteron1
+ETS_Han_JilinP_c343	Iteron_Finder	iteron	1609	1613	.	+	.	Name=iteron1
+##sequence-region	ETS_Han_JilinP_c441	1	4888
+ETS_Han_JilinP_c441	Geneious	region	1	4888	.	+	0	Is_circular=true
+ETS_Han_JilinP_c441	HMMAnnotator	CDS	952	2628	.	+	.	Name=Putative HMMER Rep CDS
+ETS_Han_JilinP_c441	Geneious	CDS	3977	4214	.	-	.	Name=Putative BLAST CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659195.31
+ETS_Han_JilinP_c441	Geneious	CDS	3075	3919	.	-	.	Name=Putative BLAST CP CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659195.31
+##sequence-region	ETS_Han_JilinP_c757	1	4609
+ETS_Han_JilinP_c757	Geneious	region	1	4609	.	+	0	Is_circular=true
+ETS_Han_JilinP_c757	Stem-Loop_Finder	nonanucleotide	541	549	.	+	.	Name=nona
+ETS_Han_JilinP_c757	Stem-Loop_Finder	stem_loop	528	559	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c757	Geneious	CDS	488	2542	.	+	.	Name=Putative CP CDS
+ETS_Han_JilinP_c757	Geneious	CDS	3619	3799	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659196.32
+ETS_Han_JilinP_c757	Geneious	CDS	2902	3524	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659196.32
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	567	573	.	+	.	Name=iteron5
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	589	595	.	+	.	Name=iteron5
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	568	573	.	+	.	Name=iteron3
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	590	595	.	+	.	Name=iteron3
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	604	609	.	+	.	Name=iteron3
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	501	505	.	+	.	Name=iteron4
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	526	530	.	+	.	Name=iteron4
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	561	565	.	+	.	Name=iteron1
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	562	566	.	+	.	Name=iteron2
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	566	570	.	+	.	Name=iteron1
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	567	571	.	+	.	Name=iteron2
+ETS_Han_JilinP_c757	Iteron_Finder	iteron	589	593	.	+	.	Name=iteron2
+##sequence-region	ETS_Han_JilinP_c1058	1	4297
+ETS_Han_JilinP_c1058	Geneious	region	1	4297	.	+	0	Is_circular=true
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	950	954	.	+	.	Name=iteron2
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	971	975	.	+	.	Name=iteron2
+ETS_Han_JilinP_c1058	Stem-Loop_Finder	stem_loop	978	1014	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c1058	Stem-Loop_Finder	nonanucleotide	993	1001	.	+	.	Name=nona
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	1012	1016	.	+	.	Name=iteron1
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	1020	1024	.	+	.	Name=iteron3
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	1022	1026	.	+	.	Name=iteron1
+ETS_Han_JilinP_c1058	Geneious	CDS	1028	1390	.	+	.	Name=Putative Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659196.33
+ETS_Han_JilinP_c1058	Geneious	CDS	1412	2029	.	+	.	Name=Putative Rep CDS;ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659196.33
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	1045	1049	.	+	.	Name=iteron3
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	2567	2571	.	+	.	Name=iteron2
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	2575	2579	.	+	.	Name=iteron2
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	2605	2609	.	+	.	Name=iteron1
+ETS_Han_JilinP_c1058	Iteron_Finder	iteron	2611	2615	.	+	.	Name=iteron1
+ETS_Han_JilinP_c1058	Stem-Loop_Finder	stem_loop	2612	2633	.	+	.	Name=stem-loop
+ETS_Han_JilinP_c1058	Stem-Loop_Finder	nonanucleotide	2619	2627	.	+	.	Name=nona
+ETS_Han_JilinP_c1058	Geneious	CDS	2909	4153	.	+	.	Name=Putative CP CDS (Old Database)
+##sequence-region	ETS_Han_Shandong_c732	1	3376
+ETS_Han_Shandong_c732	Geneious	region	1	3376	.	+	0	Is_circular=true
+ETS_Han_Shandong_c732	Geneious	CDS	488	1954	.	+	.	Name=Putative CP CDS
+ETS_Han_Shandong_c732	Geneious	CDS	2678	3031	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659197.34
+ETS_Han_Shandong_c732	Geneious	CDS	2014	2520	.	-	.	Name=Putative Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659197.34
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3035	3041	.	+	.	Name=iteron5
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3036	3042	.	+	.	Name=iteron4
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3037	3043	.	+	.	Name=iteron2
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3038	3044	.	+	.	Name=iteron1
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3042	3048	.	+	.	Name=iteron5
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3043	3049	.	+	.	Name=iteron4
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3044	3050	.	+	.	Name=iteron2
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3045	3051	.	+	.	Name=iteron1
+ETS_Han_Shandong_c732	Stem-Loop_Finder	stem_loop	3053	3077	.	+	.	Name=stem-loop
+ETS_Han_Shandong_c732	Stem-Loop_Finder	nonanucleotide	3060	3068	.	+	.	Name=nona
+ETS_Han_Shandong_c732	Stem-Loop_Finder	nonanucleotide	3061	3069	.	+	.	Name=nona
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3078	3083	.	+	.	Name=iteron3
+ETS_Han_Shandong_c732	Iteron_Finder	iteron	3094	3099	.	+	.	Name=iteron3
+##sequence-region	NW_Brin_10B_c249	1	4305
+NW_Brin_10B_c249	Geneious	region	1	4305	.	+	0	Is_circular=true
+NW_Brin_10B_c249	Stem-Loop_Finder	nonanucleotide	3335	3343	.	+	.	Name=nona
+NW_Brin_10B_c249	Stem-Loop_Finder	stem_loop	3329	3349	.	+	.	Name=stem-loop
+NW_Brin_10B_c249	Geneious	CDS	1017	2561	.	+	.	Name=Putative CP CDS
+NW_Brin_10B_c249	Geneious	CDS	3836	4219	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659197.35
+NW_Brin_10B_c249	Geneious	CDS	4300	4932	.	+	.	Name=Putative BLAST Rep CDS (Intron);ID=qqIjUg7ca9NW+KPSBjzE1Hko7vw.1611740659197.35
+NW_Brin_10B_c249	Iteron_Finder	iteron	3303	3307	.	+	.	Name=iteron2
+NW_Brin_10B_c249	Iteron_Finder	iteron	3323	3327	.	+	.	Name=iteron2
+NW_Brin_10B_c249	Iteron_Finder	iteron	3388	3392	.	+	.	Name=iteron1
+NW_Brin_10B_c249	Iteron_Finder	iteron	3400	3404	.	+	.	Name=iteron1

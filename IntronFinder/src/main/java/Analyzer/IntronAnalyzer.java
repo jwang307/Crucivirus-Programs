@@ -35,6 +35,7 @@ public class IntronAnalyzer {
         double[][] threePrime = new double[8][20];
 
         extractFastas(introns, sequenceNames);
+        extractIntrons(introns, sequenceNames);
         analyzeIntrons(introns, fivePrime, threePrime);
 
         PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(args[2])));
@@ -50,43 +51,74 @@ public class IntronAnalyzer {
         ArrayList<int[]> intervals = new ArrayList<>();
 
         String currentName = fl.get(0).seqname();
+        String seqWithIntronDetected = "";
         String currentID = "";
 
         boolean repFound = false;
+        boolean capsidFound = false;
         boolean intronFound = false;
 
-        int[] lastRepIntervals = new int[2];
+        int[] lastIntervals = new int[2];
 
         for (int i = 0; i < fl.size(); i++) {
             Feature currentFeature = (Feature) fl.get(i);
-            if (currentFeature.seqname().equals(currentName)) {
+            if (currentFeature.seqname().equals(currentName) && !currentFeature.seqname().equals(seqWithIntronDetected)) {
                 if (repFound) {
                     if (currentFeature.attributes().equals(currentID)) {
                         intronFound = true;
                     }
-                }
-
-                else if (currentFeature.attributes().contains("Replication")) {
+                } else if (currentFeature.attributes().contains("Rep")) {
                     repFound = true;
                     currentID = currentFeature.attributes();
-                    lastRepIntervals[0] = currentFeature.location().bioStart();
-                    lastRepIntervals[1] = currentFeature.location().bioEnd();
+                    lastIntervals[0] = currentFeature.location().bioStart();
+                    lastIntervals[1] = currentFeature.location().bioEnd();
+                    capsidFound = false;
+                }
+
+                if (capsidFound) {
+                    if (currentFeature.attributes().equals(currentID)) {
+                        intronFound = true;
+                    }
+                } else if (currentFeature.attributes().contains("CP")) {
+                    capsidFound = true;
+                    currentID = currentFeature.attributes();
+                    lastIntervals[0] = currentFeature.location().bioStart();
+                    lastIntervals[1] = currentFeature.location().bioEnd();
+                    repFound = false;
                 }
             } else {
                 currentName = fl.get(i).seqname();
                 repFound = false;
+                capsidFound = false;
                 currentID = "";
             }
 
             if (intronFound) {
-                if (lastRepIntervals[0] > currentFeature.location().bioStart()) {
-                    intervals.add(new int[]{lastRepIntervals[0] + exonLength, currentFeature.location().bioEnd() - exonLength});
+                int start, end;
+
+                if (lastIntervals[0] > currentFeature.location().bioStart()) {
+                    start = lastIntervals[0] + exonLength;
+                    end = currentFeature.location().bioEnd() - exonLength;
+
+                    if (Math.abs(end - start) > 1000) {
+                        start = lastIntervals[1] - exonLength;
+                        end = currentFeature.location().bioStart() + exonLength;
+                    }
                 } else {
-                    intervals.add(new int[]{lastRepIntervals[1] - exonLength, currentFeature.location().bioStart() + exonLength});
+                    start = lastIntervals[1] - exonLength;
+                    end = currentFeature.location().bioStart() + exonLength;
+                    if (Math.abs(end - start) > 1000) {
+                        start = lastIntervals[0] + exonLength;
+                        end = currentFeature.location().bioEnd() - exonLength;
+                    }
                 }
+
+                intervals.add(new int[]{start, end});
 
                 intronFound = false;
                 repFound = false;
+                capsidFound = false;
+                seqWithIntronDetected = currentFeature.seqname();
                 currentID = "";
             }
         }
@@ -133,19 +165,30 @@ public class IntronAnalyzer {
                 int start = intervals[i][0];
                 int end = intervals[i][1];
 
-
-
                 if (end < start) {
-                    introns[i] = sequences[i].substring(end, start - 1);
-                    //reverse
-                    StringBuilder reverse = new StringBuilder();
-                    reverse.append(introns[i]);
-                    reverse.reverse();
-                    for (int j = 0; j < reverse.length(); j++) {
-                        introns[i] = IntronAnalyzer.makeComplement(reverse.toString());
-                    }
+                    String prelimIntron = sequences[i].substring(end, start - 1);
+                    //reverse and complement
+                    introns[i] = reverseAndComplement(prelimIntron);
                 } else {
-                    introns[i] = sequences[i].substring(start, end - 1);
+                    if (end > sequences[i].length()) {
+                        int overflow = end - sequences[i].length();
+                        introns[i] = sequences[i].substring(start) + sequences[i].substring(0, overflow - 1);
+                    } else {
+                        introns[i] = sequences[i].substring(start, end - 1);
+                    }
+                }
+
+                //if the intron length is greater than 50% of the sequence length, we can say that the intron contains
+                // the point where the genome wraps around
+                if (introns[i].length() > 0.5*sequences[i].length()) {
+                    if (end < start) {
+                        introns[i] = sequences[i].substring(start) + sequences[i].substring(0, end - 1);
+                    } else {
+                        String prelimIntron = sequences[i].substring(end) + sequences[i].substring(0, start - 1);
+
+                        //reverse and complement
+                        introns[i] = reverseAndComplement(prelimIntron);
+                    }
                 }
             }
         }
@@ -264,7 +307,7 @@ public class IntronAnalyzer {
     }
 
     /**
-     * Function extractFastas meant to extract sequences around the splice sites for alignemnt in Geneious
+     * Function extractFastas meant to extract sequences around the splice sites for alignment in Geneious
      * @param introns array of introns
      * @param names corresponding array of sequence names
      * @throws IOException File Writer
@@ -276,6 +319,19 @@ public class IntronAnalyzer {
             if (introns[i].length() >= 40) {
                 pw.println(names[i]);
                 pw.println(introns[i].substring(0, 20) + introns[i].substring(introns[i].length() - 20));
+            }
+        }
+
+        pw.close();
+    }
+
+    static void extractIntrons(String[] introns, String[] names) throws IOException {
+        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("Data\\extractedIntrons.fasta")));
+
+        for (int i = 0; i < introns.length; i++) {
+            if (introns[i].length() >= 20) {
+                pw.println(names[i]);
+                pw.println(introns[i].substring(10, introns[i].length() - 10));
             }
         }
 
@@ -317,6 +373,10 @@ public class IntronAnalyzer {
 
     }
 
+    /**
+     * roundMatrix meant to format matrix for csv print
+     * @param matrix
+     */
     static void roundMatrix(double[][] matrix) {
         DecimalFormat df = new DecimalFormat("#.###");
         df.setRoundingMode(RoundingMode.HALF_UP);
@@ -326,5 +386,16 @@ public class IntronAnalyzer {
                 matrix[i][j] = Double.parseDouble(df.format(matrix[i][j]));
             }
         }
+    }
+
+    /**
+     * functio used to obtain correct sequence for introns of annotations on the complementary dna sequence
+     * @param sequence
+     */
+    static String reverseAndComplement(String sequence) {
+        StringBuilder reverse = new StringBuilder();
+        reverse.append(sequence);
+        reverse.reverse();
+        return IntronAnalyzer.makeComplement(reverse.toString());
     }
 }

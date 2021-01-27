@@ -24,7 +24,7 @@ public class ParseSeqNames {
 
     static void checkArgs(String[] args) {
         if (args.length < 2) {
-            throw new IllegalArgumentException("Specificy 1. GenBank reference file, and 2. output file to record names of sequences.");
+            throw new IllegalArgumentException("Specify 1. GenBank reference file, and 2. output file to record names of sequences.");
         }
     }
 }
