@@ -3,6 +3,7 @@ package SpliceSiteTest;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
+import org.biojava.nbio.core.sequence.io.FastaReader;
 
 /**
  * SSFinder is meant to find all the splice site codes in a region of DNA (GT/AG).
@@ -15,7 +16,7 @@ public class SSFinder {
     /**
      * main inputs a fasta file and max intron length and returns all the potential intervals of introns
      * based purely on splice site codes (GT/AG)
-     * @param args includes a fasta file path and an integer for max intron length.
+     * @param args includes a fasta file path and an integer for max intron length and an integer for sequence count.
      */
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(new File(args[0])));
@@ -23,43 +24,45 @@ public class SSFinder {
 
         int maxLength = Integer.parseInt(args[1]);
 
-        StringBuilder DNASeqBuilder = new StringBuilder();
-        String line;
-        while ((line = br.readLine()) != null) {
-             if (line.charAt(0) != '>') {
-                 DNASeqBuilder.append(line);
-             }
-        }
+        String[] sequenceNames = new String[Integer.parseInt(args[2])];
 
-        String DNASeq = DNASeqBuilder.toString();
-        ArrayList<Integer> GTSites = new ArrayList<Integer>();
-        ArrayList<Integer> AGSites = new ArrayList<Integer>();
-        ArrayList<Integer> branchPoints = new ArrayList<>();
+        String[] sequences = readFasta(br, sequenceNames);
+
+        for (int h = 0; h < sequenceNames.length; h++) {
+
+            String DNASeq = sequences[h];
+            ArrayList<Integer> GTSites = new ArrayList<Integer>();
+            ArrayList<Integer> AGSites = new ArrayList<Integer>();
+            ArrayList<Integer> branchPoints = new ArrayList<>();
 
 
-        for (int i = 0; i < DNASeq.length() - 1; i++) {
-            String doublet = DNASeq.substring(i, i+2);
-            if (doublet.equals("GT")) {
-                GTSites.add(i);
-            } else if (doublet.equals("AG")) {
-                AGSites.add(i);
+            for (int i = 0; i < DNASeq.length() - 1; i++) {
+                String doublet = DNASeq.substring(i, i + 2);
+                if (doublet.equals("GT")) {
+                    GTSites.add(i);
+                } else if (doublet.equals("AG")) {
+                    AGSites.add(i);
+                }
+
+                if (i < DNASeq.length() - 6 && checkBranchPoint(DNASeq.substring(i, i + 7))) {
+                    branchPoints.add(i);
+                }
             }
 
-            if (i < DNASeq.length() - 6 && checkBranchPoint(DNASeq.substring(i, i + 7))) {
-                branchPoints.add(i);
-            }
-        }
+            //output
+            pw.println(sequenceNames[h]);
 
-        pw.println(GTSites.toString());
-        pw.println(AGSites.toString());
-        pw.println(branchPoints.toString());
+            pw.println(GTSites.toString());
+            pw.println(AGSites.toString());
+            pw.println(branchPoints.toString());
 
-        for (int i = 0; i < GTSites.size(); i++) {
-            int start = GTSites.get(i);
-            for (int j = 0; j < AGSites.size() && AGSites.get(j) < start + maxLength; j++) {
-                int end = AGSites.get(j);
-                if (end > start) {
-                    pw.println(start + " -> " + end);
+            for (int i = 0; i < GTSites.size(); i++) {
+                int start = GTSites.get(i);
+                for (int j = 0; j < AGSites.size() && AGSites.get(j) < start + maxLength; j++) {
+                    int end = AGSites.get(j);
+                    if (end > start) {
+                        pw.println(start + " -> " + end);
+                    }
                 }
             }
         }
@@ -94,5 +97,26 @@ public class SSFinder {
             }
         }
         return true;
+    }
+
+    /**
+     * Convert a fasta file to an array of sequences
+     * @param br bufferedreader input of file
+     * @return a string array of the sequences
+     * @throws IOException bufferedreader exception
+     */
+    static String[] readFasta(BufferedReader br, String[] names) throws IOException {
+        ArrayList<String> sequences = new ArrayList<>();
+        String line;
+        int count = 0;
+        while ((line = br.readLine()) != null) {
+            if (line.charAt(0) == '>') {
+                names[count] = line;
+                sequences.add(br.readLine());
+                count++;
+            }
+        }
+
+        return sequences.toArray(new String[0]);
     }
 }
