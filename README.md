@@ -35,7 +35,7 @@ Programs are run in the basic format "java -jar [JAR_NAME.jar] [system arguments
   ```
   java -jar SequenceInfo.jar [main gb file] [output file] [choice (pick one, will add more later): norep, multrep, nocp, multcp]
   ```
-- UpdateCSV: Input a cv and gff file of a dataset of crucis.
+- UpdateCSV: Input a csv and gff file of a dataset of crucis.
    ```
    java -jar UpdateCSV.jar [csv file] [gff file] [output csv file]
    ```

@@ -9,7 +9,7 @@ public class TrimNamesForDendrogram {
 
         while ((line = br.readLine()) != null) {
             if (line.charAt(0) == '>') {
-                if (line.startsWith("CruV", 1)) {
+                if (line.startsWith("CruV", 1) || line.startsWith("CruCGE", 1)) {
                     pw.println(line.split("-")[0] + "-" + line.split("-")[1]);
                 } else {
                     pw.println(line.split("-")[0]);

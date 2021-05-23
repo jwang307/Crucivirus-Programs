@@ -4,7 +4,7 @@ This program can be used to extract selected GenBank sequences from a larger Gen
 
 The program requires several inputs to be passed along when the program is run:
 
-- Input 1: The main GenBank file. This ia a .gb or GenBank file that has all the sequences in the dataset.
+- Input 1: The main GenBank file. This is a .gb or GenBank file that has all the sequences in the dataset.
 - Input 2: Select sequences to be extracted. This is a .txt file containing the names of the sequences, each on a line.
 - Input 3: Output location specification. This is the output file to print results to. It should be a GenBank file (.gb) as the results are in GenBank format.
 
@@ -14,3 +14,8 @@ Run the following command:
 ```
 java -jar SeqListToGB.jar [Input 1] [Input 2] [Input 3]
 ```
+Example: 
+```
+java -jar SeqListToGB.jar Dataset.gb SeqToExtract.txt ExtractedSequences.gb
+```
+The output should in the file specified. Open in Notepad or any other way to check.

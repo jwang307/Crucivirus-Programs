@@ -1,0 +1,206 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  RdRP_1_pf00680.hmm
+# target sequence database:        noncirc.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       RdRP_1  [M=461]
+Accession:   PF00680.21
+Description: Viral RNA-dependent RNA polymerase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    8.4e-37  125.3   0.1    1.3e-36  124.7   0.1    1.2  1  NW_Adri4_LE1110_c53             
+    1.1e-13   49.1   0.0    1.6e-13   48.5   0.0    1.1  1  EAM_Laff_GbrSw3_c18             
+    3.9e-12   44.0   1.9    7.9e-12   43.0   1.9    1.4  1  EAM_Laff_GbrSw3_c89             
+      1e-06   26.1   0.0    2.4e-06   24.9   0.0    1.5  1  HMF_Chon_ZooBmetaT_c1293        
+    1.9e-05   21.9   0.4      3e-05   21.3   0.4    1.2  1  EAF_Gu_TropicPondC2a0115_c270   
+     0.0012   16.0   0.0     0.0017   15.5   0.0    1.2  1  EAF_Gu_TropicPondC4b0115_c1529  
+  ------ inclusion threshold ------
+      0.023   11.8   0.0      0.033   11.3   0.0    1.1  1  EAF_Gu_TropicPondC4b0115_c825   
+
+
+Domain annotation for each sequence (and alignments):
+>> NW_Adri4_LE1110_c53  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.7   0.1   1.7e-39   1.3e-36     150     429 ..       6     284 ..       4     314 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 124.7 bits;  conditional E-value: 1.7e-39
+                          EEECCHHHCCCCCHCCTC-BSCCCCCHHHHHHHCCHCCCCCCHHHHHCCCCCCCHCCHHCCCCCCHHHHHHCCCC......HCCCCCEEE CS
+               RdRP_1 150 yatflkdelrplekvaksKtRlvwgepveilllerafaerfikkfaanagfpaiqvGinkfyskwdrllrhltre......eekvyelDy 233
+                          +  +lk e rp ek++++ +R++++ p+e ++++ ++++ +++kf + + + a++vG+n+f ++w++ + +l++       + + +e+D 
+  NW_Adri4_LE1110_c53   6 FSNSLKEEIRPDEKIEENSIRTFTASPAEAVVTGNRLFGSMNEKFIDSHLKTASVVGMNPFRGGWHEAYMKLKSHprrgmsKIWGFEMDE 95 
+                          6789*********************************************************************998888767777777** PP
+
+                          TTHHHHS-HHHHH....HHHHHHHTTCT-CHHHHHHHHHCCHHCS-SCCCESSEEEC-TTSS-TTSTTHHHHHHHHHHHHHHHHHHHH.. CS
+               RdRP_1 234 skfDstvppwlir....vafellnellgfpswvklfeallkllvnspialpngtvlkkpgGlpSGspaTsliNSivnllliqylvkql.. 317
+                          s++Ds++ ++l++    + +++l+ + ++p++ +++++++ ++vns i++ +g++++k+ G+pSGs  T  +N+++ ++l+ y +++l  
+  NW_Adri4_LE1110_c53  96 SQYDSSMRSFLFDaivqFRIQCLRVEDRTPENIGRIKNYYRNVVNSVIITADGKIVQKHLGNPSGSVNTISDNTLILYFLLAYTWYMLap 185
+                          *************9988889999999999******************************************************9888866 PP
+
+                          ..HHHHHCCCHHHHHHHHHHCTCEEETTEEEEEE-CCCHHC..HHHHHHHHHCTTS-CECTTCCE.SCSTTBSGGGSEECCCCCCCC.TT CS
+               RdRP_1 318 ..lkslekdepsvcrfldsylqfityGDDslvavnkdfalv..lerlfemlkelgvtptpakksveeydvrrepeevsFLkrtfkke.qs 402
+                             + le+  +sv+         +  GDD+  +v+++  l     +++ ++++lg t t    +       re+ee+sFL+ +f    ++
+  NW_Adri4_LE1110_c53 186 ddKQTLEEFKLSVV--------SLLQGDDNTWSVDQETMLFynARAVSGVFSNLGITTTSPCYE------PREIEELSFLSSSFDCFiDH 261
+                          55455555555553........3779*********99887677899999999999988877666......69************7769** PP
+
+                          CCCCCCGCCCCHHHHHCCCCCCCCTCC CS
+               RdRP_1 403 gvrdrldrkrilsllayarskdtedpv 429
+                          + +  ld+++il+ l +++       +
+  NW_Adri4_LE1110_c53 262 ICVYNLDTDKILESLKWTEYP----NE 284
+                          *****************8775....33 PP
+
+>> EAM_Laff_GbrSw3_c18  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.5   0.0   2.2e-16   1.6e-13     147     347 ..     789     981 ..     753    1057 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 48.5 bits;  conditional E-value: 2.2e-16
+                          --EEEECCHHHCCCCCHC.CTC-BSCCCCCHHHHHHHCCHCCCCCCHHHHHCCCCCCCHCCHHCCCCCCHHHHHHCCCCHCCCCCEEETT CS
+               RdRP_1 147 klvyatflkdelrplekv.aksKtRlvwgepveilllerafaerfikkfaanagfpaiqvGinkfyskwdrllrhltreeekvyelDysk 235
+                           +++ tf kdel+p  kv  ++K+R + ++++  ++    ++e+++++f    g+ +     +k  ++w   + +l+  +++v + D sk
+  EAM_Laff_GbrSw3_c18 789 AVIFKTFAKDELLPATKVlNQDKVRAIICADLLLVFSQYILFEKQNEAFRPILGNWPGLYYFTKQHGGWNSHFSQLK--GRNVDSIDLSK 876
+                          57999********************************************99999999667778889*********99..78********* PP
+
+                          HHHHS-HHHHH....HHHHHHHTTCT-CHHHHHHHHHCCHHCS-SCCCESSEEEC-TTSS-TTSTTHHHHHHHHHHHHHHHHHHHHHHHH CS
+               RdRP_1 236 fDstvppwlir....vafellnellgfpswvklfeallkllvnspialpngtvlkkpgGlpSGspaTsliNSivnllliqylvkqllksl 321
+                          +D  +p+++ir        +l++ ++ p   +   +l ++l  + ++ p g ++   gG+ SG+  T+l+N+++n+    yl   ++ ++
+  EAM_Laff_GbrSw3_c18 877 CDKRFPAYFIRwlydWRGAMLSDHYRDPRIYDKCVNLGNTLAWTLVVSPIGNIYLTAGGNDSGQLETTLDNTLFNV--AGYL-GAVYDKC 963
+                          ******9999887779999**************99999999999999999************************99..7773.4456655 PP
+
+                          HCCCHHHHHHHHHHCTCEE.ETTEEEE CS
+               RdRP_1 322 ekdepsvcrfldsylqfit.yGDDslv 347
+                            +          ++q+ + yGDD l 
+  EAM_Laff_GbrSw3_c18 964 DPR---P------DMQLSRhYGDDTLC 981
+                          443...3......33445569999875 PP
+
+>> EAM_Laff_GbrSw3_c89  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   1.9     1e-14   7.9e-12     129     390 ..     270     514 ..     223     518 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 1e-14
+                          CCCCCCCCHC..CCCCCEE---EEEECCHHHCCCCCHC.CTC-BSCCCCCHHHHHHHCCHCCCCCCHHHHHCCCCCC.CHCCHHCCCCCC CS
+               RdRP_1 129 laealsqdae..vlqkftpkklvyatflkdelrplekv.aksKtRlvwgepveilllerafaerfikkfaanagfpa.iqvGinkfyskw 214
+                          ++e+  q+ +    + ft++++  ++f k+e+  ++k  ++ K R++w+ +  +l    +f++  ++k+ +  + +    + +  +    
+  EAM_Laff_GbrSw3_c89 270 YGERRGQQLIdtLFECFTEEDFWSTIFVKAET-YMGKThEDFKSRMIWKRSDRMLARFSLFFHVLNHKITEWVNSHEwLLIACETTPITL 358
+                          5555555555667788999999**********.*************************************97666665555555544444 PP
+
+                          HHHHHHCCCCHCCCCCEEETTHHHHS-HHHHHHHHHHHHTTCT-CHHHHHHHHHCCHH..CS-SCCCESSEEEC-TTSS-TTSTTHHHHH CS
+               RdRP_1 215 drllrhltreeekvyelDyskfDstvppwlirvafellnellgfpswvklfeallkll..vnspialpngtvlkkpgGlpSGspaTsliN 302
+                           + +++ +++ + v e D s++D++++     v   +l++  +  +  + f++ll     v  + +    +++k ++G  SG+ +Ts +N
+  EAM_Laff_GbrSw3_c89 359 GKWVQKQAETFNHVAESDASGWDGSMNTHHHLVELIVLQDHVE--TDIDDFDWLLRSWtkVWGRKSDRS-VIYKAHRGRRSGDLWTSTFN 445
+                          4555555555689*************98876666666665555..677779999998887777777777.9******************* PP
+
+                          HHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHCTCEE.ETTEEEEEE-CCCHHCHHHHHHHHHCTTS-CECTTCCE.SCSTTBSGGGS CS
+               RdRP_1 303 Sivnllliqylvkqllkslekdepsvcrfldsylqfit.yGDDslvavnkdfalvlerlfemlkelgvtptpakksveeydvrrepeev 390
+                          S++n+ll+ +     +  +++d++ +           + +GDD+l+ +nk++   ++++ + ++ lg++++    +     ++++ e++
+  EAM_Laff_GbrSw3_c89 446 SLLNILLVGFS--HNIDPFIQDHVAI-----------CvNGDDNLIFTNKKYN--GDNICRLYQRLGMKLDYVERD-----SIHDAEFC 514
+                          **********4..3355555555444...........55*************9..**************9987666.....55555555 PP
+
+>> HMF_Chon_ZooBmetaT_c1293  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   0.0   3.1e-09   2.4e-06     150     321 ..     805     973 ..     687    1041 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 24.9 bits;  conditional E-value: 3.1e-09
+                               EEECCHHHCCCCCHCCTC-BSCCCCCHHHHHHHCCHCCCCCCHH.HHHCCCCCCCHCCHHCCCCCCH..HHHHHCCCCHCCCCCE CS
+                    RdRP_1 150 yatflkdelrplekvaksKtRlvwgepveilllerafaerfikk.faanagfpaiqvGinkfyskwd..rllrhltreeekvyel 231
+                                + f k+e  p+ k+++++ Rl+  +++   l+er+++++++++ +a+ +++p  ++G+   +  w+   l ++l+ ++ ++ + 
+  HMF_Chon_ZooBmetaT_c1293 805 IRLFVKQEPHPINKIEERRFRLISSVSLVDQLVERLLFGPQNQAeIALWHQIPS-KPGMGL-SQRWQfrLLWKDLAHKHSVHPSA 887
+                               35678999*********************************9983555555555.777765.55554224557777777776555 PP
+
+                               ..EETTHHHHS-HHHHHHHHHHHHTTCT-CHHHHHHHHHCCHH...CS-SCCCESSEEEC-..TTSS-TTSTTHHHHHHHHHHHH CS
+                    RdRP_1 232 ..DyskfDstvppwlirvafellnellgfpswvklfeallkll...vnspialpngtvlkk..pgGlpSGspaTsliNSivnlll 309
+                                 D s+fD +v+ w+i++  e++  l gf+   k+  a l+++    ns + l +gt++    pg + SGs++Ts  NS v +l+
+  HMF_Chon_ZooBmetaT_c1293 888 eaDISGFDWSVQDWEIKADVEMRMFLGGFEGKIKQ--AALNRFkcfANSVFQLSDGTLIAQglPGLMKSGSYCTSSTNSRVRCLM 970
+                               55***************999999977888999999..88888887899999999**999652255678***********885544 PP
+
+                               HHHHHHHHHHHH CS
+                    RdRP_1 310 iqylvkqllksl 321
+                                        ++l
+  HMF_Chon_ZooBmetaT_c1293 971 ---------AEL 973
+                               .........444 PP
+
+>> EAF_Gu_TropicPondC2a0115_c270  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   0.4   3.9e-08     3e-05     225     405 ..     440     602 ..     419     612 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 3.9e-08
+                                    HCCCCCEEETTHHHHS-HHHHHHHHHHHHTTCT-CHHHHHHHHHCCHH...CS-SCCCESSEEEC-TTSS-TTSTTHHHH CS
+                         RdRP_1 225 eekvyelDyskfDstvppwlirvafellnellgfpswvklfeallkll...vnspialpngtvlkkpgGlpSGspaTsli 301
+                                    +++ ++lD s+fD  v+    ++   +  ++++ +s+ +  e+llkl     ++ +a+ +   +k +g   SG+  Tsl 
+  EAF_Gu_TropicPondC2a0115_c270 440 HPVAVGLDASRFDQHVSVDALNFEHGVYLDCFKRKSHKEKLERLLKLQlenHCTGHAEDGSLRYKTTGTRMSGDMNTSLG 519
+                                    588999****************99988888999999999999999988799999************************** PP
+
+                                    HHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHCTCEEETTEEEEEE-CCCHHC.HHHHHHHHHCTTS-CECTTCCE.S CS
+                         RdRP_1 302 NSivnllliqylvkqllkslekdepsvcrfldsylqfityGDDslvavnkdfalv.lerlfemlkelgvtptpakksvee 380
+                                    N ++ + +i++      +  +k+ +           +  +GDD +v ++k+  ++  + lf+ + + g+++  +k     
+  EAF_Gu_TropicPondC2a0115_c270 520 NCVLMVSMIHA------YLKHKNVVGQ---------LANNGDDCVVFMEKQDLEKfSDGLFDWFWDMGFNMAIEKPV--- 581
+                                    **995555555......3333333333.........3569************9999999999999999999999988... PP
+
+                                    CSTTBSGGGSEECCCCCCCCTTCCC CS
+                         RdRP_1 381 ydvrrepeevsFLkrtfkkeqsgvr 405
+                                        +e eev+F++++ + + s +r
+  EAF_Gu_TropicPondC2a0115_c270 582 ----TEFEEVEFCQCKPVWDGSKWR 602
+                                    ....899999999998777666666 PP
+
+>> EAF_Gu_TropicPondC4b0115_c1529  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.5   0.0   2.2e-06    0.0017     225     372 ..     109     241 ..       8     279 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 15.5 bits;  conditional E-value: 2.2e-06
+                                     HCCCCCEEETTHHHHS-HHHHHHHHHHHHTTCT-CHHHHHHHHHCCHHCS-SCCCE.SSEE.EC-TTSS-TTSTTHHHH CS
+                          RdRP_1 225 eekvyelDyskfDstvppwlirvafellnellgfpswvklfeallkllvnspialp.ngtv.lkkpgGlpSGspaTsli 301
+                                      ++  + D s+fD++v++ l +   +l n l+     ++l + l   +vn+ +a + +g+v +k++gG  SG+  Tsl 
+  EAF_Gu_TropicPondC4b0115_c1529 109 DPVAIGIDASRFDASVDAGLLEHEHSLYNALFH---DRELARVLRMQVVNRGVARCfDGVVkYKVRGGRGSGDMNTSLG 184
+                                     5667788**********************7777...4555455667779999987635554589999************ PP
+
+                                     HHHHHHHHHHHHHHHHHHHHHCCCHHHHHHHHHHCTCEEETTEEEEEE-CCCHHC.HHHHHHHHHCTTS-CE CS
+                          RdRP_1 302 NSivnllliqylvkqllkslekdepsvcrfldsylqfityGDDslvavnkdfalv.lerlfemlkelgvtpt 372
+                                     NS + + +i            ++++++        +++ +GDD +v+++++ + +  + ++e ++elg+t+ 
+  EAF_Gu_TropicPondC4b0115_c1529 185 NSYIMCAIIWT-------WMRRCGVRA--------RLVNNGDDCVVIMEREDTMSfSDGFSEFAAELGFTMV 241
+                                     **775533333.......356667777........3456**************9988889999999999985 PP
+
+>> EAF_Gu_TropicPondC4b0115_c825  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.3   0.0   4.4e-05     0.033     332     390 ..      26      76 ..      12     124 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 11.3 bits;  conditional E-value: 4.4e-05
+                                    HHHHCTCEEETTEEEEEE-CCCHHCHHHHHHHHHCTTS-CECTTCCE.SCSTTBSGGGS CS
+                         RdRP_1 332 ldsylqfityGDDslvavnkdfalvlerlfemlkelgvtptpakksveeydvrrepeev 390
+                                    l  +++f++ GDDs++ ++  +  + er++e + ++g+t++ ++ ++       e + +
+  EAF_Gu_TropicPondC4b0115_c825  26 LGAKFDFLCDGDDSVFFYQGPRVTE-ERVIEFFLNFGMTMKIENRTT-------EFQNI 76 
+                                    566899**************99977.******************993.......33333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (461 nodes)
+Target sequences:                       5304  (2113297 residues searched)
+Passed MSV filter:                        61  (0.0115008); expected 106.1 (0.02)
+Passed bias filter:                       49  (0.00923831); expected 106.1 (0.02)
+Passed Vit filter:                        10  (0.00188537); expected 5.3 (0.001)
+Passed Fwd filter:                         7  (0.00131976); expected 0.1 (1e-05)
+Initial search space (Z):               5304  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.09u 0.03s 00:00:00.12 Elapsed: 00:00:00.05
+# Mc/sec: 17385.32
+//
+[ok]
