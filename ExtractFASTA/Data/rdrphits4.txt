@@ -1,0 +1,11 @@
+EAF_Hews_Cayuga6MT1_c21
+EAF_Hews_Cayuga16MT_c8
+EAF_Hews_Cayuga16MT_c10
+EAF_Hews_Cayuga17MT1_c14
+EAF_Hews_Cayuga17MT1_c40
+EAF_Hews_Cayuga2226MT1_c69
+EAF_Hews_Cayuga3236MT2_c10
+EAF_Hews_Owaco914MT2_c32
+EAF_Hews_Owaco2834MT2_c38
+EAF_Hews_Owaco2834MT2_c71
+EAF_Hews_Seneca3MT_c81
